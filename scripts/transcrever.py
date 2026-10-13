@@ -40,9 +40,12 @@ PAUSA_INTERNA = (",", ";", ":")
 # juntas, entao estas vao para a legenda seguinte quando caem no fim de uma quebra.
 PALAVRAS_QUE_NAO_FECHAM_LEGENDA = frozenset(
     """
-    a an the and or of to in on at by for with that this as but from into
+    a an the and or of to in on at by for with that this these those as but
+    from into so very each every its our your their his her my no not
     o os as um uma uns umas de do da dos das em no na nos nas e ou que para
-    com por ao aos num numa pelo pela seu sua meu minha
+    com por ao aos num numa pelo pela seu sua seus suas meu minha nosso nossa
+    esse essa esses essas este esta estes estas aquele aquela aqueles aquelas
+    tao tão cada mais menos muito nem sem
     """.split()
 )
 
@@ -221,6 +224,10 @@ def carregar_palavras(origem: Path) -> list[Palavra]:
 # ----------------------------------------------------------------------------- quebra de linha
 
 
+def e_palavra_de_ligacao(texto: str) -> bool:
+    return texto.strip(".,;:!?…\"'()").lower() in PALAVRAS_QUE_NAO_FECHAM_LEGENDA
+
+
 def quebrar_em_duas_linhas(texto: str) -> list[str] | None:
     """Divide o texto em duas linhas de ate 42 caracteres, ou devolve None se nao couber.
 
@@ -244,6 +251,13 @@ def quebrar_em_duas_linhas(texto: str) -> list[str] | None:
             pontuacao -= 30
         elif linha_um.endswith(PAUSA_INTERNA):
             pontuacao -= 15
+
+        # A primeira linha nao deve terminar em palavra de ligacao, para nao
+        # separar na tela palavras que se leem juntas.
+        if e_palavra_de_ligacao(palavras[corte - 1]):
+            pontuacao += 40
+        if e_palavra_de_ligacao(palavras[corte]):
+            pontuacao -= 10
 
         if melhor_pontuacao is None or pontuacao < melhor_pontuacao:
             melhor_pontuacao = pontuacao
@@ -351,10 +365,6 @@ def dividir_frase(frase: list[Palavra]) -> list[Legenda]:
         legendas.append(atual)
 
     return refinar_cortes(legendas)
-
-
-def e_palavra_de_ligacao(texto: str) -> bool:
-    return texto.strip(".,;:!?…\"'()").lower() in PALAVRAS_QUE_NAO_FECHAM_LEGENDA
 
 
 def pontuar_corte(primeira: list[Palavra], segunda: list[Palavra]) -> float | None:

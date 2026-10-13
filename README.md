@@ -97,6 +97,28 @@ Edite o campo `texto` da palavra errada no JSON e remonte:
 python3 scripts/transcrever.py videos/meu-video.mp4 --palavras revisao/meu-video.json
 ```
 
+## Versao traduzida, com os mesmos tempos
+
+A legenda traduzida reaproveita a marcacao de tempo da original, bloco por
+bloco. Escreva a traducao num arquivo de texto, um paragrafo por bloco de
+legenda, na mesma ordem, e monte o SRT:
+
+```bash
+python3 scripts/aplicar_traducao.py \
+  legendas/meu-video.srt \
+  traducao/meu-video.pt-BR.txt \
+  legendas/meu-video.pt-BR.srt
+```
+
+As quebras de linha sao recalculadas pelas mesmas regras do gerador, entao o
+texto traduzido nao precisa vir pre-quebrado. Se o numero de paragrafos nao
+bater com o numero de blocos, ou se algum bloco passar de 84 caracteres, o
+script avisa e nao grava nada.
+
+Na traducao, ao contrario da transcricao, encurtar uma frase e permitido: e o
+que permite segurar a velocidade de leitura quando o idioma de destino fica
+mais longo que o de origem.
+
 ## Conferir a legenda
 
 ```bash
@@ -117,6 +139,9 @@ cortar depois de virgula, comecar o bloco seguinte por palavra de ligacao e
 deixar os dois blocos com tamanho parecido. Terminar um bloco em artigo,
 preposicao ou conjuncao e penalizado, para nao separar palavras que se leem
 juntas.
+
+A mesma regra vale para a quebra entre as duas linhas de um bloco, o que evita
+cortes como "cada / vez mais delicados" ou "tao / pequenos e tao criticos".
 
 ## Requisitos
 

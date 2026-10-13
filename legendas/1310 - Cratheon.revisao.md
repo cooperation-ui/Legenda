@@ -46,3 +46,23 @@ python3 scripts/transcrever.py "videos/1310 - Cratheon.MP3" \
   --saida "legendas/1310 - Cratheon.srt" \
   --palavras "revisao/1310 - Cratheon.json"
 ```
+
+## Versao traduzida
+
+`legendas/1310 - Cratheon.pt-BR.srt` traz a mesma legenda em portugues, com a
+marcacao de tempo identica a da original, bloco por bloco. O texto da traducao
+fica em `traducao/1310 - Cratheon.pt-BR.txt` e pode ser editado e remontado com
+`scripts/aplicar_traducao.py`.
+
+Tres blocos foram encurtados na traducao para segurar a velocidade de leitura,
+que sobe quando o portugues fica mais longo que o ingles:
+
+| Bloco | Primeira versao | Versao final |
+|---|---|---|
+| 12 | "E por isso que a cirurgia robotica avanca" | "Por isso a cirurgia robotica avanca" |
+| 13 | "para procedimentos cada vez mais delicados." | "a procedimentos cada vez mais delicados." |
+| 15 | "Trata-se de fazer pelos pacientes o que antes simplesmente nao era possivel." | "Trata-se de fazer pelos pacientes o que antes nao era possivel." |
+
+Depois do ajuste, a versao em portugues nao tem nenhum bloco acima de 22
+caracteres por segundo. A versao em ingles mantem cinco, porque ali nao da para
+encurtar: a regra e nao mexer nas palavras faladas.
