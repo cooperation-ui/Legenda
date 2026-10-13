@@ -1,0 +1,567 @@
+[
+  {
+    "texto": "Então,",
+    "inicio": 0.0,
+    "fim": 0.12
+  },
+  {
+    "texto": "a",
+    "inicio": 0.16,
+    "fim": 0.22
+  },
+  {
+    "texto": "tecnologia",
+    "inicio": 0.22,
+    "fim": 0.66
+  },
+  {
+    "texto": "potencializa",
+    "inicio": 0.66,
+    "fim": 1.6
+  },
+  {
+    "texto": "estratégia",
+    "inicio": 1.6,
+    "fim": 2.24
+  },
+  {
+    "texto": "e",
+    "inicio": 2.24,
+    "fim": 2.26
+  },
+  {
+    "texto": "experiência,",
+    "inicio": 2.26,
+    "fim": 2.58
+  },
+  {
+    "texto": "não",
+    "inicio": 2.82,
+    "fim": 3.0
+  },
+  {
+    "texto": "substitui.",
+    "inicio": 3.0,
+    "fim": 4.18
+  },
+  {
+    "texto": "As",
+    "inicio": 4.3,
+    "fim": 4.46
+  },
+  {
+    "texto": "vantagens",
+    "inicio": 4.46,
+    "fim": 5.02
+  },
+  {
+    "texto": "que",
+    "inicio": 5.02,
+    "fim": 5.2
+  },
+  {
+    "texto": "o",
+    "inicio": 5.2,
+    "fim": 5.24
+  },
+  {
+    "texto": "Tales",
+    "inicio": 5.24,
+    "fim": 5.44
+  },
+  {
+    "texto": "falou,",
+    "inicio": 5.44,
+    "fim": 5.72
+  },
+  {
+    "texto": "a",
+    "inicio": 6.0,
+    "fim": 6.14
+  },
+  {
+    "texto": "visão,",
+    "inicio": 6.14,
+    "fim": 6.48
+  },
+  {
+    "texto": "instrumentos",
+    "inicio": 6.6,
+    "fim": 7.36
+  },
+  {
+    "texto": "articulados,",
+    "inicio": 7.36,
+    "fim": 8.04
+  },
+  {
+    "texto": "eles",
+    "inicio": 8.08,
+    "fim": 8.24
+  },
+  {
+    "texto": "simulam",
+    "inicio": 8.24,
+    "fim": 8.86
+  },
+  {
+    "texto": "o",
+    "inicio": 8.86,
+    "fim": 9.0
+  },
+  {
+    "texto": "movimento",
+    "inicio": 9.0,
+    "fim": 9.32
+  },
+  {
+    "texto": "do",
+    "inicio": 9.32,
+    "fim": 9.72
+  },
+  {
+    "texto": "punho.",
+    "inicio": 9.72,
+    "fim": 10.18
+  },
+  {
+    "texto": "Então,",
+    "inicio": 10.24,
+    "fim": 10.38
+  },
+  {
+    "texto": "diferente",
+    "inicio": 10.4,
+    "fim": 10.62
+  },
+  {
+    "texto": "da",
+    "inicio": 10.62,
+    "fim": 11.08
+  },
+  {
+    "texto": "laparoscopia,",
+    "inicio": 11.08,
+    "fim": 11.82
+  },
+  {
+    "texto": "a",
+    "inicio": 11.86,
+    "fim": 11.98
+  },
+  {
+    "texto": "gente",
+    "inicio": 11.98,
+    "fim": 12.06
+  },
+  {
+    "texto": "tem",
+    "inicio": 12.06,
+    "fim": 12.28
+  },
+  {
+    "texto": "essa",
+    "inicio": 12.28,
+    "fim": 12.44
+  },
+  {
+    "texto": "vantagem,",
+    "inicio": 12.44,
+    "fim": 13.16
+  },
+  {
+    "texto": "parece",
+    "inicio": 13.16,
+    "fim": 13.46
+  },
+  {
+    "texto": "que",
+    "inicio": 13.46,
+    "fim": 13.72
+  },
+  {
+    "texto": "a",
+    "inicio": 13.72,
+    "fim": 13.8
+  },
+  {
+    "texto": "gente",
+    "inicio": 13.8,
+    "fim": 13.94
+  },
+  {
+    "texto": "está",
+    "inicio": 13.94,
+    "fim": 14.22
+  },
+  {
+    "texto": "com",
+    "inicio": 14.22,
+    "fim": 14.44
+  },
+  {
+    "texto": "as",
+    "inicio": 14.44,
+    "fim": 14.64
+  },
+  {
+    "texto": "mãos",
+    "inicio": 14.64,
+    "fim": 15.18
+  },
+  {
+    "texto": "dentro",
+    "inicio": 15.18,
+    "fim": 15.6
+  },
+  {
+    "texto": "do",
+    "inicio": 15.6,
+    "fim": 15.9
+  },
+  {
+    "texto": "abdômen.",
+    "inicio": 15.9,
+    "fim": 16.44
+  },
+  {
+    "texto": "Então,",
+    "inicio": 16.48,
+    "fim": 16.66
+  },
+  {
+    "texto": "isso",
+    "inicio": 16.68,
+    "fim": 16.82
+  },
+  {
+    "texto": "tem",
+    "inicio": 16.82,
+    "fim": 17.08
+  },
+  {
+    "texto": "muita",
+    "inicio": 17.08,
+    "fim": 17.52
+  },
+  {
+    "texto": "vantagem.",
+    "inicio": 17.52,
+    "fim": 18.18
+  },
+  {
+    "texto": "Filtro",
+    "inicio": 18.24,
+    "fim": 18.58
+  },
+  {
+    "texto": "de",
+    "inicio": 18.58,
+    "fim": 18.68
+  },
+  {
+    "texto": "tremor,",
+    "inicio": 18.68,
+    "fim": 19.16
+  },
+  {
+    "texto": "eu",
+    "inicio": 19.16,
+    "fim": 19.3
+  },
+  {
+    "texto": "vou",
+    "inicio": 19.3,
+    "fim": 19.4
+  },
+  {
+    "texto": "mostrar",
+    "inicio": 19.4,
+    "fim": 19.68
+  },
+  {
+    "texto": "até",
+    "inicio": 19.68,
+    "fim": 19.88
+  },
+  {
+    "texto": "um",
+    "inicio": 19.88,
+    "fim": 19.98
+  },
+  {
+    "texto": "vídeo",
+    "inicio": 19.98,
+    "fim": 20.24
+  },
+  {
+    "texto": "para",
+    "inicio": 20.24,
+    "fim": 20.44
+  },
+  {
+    "texto": "vocês,",
+    "inicio": 20.44,
+    "fim": 20.78
+  },
+  {
+    "texto": "para",
+    "inicio": 20.98,
+    "fim": 21.14
+  },
+  {
+    "texto": "ver",
+    "inicio": 21.14,
+    "fim": 21.48
+  },
+  {
+    "texto": "o",
+    "inicio": 21.48,
+    "fim": 21.6
+  },
+  {
+    "texto": "que",
+    "inicio": 21.6,
+    "fim": 21.7
+  },
+  {
+    "texto": "realmente",
+    "inicio": 21.7,
+    "fim": 22.04
+  },
+  {
+    "texto": "significa",
+    "inicio": 22.04,
+    "fim": 22.4
+  },
+  {
+    "texto": "o",
+    "inicio": 22.4,
+    "fim": 22.88
+  },
+  {
+    "texto": "tremor",
+    "inicio": 22.88,
+    "fim": 23.2
+  },
+  {
+    "texto": "na",
+    "inicio": 23.2,
+    "fim": 23.3
+  },
+  {
+    "texto": "laparoscopia",
+    "inicio": 23.3,
+    "fim": 24.02
+  },
+  {
+    "texto": "e",
+    "inicio": 24.02,
+    "fim": 24.32
+  },
+  {
+    "texto": "na",
+    "inicio": 24.32,
+    "fim": 24.5
+  },
+  {
+    "texto": "cirurgia",
+    "inicio": 24.5,
+    "fim": 25.44
+  },
+  {
+    "texto": "robótica.",
+    "inicio": 25.44,
+    "fim": 26.02
+  },
+  {
+    "texto": "A",
+    "inicio": 26.02,
+    "fim": 26.38
+  },
+  {
+    "texto": "ergonomia,",
+    "inicio": 26.38,
+    "fim": 27.1
+  },
+  {
+    "texto": "cirurgias",
+    "inicio": 27.1,
+    "fim": 27.64
+  },
+  {
+    "texto": "longas,",
+    "inicio": 27.64,
+    "fim": 28.1
+  },
+  {
+    "texto": "imagina",
+    "inicio": 28.1,
+    "fim": 28.48
+  },
+  {
+    "texto": "a",
+    "inicio": 28.48,
+    "fim": 28.54
+  },
+  {
+    "texto": "cirurgia",
+    "inicio": 28.54,
+    "fim": 29.06
+  },
+  {
+    "texto": "às",
+    "inicio": 29.06,
+    "fim": 29.12
+  },
+  {
+    "texto": "vezes",
+    "inicio": 29.12,
+    "fim": 29.38
+  },
+  {
+    "texto": "de",
+    "inicio": 29.38,
+    "fim": 29.56
+  },
+  {
+    "texto": "4",
+    "inicio": 29.56,
+    "fim": 29.72
+  },
+  {
+    "texto": "horas,",
+    "inicio": 29.72,
+    "fim": 30.2
+  },
+  {
+    "texto": "você",
+    "inicio": 30.46,
+    "fim": 30.68
+  },
+  {
+    "texto": "está",
+    "inicio": 30.68,
+    "fim": 30.9
+  },
+  {
+    "texto": "aqui",
+    "inicio": 30.9,
+    "fim": 31.12
+  },
+  {
+    "texto": "todo",
+    "inicio": 31.12,
+    "fim": 31.4
+  },
+  {
+    "texto": "torto",
+    "inicio": 31.4,
+    "fim": 31.86
+  },
+  {
+    "texto": "por",
+    "inicio": 31.86,
+    "fim": 32.12
+  },
+  {
+    "texto": "4",
+    "inicio": 32.12,
+    "fim": 32.38
+  },
+  {
+    "texto": "horas,",
+    "inicio": 32.38,
+    "fim": 32.84
+  },
+  {
+    "texto": "naturalmente",
+    "inicio": 32.92,
+    "fim": 33.6
+  },
+  {
+    "texto": "o",
+    "inicio": 33.6,
+    "fim": 33.72
+  },
+  {
+    "texto": "rendimento",
+    "inicio": 33.72,
+    "fim": 34.3
+  },
+  {
+    "texto": "da",
+    "inicio": 34.3,
+    "fim": 34.46
+  },
+  {
+    "texto": "cirurgia",
+    "inicio": 34.46,
+    "fim": 34.96
+  },
+  {
+    "texto": "cai,",
+    "inicio": 34.96,
+    "fim": 35.2
+  },
+  {
+    "texto": "você",
+    "inicio": 35.36,
+    "fim": 35.56
+  },
+  {
+    "texto": "quer",
+    "inicio": 35.56,
+    "fim": 35.76
+  },
+  {
+    "texto": "fazer",
+    "inicio": 35.76,
+    "fim": 36.0
+  },
+  {
+    "texto": "o",
+    "inicio": 36.0,
+    "fim": 36.08
+  },
+  {
+    "texto": "seu",
+    "inicio": 36.08,
+    "fim": 36.18
+  },
+  {
+    "texto": "melhor,",
+    "inicio": 36.18,
+    "fim": 36.46
+  },
+  {
+    "texto": "mas",
+    "inicio": 36.5,
+    "fim": 36.72
+  },
+  {
+    "texto": "o",
+    "inicio": 36.72,
+    "fim": 36.88
+  },
+  {
+    "texto": "lado",
+    "inicio": 36.88,
+    "fim": 37.6
+  },
+  {
+    "texto": "físico",
+    "inicio": 37.6,
+    "fim": 38.34
+  },
+  {
+    "texto": "pode",
+    "inicio": 38.34,
+    "fim": 38.74
+  },
+  {
+    "texto": "influenciar.",
+    "inicio": 38.74,
+    "fim": 39.86
+  }
+]
