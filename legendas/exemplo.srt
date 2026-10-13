@@ -1,0 +1,17 @@
+1
+00:00:00,000 --> 00:00:05,920
+Bom dia, pessoal. Hoje eu vou mostrar
+como funciona a transcrição automática
+
+2
+00:00:05,960 --> 00:00:07,980
+de vídeos. É muito simples.
+
+3
+00:00:08,420 --> 00:00:13,860
+Você envia o arquivo e eu devolvo a
+legenda pronta, sem trocar nenhuma
+
+4
+00:00:13,900 --> 00:00:16,960
+palavra. Vamos começar agora mesmo.
