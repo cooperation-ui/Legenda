@@ -36,6 +36,10 @@ TAMANHO_DE_LEGENDA_CURTA = 24
 FIM_DE_FRASE = (".", "!", "?", "…")
 PAUSA_INTERNA = (",", ";", ":")
 
+# O reconhecimento separa "37.3" em dois pedacos, "37" e ".3". Um pedaco que comeca
+# por um destes sinais pertence a palavra anterior e vai colado nela.
+PONTUACAO_QUE_COLA = (".", ",", ";", ":", "!", "?", "%", ")", "]", "}", "…", "'")
+
 # Terminar a legenda em artigo, preposicao ou conjuncao separa palavras que se leem
 # juntas, entao estas vao para a legenda seguinte quando caem no fim de uma quebra.
 PALAVRAS_QUE_NAO_FECHAM_LEGENDA = frozenset(
@@ -59,6 +63,16 @@ class Palavra:
     fim: float
 
 
+def juntar_palavras(palavras: list["Palavra"]) -> str:
+    partes: list[str] = []
+    for palavra in palavras:
+        if partes and palavra.texto[:1] in PONTUACAO_QUE_COLA:
+            partes[-1] += palavra.texto
+        else:
+            partes.append(palavra.texto)
+    return " ".join(partes)
+
+
 @dataclass
 class Legenda:
     palavras: list[Palavra] = field(default_factory=list)
@@ -73,7 +87,7 @@ class Legenda:
 
     @property
     def texto(self) -> str:
-        return " ".join(p.texto for p in self.palavras)
+        return juntar_palavras(self.palavras)
 
 
 # ----------------------------------------------------------------------------- audio
@@ -342,7 +356,7 @@ def dividir_frase(frase: list[Palavra]) -> list[Legenda]:
 
     for palavra in frase:
         if atual.palavras:
-            projetado = f"{atual.texto} {palavra.texto}"
+            projetado = juntar_palavras(atual.palavras + [palavra])
             estourou = (
                 not cabe_na_legenda(projetado)
                 or palavra.fim - atual.inicio > MAX_DURACAO
@@ -374,8 +388,8 @@ def pontuar_corte(primeira: list[Palavra], segunda: list[Palavra]) -> float | No
 
     Devolve None quando o corte nao respeita os limites de caracteres ou de duracao.
     """
-    texto_primeira = " ".join(p.texto for p in primeira)
-    texto_segunda = " ".join(p.texto for p in segunda)
+    texto_primeira = juntar_palavras(primeira)
+    texto_segunda = juntar_palavras(segunda)
 
     if not cabe_na_legenda(texto_primeira) or not cabe_na_legenda(texto_segunda):
         return None
@@ -445,7 +459,7 @@ def juntar_legendas_curtas(legendas: list[Legenda]) -> list[Legenda]:
     for legenda in legendas:
         if final:
             anterior = final[-1]
-            projetado = f"{anterior.texto} {legenda.texto}"
+            projetado = juntar_palavras(anterior.palavras + legenda.palavras)
             alguma_e_curta = min(len(anterior.texto), len(legenda.texto)) <= TAMANHO_DE_LEGENDA_CURTA
             cabe = cabe_na_legenda(projetado)
             no_tempo = legenda.fim - anterior.inicio <= MAX_DURACAO
