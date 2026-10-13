@@ -1,0 +1,817 @@
+[
+  {
+    "texto": "You'll",
+    "inicio": 0.0,
+    "fim": 0.16
+  },
+  {
+    "texto": "see",
+    "inicio": 0.16,
+    "fim": 0.38
+  },
+  {
+    "texto": "headlines",
+    "inicio": 0.38,
+    "fim": 0.88
+  },
+  {
+    "texto": "saying",
+    "inicio": 0.88,
+    "fim": 1.4
+  },
+  {
+    "texto": "surgical",
+    "inicio": 1.4,
+    "fim": 1.86
+  },
+  {
+    "texto": "robots",
+    "inicio": 1.86,
+    "fim": 2.22
+  },
+  {
+    "texto": "are",
+    "inicio": 2.22,
+    "fim": 2.48
+  },
+  {
+    "texto": "now",
+    "inicio": 2.48,
+    "fim": 2.68
+  },
+  {
+    "texto": "80",
+    "inicio": 2.68,
+    "fim": 3.16
+  },
+  {
+    "texto": "-something",
+    "inicio": 3.16,
+    "fim": 3.64
+  },
+  {
+    "texto": "percent",
+    "inicio": 3.64,
+    "fim": 3.96
+  },
+  {
+    "texto": "autonomous.",
+    "inicio": 3.96,
+    "fim": 4.48
+  },
+  {
+    "texto": "Good,",
+    "inicio": 4.64,
+    "fim": 4.86
+  },
+  {
+    "texto": "that",
+    "inicio": 5.02,
+    "fim": 5.3
+  },
+  {
+    "texto": "number",
+    "inicio": 5.3,
+    "fim": 5.54
+  },
+  {
+    "texto": "is",
+    "inicio": 5.54,
+    "fim": 5.7
+  },
+  {
+    "texto": "real.",
+    "inicio": 5.7,
+    "fim": 5.84
+  },
+  {
+    "texto": "But",
+    "inicio": 6.02,
+    "fim": 6.22
+  },
+  {
+    "texto": "it's",
+    "inicio": 6.22,
+    "fim": 6.6
+  },
+  {
+    "texto": "also",
+    "inicio": 6.6,
+    "fim": 6.84
+  },
+  {
+    "texto": "misleading.",
+    "inicio": 6.84,
+    "fim": 7.22
+  },
+  {
+    "texto": "Let",
+    "inicio": 7.52,
+    "fim": 7.84
+  },
+  {
+    "texto": "me",
+    "inicio": 7.84,
+    "fim": 7.96
+  },
+  {
+    "texto": "explain.",
+    "inicio": 7.96,
+    "fim": 8.2
+  },
+  {
+    "texto": "In",
+    "inicio": 8.46,
+    "fim": 8.64
+  },
+  {
+    "texto": "experiments,",
+    "inicio": 8.64,
+    "fim": 9.3
+  },
+  {
+    "texto": "robots",
+    "inicio": 9.52,
+    "fim": 9.74
+  },
+  {
+    "texto": "have",
+    "inicio": 9.74,
+    "fim": 10.04
+  },
+  {
+    "texto": "completed",
+    "inicio": 10.04,
+    "fim": 10.6
+  },
+  {
+    "texto": "most",
+    "inicio": 10.6,
+    "fim": 11.1
+  },
+  {
+    "texto": "steps",
+    "inicio": 11.1,
+    "fim": 11.64
+  },
+  {
+    "texto": "of",
+    "inicio": 11.64,
+    "fim": 11.88
+  },
+  {
+    "texto": "certain",
+    "inicio": 11.88,
+    "fim": 12.1
+  },
+  {
+    "texto": "procedures",
+    "inicio": 12.1,
+    "fim": 12.6
+  },
+  {
+    "texto": "on",
+    "inicio": 12.6,
+    "fim": 12.94
+  },
+  {
+    "texto": "their",
+    "inicio": 12.94,
+    "fim": 13.08
+  },
+  {
+    "texto": "own.",
+    "inicio": 13.08,
+    "fim": 13.4
+  },
+  {
+    "texto": "Impressive,",
+    "inicio": 13.52,
+    "fim": 14.0
+  },
+  {
+    "texto": "real,",
+    "inicio": 14.12,
+    "fim": 14.4
+  },
+  {
+    "texto": "worth",
+    "inicio": 14.66,
+    "fim": 14.96
+  },
+  {
+    "texto": "celebrating.",
+    "inicio": 14.96,
+    "fim": 15.32
+  },
+  {
+    "texto": "But",
+    "inicio": 15.62,
+    "fim": 15.84
+  },
+  {
+    "texto": "here's",
+    "inicio": 15.84,
+    "fim": 16.46
+  },
+  {
+    "texto": "what",
+    "inicio": 16.46,
+    "fim": 16.66
+  },
+  {
+    "texto": "that",
+    "inicio": 16.66,
+    "fim": 16.82
+  },
+  {
+    "texto": "percentage",
+    "inicio": 16.82,
+    "fim": 17.24
+  },
+  {
+    "texto": "hides.",
+    "inicio": 17.24,
+    "fim": 17.8
+  },
+  {
+    "texto": "The",
+    "inicio": 18.02,
+    "fim": 18.12
+  },
+  {
+    "texto": "steps",
+    "inicio": 18.12,
+    "fim": 18.52
+  },
+  {
+    "texto": "a",
+    "inicio": 18.52,
+    "fim": 18.7
+  },
+  {
+    "texto": "robot",
+    "inicio": 18.7,
+    "fim": 18.98
+  },
+  {
+    "texto": "can",
+    "inicio": 18.98,
+    "fim": 19.22
+  },
+  {
+    "texto": "automate",
+    "inicio": 19.22,
+    "fim": 19.64
+  },
+  {
+    "texto": "are",
+    "inicio": 19.64,
+    "fim": 20.04
+  },
+  {
+    "texto": "predictable",
+    "inicio": 20.04,
+    "fim": 20.56
+  },
+  {
+    "texto": "ones.",
+    "inicio": 20.56,
+    "fim": 21.04
+  },
+  {
+    "texto": "The",
+    "inicio": 21.26,
+    "fim": 21.38
+  },
+  {
+    "texto": "remaining",
+    "inicio": 21.38,
+    "fim": 21.66
+  },
+  {
+    "texto": "part,",
+    "inicio": 21.66,
+    "fim": 22.0
+  },
+  {
+    "texto": "the",
+    "inicio": 22.24,
+    "fim": 22.3
+  },
+  {
+    "texto": "unexpected",
+    "inicio": 22.3,
+    "fim": 22.62
+  },
+  {
+    "texto": "bleeding,",
+    "inicio": 22.62,
+    "fim": 23.36
+  },
+  {
+    "texto": "the",
+    "inicio": 23.68,
+    "fim": 23.84
+  },
+  {
+    "texto": "anatomy",
+    "inicio": 23.84,
+    "fim": 24.24
+  },
+  {
+    "texto": "that",
+    "inicio": 24.24,
+    "fim": 24.54
+  },
+  {
+    "texto": "doesn't",
+    "inicio": 24.54,
+    "fim": 24.96
+  },
+  {
+    "texto": "match",
+    "inicio": 24.96,
+    "fim": 25.24
+  },
+  {
+    "texto": "the",
+    "inicio": 25.24,
+    "fim": 25.42
+  },
+  {
+    "texto": "textbook,",
+    "inicio": 25.42,
+    "fim": 25.82
+  },
+  {
+    "texto": "the",
+    "inicio": 26.04,
+    "fim": 26.18
+  },
+  {
+    "texto": "split",
+    "inicio": 26.18,
+    "fim": 26.6
+  },
+  {
+    "texto": "-second",
+    "inicio": 26.6,
+    "fim": 26.88
+  },
+  {
+    "texto": "judgment",
+    "inicio": 26.88,
+    "fim": 27.22
+  },
+  {
+    "texto": "call,",
+    "inicio": 27.22,
+    "fim": 27.64
+  },
+  {
+    "texto": "that's",
+    "inicio": 27.82,
+    "fim": 28.14
+  },
+  {
+    "texto": "the",
+    "inicio": 28.14,
+    "fim": 28.26
+  },
+  {
+    "texto": "hard",
+    "inicio": 28.26,
+    "fim": 28.52
+  },
+  {
+    "texto": "part.",
+    "inicio": 28.52,
+    "fim": 28.76
+  },
+  {
+    "texto": "And",
+    "inicio": 28.92,
+    "fim": 29.16
+  },
+  {
+    "texto": "it's",
+    "inicio": 29.16,
+    "fim": 29.6
+  },
+  {
+    "texto": "exactly",
+    "inicio": 29.6,
+    "fim": 29.9
+  },
+  {
+    "texto": "the",
+    "inicio": 29.9,
+    "fim": 30.12
+  },
+  {
+    "texto": "part",
+    "inicio": 30.12,
+    "fim": 30.36
+  },
+  {
+    "texto": "that",
+    "inicio": 30.36,
+    "fim": 30.54
+  },
+  {
+    "texto": "decides",
+    "inicio": 30.54,
+    "fim": 30.9
+  },
+  {
+    "texto": "whether",
+    "inicio": 30.9,
+    "fim": 31.62
+  },
+  {
+    "texto": "a",
+    "inicio": 31.62,
+    "fim": 31.74
+  },
+  {
+    "texto": "patient",
+    "inicio": 31.74,
+    "fim": 32.0
+  },
+  {
+    "texto": "lives",
+    "inicio": 32.0,
+    "fim": 32.28
+  },
+  {
+    "texto": "or",
+    "inicio": 32.28,
+    "fim": 32.72
+  },
+  {
+    "texto": "dies.",
+    "inicio": 32.72,
+    "fim": 33.02
+  },
+  {
+    "texto": "Automating",
+    "inicio": 33.42,
+    "fim": 33.92
+  },
+  {
+    "texto": "the",
+    "inicio": 33.92,
+    "fim": 34.06
+  },
+  {
+    "texto": "easy",
+    "inicio": 34.06,
+    "fim": 34.5
+  },
+  {
+    "texto": "90",
+    "inicio": 34.5,
+    "fim": 35.0
+  },
+  {
+    "texto": "%",
+    "inicio": 35.0,
+    "fim": 35.36
+  },
+  {
+    "texto": "doesn't",
+    "inicio": 35.36,
+    "fim": 35.88
+  },
+  {
+    "texto": "get",
+    "inicio": 35.88,
+    "fim": 36.08
+  },
+  {
+    "texto": "you",
+    "inicio": 36.08,
+    "fim": 36.28
+  },
+  {
+    "texto": "90",
+    "inicio": 36.28,
+    "fim": 36.68
+  },
+  {
+    "texto": "%",
+    "inicio": 36.68,
+    "fim": 37.16
+  },
+  {
+    "texto": "of",
+    "inicio": 37.16,
+    "fim": 37.46
+  },
+  {
+    "texto": "the",
+    "inicio": 37.46,
+    "fim": 37.64
+  },
+  {
+    "texto": "way",
+    "inicio": 37.64,
+    "fim": 37.88
+  },
+  {
+    "texto": "there.",
+    "inicio": 37.88,
+    "fim": 38.08
+  },
+  {
+    "texto": "The",
+    "inicio": 38.22,
+    "fim": 38.34
+  },
+  {
+    "texto": "last",
+    "inicio": 38.34,
+    "fim": 38.52
+  },
+  {
+    "texto": "10",
+    "inicio": 38.52,
+    "fim": 38.72
+  },
+  {
+    "texto": "%",
+    "inicio": 38.72,
+    "fim": 39.06
+  },
+  {
+    "texto": "is",
+    "inicio": 39.06,
+    "fim": 39.36
+  },
+  {
+    "texto": "the",
+    "inicio": 39.36,
+    "fim": 39.48
+  },
+  {
+    "texto": "whole",
+    "inicio": 39.48,
+    "fim": 39.76
+  },
+  {
+    "texto": "game.",
+    "inicio": 39.76,
+    "fim": 40.0
+  },
+  {
+    "texto": "So,",
+    "inicio": 40.18,
+    "fim": 40.4
+  },
+  {
+    "texto": "when",
+    "inicio": 40.42,
+    "fim": 41.04
+  },
+  {
+    "texto": "you",
+    "inicio": 41.04,
+    "fim": 41.16
+  },
+  {
+    "texto": "hear",
+    "inicio": 41.16,
+    "fim": 41.38
+  },
+  {
+    "texto": "mostly",
+    "inicio": 41.38,
+    "fim": 41.76
+  },
+  {
+    "texto": "autonomous,",
+    "inicio": 41.76,
+    "fim": 42.36
+  },
+  {
+    "texto": "translate",
+    "inicio": 42.86,
+    "fim": 43.18
+  },
+  {
+    "texto": "it",
+    "inicio": 43.18,
+    "fim": 43.46
+  },
+  {
+    "texto": "as",
+    "inicio": 43.46,
+    "fim": 43.72
+  },
+  {
+    "texto": "the",
+    "inicio": 43.72,
+    "fim": 44.16
+  },
+  {
+    "texto": "machine",
+    "inicio": 44.16,
+    "fim": 44.58
+  },
+  {
+    "texto": "can",
+    "inicio": 44.58,
+    "fim": 44.88
+  },
+  {
+    "texto": "handle",
+    "inicio": 44.88,
+    "fim": 45.32
+  },
+  {
+    "texto": "the",
+    "inicio": 45.32,
+    "fim": 45.46
+  },
+  {
+    "texto": "routine",
+    "inicio": 45.46,
+    "fim": 45.74
+  },
+  {
+    "texto": "and",
+    "inicio": 45.74,
+    "fim": 46.2
+  },
+  {
+    "texto": "the",
+    "inicio": 46.2,
+    "fim": 46.3
+  },
+  {
+    "texto": "surgeon",
+    "inicio": 46.3,
+    "fim": 46.66
+  },
+  {
+    "texto": "is",
+    "inicio": 46.66,
+    "fim": 46.82
+  },
+  {
+    "texto": "still",
+    "inicio": 46.82,
+    "fim": 47.06
+  },
+  {
+    "texto": "essential",
+    "inicio": 47.06,
+    "fim": 47.44
+  },
+  {
+    "texto": "for",
+    "inicio": 47.44,
+    "fim": 47.74
+  },
+  {
+    "texto": "everything",
+    "inicio": 47.74,
+    "fim": 48.26
+  },
+  {
+    "texto": "that",
+    "inicio": 48.26,
+    "fim": 48.68
+  },
+  {
+    "texto": "actually",
+    "inicio": 48.68,
+    "fim": 49.0
+  },
+  {
+    "texto": "matters.",
+    "inicio": 49.0,
+    "fim": 49.38
+  },
+  {
+    "texto": "That's",
+    "inicio": 49.54,
+    "fim": 49.72
+  },
+  {
+    "texto": "not",
+    "inicio": 49.72,
+    "fim": 49.98
+  },
+  {
+    "texto": "a",
+    "inicio": 49.98,
+    "fim": 50.1
+  },
+  {
+    "texto": "limitation",
+    "inicio": 50.1,
+    "fim": 50.4
+  },
+  {
+    "texto": "to",
+    "inicio": 50.4,
+    "fim": 50.68
+  },
+  {
+    "texto": "hide.",
+    "inicio": 50.68,
+    "fim": 50.96
+  },
+  {
+    "texto": "It's",
+    "inicio": 51.08,
+    "fim": 51.18
+  },
+  {
+    "texto": "the",
+    "inicio": 51.18,
+    "fim": 51.24
+  },
+  {
+    "texto": "reason",
+    "inicio": 51.24,
+    "fim": 51.6
+  },
+  {
+    "texto": "surgery",
+    "inicio": 51.6,
+    "fim": 51.98
+  },
+  {
+    "texto": "is",
+    "inicio": 51.98,
+    "fim": 52.34
+  },
+  {
+    "texto": "safe.",
+    "inicio": 52.34,
+    "fim": 52.74
+  },
+  {
+    "texto": "The",
+    "inicio": 52.74,
+    "fim": 52.94
+  },
+  {
+    "texto": "hardest",
+    "inicio": 52.94,
+    "fim": 53.18
+  },
+  {
+    "texto": "part",
+    "inicio": 53.18,
+    "fim": 53.42
+  },
+  {
+    "texto": "of",
+    "inicio": 53.42,
+    "fim": 53.58
+  },
+  {
+    "texto": "medicine",
+    "inicio": 53.58,
+    "fim": 53.94
+  },
+  {
+    "texto": "is",
+    "inicio": 53.94,
+    "fim": 54.56
+  },
+  {
+    "texto": "the",
+    "inicio": 54.56,
+    "fim": 54.94
+  },
+  {
+    "texto": "human",
+    "inicio": 54.94,
+    "fim": 55.22
+  },
+  {
+    "texto": "part.",
+    "inicio": 55.22,
+    "fim": 55.58
+  },
+  {
+    "texto": "Medicine?",
+    "inicio": 55.78,
+    "fim": 56.24
+  },
+  {
+    "texto": "Ask",
+    "inicio": 56.24,
+    "fim": 56.65
+  },
+  {
+    "texto": "Cratheon.",
+    "inicio": 56.65,
+    "fim": 57.72
+  }
+]

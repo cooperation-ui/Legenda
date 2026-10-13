@@ -1,0 +1,92 @@
+1
+00:00:00,000 --> 00:00:02,180
+Você verá manchetes dizendo
+que robôs cirúrgicos
+
+2
+00:00:02,220 --> 00:00:04,480
+já são 80 e tantos por cento autônomos.
+
+3
+00:00:04,640 --> 00:00:05,840
+Ótimo, esse número é real.
+
+4
+00:00:06,020 --> 00:00:08,200
+Mas ele também engana. Deixa eu explicar.
+
+5
+00:00:08,460 --> 00:00:13,400
+Em experimentos, robôs fizeram sozinhos
+quase todas as etapas de um procedimento.
+
+6
+00:00:13,520 --> 00:00:15,320
+Impressionante, real, para comemorar.
+
+7
+00:00:15,620 --> 00:00:17,800
+Mas veja o que essa porcentagem esconde.
+
+8
+00:00:18,020 --> 00:00:21,040
+As etapas que um robô
+automatiza são as previsíveis.
+
+9
+00:00:21,260 --> 00:00:23,360
+O que resta, o sangramento inesperado,
+
+10
+00:00:23,680 --> 00:00:25,820
+a anatomia que não bate com o livro,
+
+11
+00:00:26,040 --> 00:00:28,760
+a decisão em um segundo,
+essa é a parte difícil.
+
+12
+00:00:28,920 --> 00:00:33,020
+E é exatamente a parte que decide se
+o paciente vive ou morre.
+
+13
+00:00:33,420 --> 00:00:38,080
+Automatizar os 90% fáceis não
+leva você a 90% do caminho.
+
+14
+00:00:38,220 --> 00:00:40,000
+Os últimos 10% são o jogo inteiro.
+
+15
+00:00:40,180 --> 00:00:42,360
+Então, quando ouvir "quase autônomo",
+
+16
+00:00:42,860 --> 00:00:45,700
+traduza assim:
+a máquina dá conta da rotina
+
+17
+00:00:45,740 --> 00:00:49,380
+e o cirurgião continua essencial
+para tudo o que realmente importa.
+
+18
+00:00:49,540 --> 00:00:50,960
+Não é uma limitação a esconder.
+
+19
+00:00:51,080 --> 00:00:52,700
+É por isso que a cirurgia é segura.
+
+20
+00:00:52,740 --> 00:00:55,580
+A parte mais difícil
+da medicina é a humana.
+
+21
+00:00:55,780 --> 00:00:57,720
+Medicina? Pergunte à Cratheon.

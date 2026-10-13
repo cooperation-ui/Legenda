@@ -1,0 +1,94 @@
+1
+00:00:00,000 --> 00:00:02,180
+You'll see headlines
+saying surgical robots
+
+2
+00:00:02,220 --> 00:00:04,480
+are now 80-something percent autonomous.
+
+3
+00:00:04,640 --> 00:00:05,840
+Good, that number is real.
+
+4
+00:00:06,020 --> 00:00:08,200
+But it's also misleading. Let me explain.
+
+5
+00:00:08,460 --> 00:00:13,400
+In experiments, robots have completed most
+steps of certain procedures on their own.
+
+6
+00:00:13,520 --> 00:00:15,320
+Impressive, real, worth celebrating.
+
+7
+00:00:15,620 --> 00:00:17,800
+But here's what that percentage hides.
+
+8
+00:00:18,020 --> 00:00:21,040
+The steps a robot can
+automate are predictable ones.
+
+9
+00:00:21,260 --> 00:00:23,360
+The remaining part,
+the unexpected bleeding,
+
+10
+00:00:23,680 --> 00:00:25,820
+the anatomy that doesn't
+match the textbook,
+
+11
+00:00:26,040 --> 00:00:28,760
+the split-second judgment call,
+that's the hard part.
+
+12
+00:00:28,920 --> 00:00:33,020
+And it's exactly the part that decides
+whether a patient lives or dies.
+
+13
+00:00:33,420 --> 00:00:38,080
+Automating the easy 90% doesn't
+get you 90% of the way there.
+
+14
+00:00:38,220 --> 00:00:40,000
+The last 10% is the whole game.
+
+15
+00:00:40,180 --> 00:00:42,360
+So, when you hear mostly autonomous,
+
+16
+00:00:42,860 --> 00:00:45,700
+translate it as the machine
+can handle the routine
+
+17
+00:00:45,740 --> 00:00:49,380
+and the surgeon is still essential
+for everything that actually matters.
+
+18
+00:00:49,540 --> 00:00:50,960
+That's not a limitation to hide.
+
+19
+00:00:51,080 --> 00:00:52,700
+It's the reason surgery is safe.
+
+20
+00:00:52,740 --> 00:00:55,580
+The hardest part
+of medicine is the human part.
+
+21
+00:00:55,780 --> 00:00:57,720
+Medicine? Ask Cratheon.

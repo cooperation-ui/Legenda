@@ -32,13 +32,19 @@ MAX_DURACAO = 6.0
 MIN_DURACAO = 1.0
 PAUSA_QUE_QUEBRA = 0.8
 TAMANHO_DE_LEGENDA_CURTA = 24
+# Juntar duas frases curtas ajuda a leitura, mas um bloco longo demais junta o que
+# deveria ficar separado, como uma frase e o bordao que vem depois dela.
+MAX_DURACAO_PARA_JUNTAR = 4.0
+# Abaixo disso o bloco nao chega a ser lido: ele precisa se juntar ao vizinho mesmo
+# que a juncao passe do limite acima.
+MIN_DURACAO_NA_TELA = 0.8
 
 FIM_DE_FRASE = (".", "!", "?", "…")
 PAUSA_INTERNA = (",", ";", ":")
 
 # O reconhecimento separa "37.3" em dois pedacos, "37" e ".3". Um pedaco que comeca
 # por um destes sinais pertence a palavra anterior e vai colado nela.
-PONTUACAO_QUE_COLA = (".", ",", ";", ":", "!", "?", "%", ")", "]", "}", "…", "'")
+PONTUACAO_QUE_COLA = (".", ",", ";", ":", "!", "?", "%", ")", "]", "}", "…", "'", "-", "—")
 
 # Terminar a legenda em artigo, preposicao ou conjuncao separa palavras que se leem
 # juntas, entao estas vao para a legenda seguinte quando caem no fim de uma quebra.
@@ -462,10 +468,18 @@ def juntar_legendas_curtas(legendas: list[Legenda]) -> list[Legenda]:
             projetado = juntar_palavras(anterior.palavras + legenda.palavras)
             alguma_e_curta = min(len(anterior.texto), len(legenda.texto)) <= TAMANHO_DE_LEGENDA_CURTA
             cabe = cabe_na_legenda(projetado)
-            no_tempo = legenda.fim - anterior.inicio <= MAX_DURACAO
+            no_tempo = legenda.fim - anterior.inicio <= MAX_DURACAO_PARA_JUNTAR
             sem_pausa = legenda.inicio - anterior.fim < PAUSA_QUE_QUEBRA
 
-            if alguma_e_curta and cabe and no_tempo and sem_pausa:
+            # Um bloco cujo proximo vizinho comeca quase junto fica pouco tempo na
+            # tela, porque o fim de um bloco nunca invade o inicio do seguinte.
+            pouco_tempo_na_tela = legenda.inicio - anterior.inicio < MIN_DURACAO_NA_TELA
+            cabe_no_limite_maximo = legenda.fim - anterior.inicio <= MAX_DURACAO
+
+            juntar_por_conforto = alguma_e_curta and no_tempo
+            juntar_por_necessidade = pouco_tempo_na_tela and cabe_no_limite_maximo
+
+            if cabe and sem_pausa and (juntar_por_conforto or juntar_por_necessidade):
                 anterior.palavras.extend(legenda.palavras)
                 continue
 

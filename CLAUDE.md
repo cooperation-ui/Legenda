@@ -23,6 +23,18 @@ porque isso significa que o material mudou.
 Essa regra vale so para os arquivos da Cratheon. Para qualquer outro arquivo,
 entregue uma legenda no idioma falado e so traduza se for pedido.
 
+## Quando vem o roteiro junto
+
+Se o usuario mandar o roteiro que a pessoa usou para gravar, guarde em
+`roteiros/<nome>.<idioma>.txt` e alinhe a transcricao contra ele palavra por
+palavra, com `difflib`, antes de fechar a legenda. O alinhamento acha os erros
+de reconhecimento em segundos.
+
+O roteiro orienta, mas nao manda: a legenda precisa bater com o que se ouve no
+video. Quando o audio e o roteiro divergem, redecodifique a janela. Se a palavra
+estiver no audio, ela fica na legenda mesmo fora do roteiro, e a divergencia vai
+registrada na nota de revisao.
+
 ## Como e o fluxo
 
 ```bash
