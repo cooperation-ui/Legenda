@@ -1,0 +1,1597 @@
+[
+  {
+    "texto": "Você",
+    "inicio": 0.0,
+    "fim": 0.44
+  },
+  {
+    "texto": "aperta",
+    "inicio": 0.44,
+    "fim": 1.08
+  },
+  {
+    "texto": "a",
+    "inicio": 1.08,
+    "fim": 1.16
+  },
+  {
+    "texto": "mama",
+    "inicio": 1.16,
+    "fim": 1.38
+  },
+  {
+    "texto": "procurando",
+    "inicio": 1.38,
+    "fim": 2.3
+  },
+  {
+    "texto": "um",
+    "inicio": 2.3,
+    "fim": 2.42
+  },
+  {
+    "texto": "caroço,",
+    "inicio": 2.42,
+    "fim": 2.92
+  },
+  {
+    "texto": "achando",
+    "inicio": 3.1,
+    "fim": 3.52
+  },
+  {
+    "texto": "que",
+    "inicio": 3.52,
+    "fim": 3.7
+  },
+  {
+    "texto": "está",
+    "inicio": 3.7,
+    "fim": 3.8
+  },
+  {
+    "texto": "se",
+    "inicio": 3.8,
+    "fim": 3.98
+  },
+  {
+    "texto": "cuidando,",
+    "inicio": 3.98,
+    "fim": 4.4
+  },
+  {
+    "texto": "está",
+    "inicio": 4.54,
+    "fim": 4.7
+  },
+  {
+    "texto": "fazendo",
+    "inicio": 4.7,
+    "fim": 5.04
+  },
+  {
+    "texto": "tudo",
+    "inicio": 5.04,
+    "fim": 5.32
+  },
+  {
+    "texto": "errado.",
+    "inicio": 5.32,
+    "fim": 5.58
+  },
+  {
+    "texto": "E",
+    "inicio": 5.82,
+    "fim": 5.92
+  },
+  {
+    "texto": "eu",
+    "inicio": 5.92,
+    "fim": 6.08
+  },
+  {
+    "texto": "vou",
+    "inicio": 6.08,
+    "fim": 6.26
+  },
+  {
+    "texto": "te",
+    "inicio": 6.26,
+    "fim": 6.4
+  },
+  {
+    "texto": "mostrar",
+    "inicio": 6.4,
+    "fim": 6.88
+  },
+  {
+    "texto": "o",
+    "inicio": 6.88,
+    "fim": 7.04
+  },
+  {
+    "texto": "certo.",
+    "inicio": 7.04,
+    "fim": 7.26
+  },
+  {
+    "texto": "Primeiro,",
+    "inicio": 7.58,
+    "fim": 8.06
+  },
+  {
+    "texto": "o",
+    "inicio": 8.08,
+    "fim": 8.44
+  },
+  {
+    "texto": "autoexame",
+    "inicio": 8.44,
+    "fim": 9.06
+  },
+  {
+    "texto": "não",
+    "inicio": 9.06,
+    "fim": 9.44
+  },
+  {
+    "texto": "substitui",
+    "inicio": 9.44,
+    "fim": 10.28
+  },
+  {
+    "texto": "a",
+    "inicio": 10.28,
+    "fim": 10.4
+  },
+  {
+    "texto": "mamografia.",
+    "inicio": 10.4,
+    "fim": 11.08
+  },
+  {
+    "texto": "Mas",
+    "inicio": 11.14,
+    "fim": 11.32
+  },
+  {
+    "texto": "conhecer",
+    "inicio": 11.32,
+    "fim": 11.82
+  },
+  {
+    "texto": "o",
+    "inicio": 11.82,
+    "fim": 12.1
+  },
+  {
+    "texto": "seu",
+    "inicio": 12.1,
+    "fim": 12.3
+  },
+  {
+    "texto": "corpo",
+    "inicio": 12.3,
+    "fim": 12.68
+  },
+  {
+    "texto": "faz",
+    "inicio": 12.68,
+    "fim": 12.92
+  },
+  {
+    "texto": "você",
+    "inicio": 12.92,
+    "fim": 13.18
+  },
+  {
+    "texto": "perceber",
+    "inicio": 13.18,
+    "fim": 13.76
+  },
+  {
+    "texto": "o",
+    "inicio": 13.76,
+    "fim": 14.08
+  },
+  {
+    "texto": "quanto",
+    "inicio": 14.08,
+    "fim": 14.38
+  },
+  {
+    "texto": "alguma",
+    "inicio": 14.38,
+    "fim": 14.68
+  },
+  {
+    "texto": "coisa",
+    "inicio": 14.68,
+    "fim": 15.12
+  },
+  {
+    "texto": "aqui",
+    "inicio": 15.12,
+    "fim": 15.32
+  },
+  {
+    "texto": "mudou.",
+    "inicio": 15.32,
+    "fim": 15.68
+  },
+  {
+    "texto": "E",
+    "inicio": 15.76,
+    "fim": 15.9
+  },
+  {
+    "texto": "aí",
+    "inicio": 15.9,
+    "fim": 16.16
+  },
+  {
+    "texto": "aqui",
+    "inicio": 16.16,
+    "fim": 16.66
+  },
+  {
+    "texto": "muda",
+    "inicio": 16.66,
+    "fim": 17.06
+  },
+  {
+    "texto": "tudo.",
+    "inicio": 17.06,
+    "fim": 17.22
+  },
+  {
+    "texto": "Faça",
+    "inicio": 17.34,
+    "fim": 17.58
+  },
+  {
+    "texto": "sempre",
+    "inicio": 17.58,
+    "fim": 18.08
+  },
+  {
+    "texto": "o",
+    "inicio": 18.08,
+    "fim": 18.52
+  },
+  {
+    "texto": "autoexame",
+    "inicio": 18.52,
+    "fim": 19.24
+  },
+  {
+    "texto": "no",
+    "inicio": 19.24,
+    "fim": 19.5
+  },
+  {
+    "texto": "mesmo",
+    "inicio": 19.5,
+    "fim": 19.82
+  },
+  {
+    "texto": "período",
+    "inicio": 19.82,
+    "fim": 20.08
+  },
+  {
+    "texto": "do",
+    "inicio": 20.08,
+    "fim": 20.3
+  },
+  {
+    "texto": "mês.",
+    "inicio": 20.3,
+    "fim": 20.5
+  },
+  {
+    "texto": "Por",
+    "inicio": 20.66,
+    "fim": 20.72
+  },
+  {
+    "texto": "exemplo,",
+    "inicio": 20.72,
+    "fim": 20.92
+  },
+  {
+    "texto": "alguns",
+    "inicio": 20.96,
+    "fim": 21.16
+  },
+  {
+    "texto": "dias",
+    "inicio": 21.16,
+    "fim": 21.58
+  },
+  {
+    "texto": "depois",
+    "inicio": 21.58,
+    "fim": 21.84
+  },
+  {
+    "texto": "da",
+    "inicio": 21.84,
+    "fim": 22.28
+  },
+  {
+    "texto": "menstruação.",
+    "inicio": 22.28,
+    "fim": 22.88
+  },
+  {
+    "texto": "Porque",
+    "inicio": 22.96,
+    "fim": 23.18
+  },
+  {
+    "texto": "aí",
+    "inicio": 23.18,
+    "fim": 23.36
+  },
+  {
+    "texto": "a",
+    "inicio": 23.36,
+    "fim": 23.44
+  },
+  {
+    "texto": "nossa",
+    "inicio": 23.44,
+    "fim": 23.66
+  },
+  {
+    "texto": "mama",
+    "inicio": 23.66,
+    "fim": 24.06
+  },
+  {
+    "texto": "está",
+    "inicio": 24.06,
+    "fim": 24.34
+  },
+  {
+    "texto": "menos",
+    "inicio": 24.34,
+    "fim": 24.62
+  },
+  {
+    "texto": "dolorida,",
+    "inicio": 24.62,
+    "fim": 25.28
+  },
+  {
+    "texto": "está",
+    "inicio": 25.32,
+    "fim": 25.42
+  },
+  {
+    "texto": "menos",
+    "inicio": 25.42,
+    "fim": 25.68
+  },
+  {
+    "texto": "inchada,",
+    "inicio": 25.68,
+    "fim": 26.34
+  },
+  {
+    "texto": "é",
+    "inicio": 26.38,
+    "fim": 26.5
+  },
+  {
+    "texto": "mais",
+    "inicio": 26.5,
+    "fim": 26.66
+  },
+  {
+    "texto": "fácil",
+    "inicio": 26.66,
+    "fim": 26.98
+  },
+  {
+    "texto": "de",
+    "inicio": 26.98,
+    "fim": 27.12
+  },
+  {
+    "texto": "você",
+    "inicio": 27.12,
+    "fim": 27.24
+  },
+  {
+    "texto": "fazer",
+    "inicio": 27.24,
+    "fim": 27.52
+  },
+  {
+    "texto": "o",
+    "inicio": 27.52,
+    "fim": 27.64
+  },
+  {
+    "texto": "exame.",
+    "inicio": 27.64,
+    "fim": 27.86
+  },
+  {
+    "texto": "Se",
+    "inicio": 27.86,
+    "fim": 28.04
+  },
+  {
+    "texto": "você",
+    "inicio": 28.04,
+    "fim": 28.26
+  },
+  {
+    "texto": "não",
+    "inicio": 28.26,
+    "fim": 28.62
+  },
+  {
+    "texto": "menstrua,",
+    "inicio": 28.62,
+    "fim": 29.3
+  },
+  {
+    "texto": "escolhe",
+    "inicio": 29.36,
+    "fim": 29.9
+  },
+  {
+    "texto": "um",
+    "inicio": 29.9,
+    "fim": 29.96
+  },
+  {
+    "texto": "dia",
+    "inicio": 29.96,
+    "fim": 30.08
+  },
+  {
+    "texto": "fixo.",
+    "inicio": 30.08,
+    "fim": 30.48
+  },
+  {
+    "texto": "Vou",
+    "inicio": 30.48,
+    "fim": 30.58
+  },
+  {
+    "texto": "fazer",
+    "inicio": 30.58,
+    "fim": 30.84
+  },
+  {
+    "texto": "meu",
+    "inicio": 30.84,
+    "fim": 31.0
+  },
+  {
+    "texto": "exame",
+    "inicio": 31.0,
+    "fim": 31.46
+  },
+  {
+    "texto": "todo",
+    "inicio": 31.46,
+    "fim": 31.7
+  },
+  {
+    "texto": "dia",
+    "inicio": 31.7,
+    "fim": 31.98
+  },
+  {
+    "texto": "10.",
+    "inicio": 31.98,
+    "fim": 32.22
+  },
+  {
+    "texto": "Um",
+    "inicio": 32.48,
+    "fim": 32.62
+  },
+  {
+    "texto": "lugar",
+    "inicio": 32.62,
+    "fim": 32.94
+  },
+  {
+    "texto": "que",
+    "inicio": 32.94,
+    "fim": 33.36
+  },
+  {
+    "texto": "eu",
+    "inicio": 33.36,
+    "fim": 33.42
+  },
+  {
+    "texto": "acho",
+    "inicio": 33.42,
+    "fim": 33.66
+  },
+  {
+    "texto": "muito",
+    "inicio": 33.66,
+    "fim": 33.96
+  },
+  {
+    "texto": "apropriado",
+    "inicio": 33.96,
+    "fim": 34.84
+  },
+  {
+    "texto": "pra",
+    "inicio": 34.84,
+    "fim": 34.96
+  },
+  {
+    "texto": "gente",
+    "inicio": 34.96,
+    "fim": 35.12
+  },
+  {
+    "texto": "fazer",
+    "inicio": 35.12,
+    "fim": 35.36
+  },
+  {
+    "texto": "o",
+    "inicio": 35.36,
+    "fim": 35.52
+  },
+  {
+    "texto": "autoexame,",
+    "inicio": 35.52,
+    "fim": 36.08
+  },
+  {
+    "texto": "muitas",
+    "inicio": 36.1,
+    "fim": 36.26
+  },
+  {
+    "texto": "vezes,",
+    "inicio": 36.26,
+    "fim": 36.5
+  },
+  {
+    "texto": "é",
+    "inicio": 36.62,
+    "fim": 36.74
+  },
+  {
+    "texto": "na",
+    "inicio": 36.74,
+    "fim": 36.86
+  },
+  {
+    "texto": "hora",
+    "inicio": 36.86,
+    "fim": 37.06
+  },
+  {
+    "texto": "do",
+    "inicio": 37.06,
+    "fim": 37.22
+  },
+  {
+    "texto": "banho.",
+    "inicio": 37.22,
+    "fim": 37.56
+  },
+  {
+    "texto": "Então",
+    "inicio": 37.6,
+    "fim": 37.76
+  },
+  {
+    "texto": "como",
+    "inicio": 37.76,
+    "fim": 38.02
+  },
+  {
+    "texto": "que",
+    "inicio": 38.02,
+    "fim": 38.18
+  },
+  {
+    "texto": "você",
+    "inicio": 38.18,
+    "fim": 38.4
+  },
+  {
+    "texto": "vai",
+    "inicio": 38.4,
+    "fim": 38.58
+  },
+  {
+    "texto": "fazer",
+    "inicio": 38.58,
+    "fim": 38.84
+  },
+  {
+    "texto": "isso?",
+    "inicio": 38.84,
+    "fim": 39.1
+  },
+  {
+    "texto": "Ali",
+    "inicio": 39.28,
+    "fim": 39.46
+  },
+  {
+    "texto": "durante",
+    "inicio": 39.46,
+    "fim": 39.7
+  },
+  {
+    "texto": "o",
+    "inicio": 39.7,
+    "fim": 39.96
+  },
+  {
+    "texto": "banho,",
+    "inicio": 39.96,
+    "fim": 40.42
+  },
+  {
+    "texto": "com",
+    "inicio": 40.42,
+    "fim": 40.54
+  },
+  {
+    "texto": "a",
+    "inicio": 40.54,
+    "fim": 40.64
+  },
+  {
+    "texto": "sua",
+    "inicio": 40.64,
+    "fim": 40.76
+  },
+  {
+    "texto": "pele",
+    "inicio": 40.76,
+    "fim": 41.18
+  },
+  {
+    "texto": "já",
+    "inicio": 41.18,
+    "fim": 41.32
+  },
+  {
+    "texto": "toda",
+    "inicio": 41.32,
+    "fim": 41.58
+  },
+  {
+    "texto": "ensabuada,",
+    "inicio": 41.58,
+    "fim": 42.24
+  },
+  {
+    "texto": "lembra",
+    "inicio": 42.38,
+    "fim": 42.94
+  },
+  {
+    "texto": "de",
+    "inicio": 42.94,
+    "fim": 43.3
+  },
+  {
+    "texto": "levantar",
+    "inicio": 43.3,
+    "fim": 43.8
+  },
+  {
+    "texto": "o",
+    "inicio": 43.8,
+    "fim": 43.9
+  },
+  {
+    "texto": "braço.",
+    "inicio": 43.9,
+    "fim": 44.28
+  },
+  {
+    "texto": "A",
+    "inicio": 44.36,
+    "fim": 44.42
+  },
+  {
+    "texto": "sua",
+    "inicio": 44.42,
+    "fim": 44.58
+  },
+  {
+    "texto": "mão",
+    "inicio": 44.58,
+    "fim": 44.78
+  },
+  {
+    "texto": "desliza",
+    "inicio": 44.78,
+    "fim": 45.36
+  },
+  {
+    "texto": "melhor,",
+    "inicio": 45.36,
+    "fim": 45.6
+  },
+  {
+    "texto": "então",
+    "inicio": 45.68,
+    "fim": 45.94
+  },
+  {
+    "texto": "você",
+    "inicio": 45.94,
+    "fim": 46.22
+  },
+  {
+    "texto": "usa",
+    "inicio": 46.22,
+    "fim": 46.52
+  },
+  {
+    "texto": "ela",
+    "inicio": 46.52,
+    "fim": 46.66
+  },
+  {
+    "texto": "espalmada,",
+    "inicio": 46.66,
+    "fim": 47.4
+  },
+  {
+    "texto": "com",
+    "inicio": 47.48,
+    "fim": 47.64
+  },
+  {
+    "texto": "as",
+    "inicio": 47.64,
+    "fim": 47.78
+  },
+  {
+    "texto": "polpas",
+    "inicio": 47.78,
+    "fim": 48.26
+  },
+  {
+    "texto": "do",
+    "inicio": 48.26,
+    "fim": 48.4
+  },
+  {
+    "texto": "dedo",
+    "inicio": 48.4,
+    "fim": 48.76
+  },
+  {
+    "texto": "em",
+    "inicio": 48.76,
+    "fim": 48.92
+  },
+  {
+    "texto": "movimentos",
+    "inicio": 48.92,
+    "fim": 49.5
+  },
+  {
+    "texto": "circulares,",
+    "inicio": 49.5,
+    "fim": 50.28
+  },
+  {
+    "texto": "em",
+    "inicio": 50.28,
+    "fim": 50.52
+  },
+  {
+    "texto": "toda",
+    "inicio": 50.52,
+    "fim": 51.04
+  },
+  {
+    "texto": "a",
+    "inicio": 51.04,
+    "fim": 51.24
+  },
+  {
+    "texto": "mama,",
+    "inicio": 51.24,
+    "fim": 51.54
+  },
+  {
+    "texto": "da",
+    "inicio": 51.78,
+    "fim": 52.04
+  },
+  {
+    "texto": "axila",
+    "inicio": 52.04,
+    "fim": 52.92
+  },
+  {
+    "texto": "até",
+    "inicio": 52.92,
+    "fim": 53.56
+  },
+  {
+    "texto": "o",
+    "inicio": 53.56,
+    "fim": 53.76
+  },
+  {
+    "texto": "mamilo.",
+    "inicio": 53.76,
+    "fim": 54.12
+  },
+  {
+    "texto": "Eu",
+    "inicio": 54.12,
+    "fim": 54.36
+  },
+  {
+    "texto": "sou",
+    "inicio": 54.36,
+    "fim": 54.54
+  },
+  {
+    "texto": "a",
+    "inicio": 54.54,
+    "fim": 54.62
+  },
+  {
+    "texto": "doutora",
+    "inicio": 54.62,
+    "fim": 54.94
+  },
+  {
+    "texto": "Priscila",
+    "inicio": 54.94,
+    "fim": 55.4
+  },
+  {
+    "texto": "Barbosa",
+    "inicio": 55.4,
+    "fim": 55.82
+  },
+  {
+    "texto": "e",
+    "inicio": 55.82,
+    "fim": 56.08
+  },
+  {
+    "texto": "agora",
+    "inicio": 56.08,
+    "fim": 56.4
+  },
+  {
+    "texto": "vem",
+    "inicio": 56.4,
+    "fim": 56.94
+  },
+  {
+    "texto": "a",
+    "inicio": 56.94,
+    "fim": 57.06
+  },
+  {
+    "texto": "parte",
+    "inicio": 57.06,
+    "fim": 57.44
+  },
+  {
+    "texto": "quase",
+    "inicio": 57.44,
+    "fim": 57.9
+  },
+  {
+    "texto": "ninguém",
+    "inicio": 57.9,
+    "fim": 58.34
+  },
+  {
+    "texto": "te",
+    "inicio": 58.34,
+    "fim": 58.64
+  },
+  {
+    "texto": "conta",
+    "inicio": 58.64,
+    "fim": 58.94
+  },
+  {
+    "texto": "sobre",
+    "inicio": 58.94,
+    "fim": 59.36
+  },
+  {
+    "texto": "exame.",
+    "inicio": 59.36,
+    "fim": 59.66
+  },
+  {
+    "texto": "Quando",
+    "inicio": 59.78,
+    "fim": 59.94
+  },
+  {
+    "texto": "nós",
+    "inicio": 59.94,
+    "fim": 60.18
+  },
+  {
+    "texto": "estamos",
+    "inicio": 60.18,
+    "fim": 60.5
+  },
+  {
+    "texto": "na",
+    "inicio": 60.5,
+    "fim": 60.82
+  },
+  {
+    "texto": "frente",
+    "inicio": 60.82,
+    "fim": 61.08
+  },
+  {
+    "texto": "do",
+    "inicio": 61.08,
+    "fim": 61.32
+  },
+  {
+    "texto": "espelho,",
+    "inicio": 61.32,
+    "fim": 61.64
+  },
+  {
+    "texto": "os",
+    "inicio": 61.76,
+    "fim": 61.94
+  },
+  {
+    "texto": "braços",
+    "inicio": 61.94,
+    "fim": 62.4
+  },
+  {
+    "texto": "levantados,",
+    "inicio": 62.4,
+    "fim": 63.12
+  },
+  {
+    "texto": "nós",
+    "inicio": 63.2,
+    "fim": 63.32
+  },
+  {
+    "texto": "precisamos",
+    "inicio": 63.32,
+    "fim": 64.02
+  },
+  {
+    "texto": "avaliar,",
+    "inicio": 64.02,
+    "fim": 64.92
+  },
+  {
+    "texto": "exatamente,",
+    "inicio": 64.92,
+    "fim": 65.3
+  },
+  {
+    "texto": "olhar",
+    "inicio": 65.68,
+    "fim": 66.18
+  },
+  {
+    "texto": "a",
+    "inicio": 66.18,
+    "fim": 66.72
+  },
+  {
+    "texto": "nossa",
+    "inicio": 66.72,
+    "fim": 66.88
+  },
+  {
+    "texto": "mama.",
+    "inicio": 66.88,
+    "fim": 67.16
+  },
+  {
+    "texto": "Olhar",
+    "inicio": 67.32,
+    "fim": 67.68
+  },
+  {
+    "texto": "se",
+    "inicio": 67.68,
+    "fim": 67.86
+  },
+  {
+    "texto": "tem",
+    "inicio": 67.86,
+    "fim": 68.0
+  },
+  {
+    "texto": "alguma",
+    "inicio": 68.0,
+    "fim": 68.26
+  },
+  {
+    "texto": "mudança",
+    "inicio": 68.26,
+    "fim": 68.72
+  },
+  {
+    "texto": "no",
+    "inicio": 68.72,
+    "fim": 68.9
+  },
+  {
+    "texto": "formato,",
+    "inicio": 68.9,
+    "fim": 69.5
+  },
+  {
+    "texto": "se",
+    "inicio": 69.54,
+    "fim": 69.64
+  },
+  {
+    "texto": "a",
+    "inicio": 69.64,
+    "fim": 69.76
+  },
+  {
+    "texto": "pele",
+    "inicio": 69.76,
+    "fim": 70.14
+  },
+  {
+    "texto": "está",
+    "inicio": 70.14,
+    "fim": 70.36
+  },
+  {
+    "texto": "repuxada,",
+    "inicio": 70.36,
+    "fim": 71.1
+  },
+  {
+    "texto": "se",
+    "inicio": 71.2,
+    "fim": 71.32
+  },
+  {
+    "texto": "tem",
+    "inicio": 71.32,
+    "fim": 71.52
+  },
+  {
+    "texto": "algum",
+    "inicio": 71.52,
+    "fim": 71.88
+  },
+  {
+    "texto": "afundamento,",
+    "inicio": 71.88,
+    "fim": 72.66
+  },
+  {
+    "texto": "qualquer",
+    "inicio": 72.92,
+    "fim": 73.16
+  },
+  {
+    "texto": "alteração",
+    "inicio": 73.16,
+    "fim": 73.84
+  },
+  {
+    "texto": "que",
+    "inicio": 73.84,
+    "fim": 74.04
+  },
+  {
+    "texto": "você",
+    "inicio": 74.04,
+    "fim": 74.18
+  },
+  {
+    "texto": "perceba",
+    "inicio": 74.18,
+    "fim": 74.74
+  },
+  {
+    "texto": "no",
+    "inicio": 74.74,
+    "fim": 75.04
+  },
+  {
+    "texto": "mamilo.",
+    "inicio": 75.04,
+    "fim": 75.38
+  },
+  {
+    "texto": "E",
+    "inicio": 75.48,
+    "fim": 75.62
+  },
+  {
+    "texto": "sabe",
+    "inicio": 75.62,
+    "fim": 75.8
+  },
+  {
+    "texto": "o",
+    "inicio": 75.8,
+    "fim": 75.98
+  },
+  {
+    "texto": "que",
+    "inicio": 75.98,
+    "fim": 76.04
+  },
+  {
+    "texto": "é",
+    "inicio": 76.04,
+    "fim": 76.1
+  },
+  {
+    "texto": "mais",
+    "inicio": 76.1,
+    "fim": 76.3
+  },
+  {
+    "texto": "importante?",
+    "inicio": 76.3,
+    "fim": 76.72
+  },
+  {
+    "texto": "Você",
+    "inicio": 77.02,
+    "fim": 77.24
+  },
+  {
+    "texto": "não",
+    "inicio": 77.24,
+    "fim": 77.48
+  },
+  {
+    "texto": "está",
+    "inicio": 77.48,
+    "fim": 77.66
+  },
+  {
+    "texto": "aqui",
+    "inicio": 77.66,
+    "fim": 78.0
+  },
+  {
+    "texto": "procurando",
+    "inicio": 78.0,
+    "fim": 79.04
+  },
+  {
+    "texto": "um",
+    "inicio": 79.04,
+    "fim": 79.32
+  },
+  {
+    "texto": "caroço.",
+    "inicio": 79.32,
+    "fim": 79.68
+  },
+  {
+    "texto": "Você",
+    "inicio": 79.88,
+    "fim": 80.16
+  },
+  {
+    "texto": "está",
+    "inicio": 80.16,
+    "fim": 80.38
+  },
+  {
+    "texto": "procurando",
+    "inicio": 80.38,
+    "fim": 81.04
+  },
+  {
+    "texto": "qualquer",
+    "inicio": 81.04,
+    "fim": 81.34
+  },
+  {
+    "texto": "coisa",
+    "inicio": 81.34,
+    "fim": 81.92
+  },
+  {
+    "texto": "diferente",
+    "inicio": 81.92,
+    "fim": 82.62
+  },
+  {
+    "texto": "do",
+    "inicio": 82.62,
+    "fim": 83.0
+  },
+  {
+    "texto": "seu",
+    "inicio": 83.0,
+    "fim": 83.2
+  },
+  {
+    "texto": "normal.",
+    "inicio": 83.2,
+    "fim": 83.78
+  },
+  {
+    "texto": "Por",
+    "inicio": 84.12,
+    "fim": 84.22
+  },
+  {
+    "texto": "quê?",
+    "inicio": 84.22,
+    "fim": 84.44
+  },
+  {
+    "texto": "Porque",
+    "inicio": 84.52,
+    "fim": 84.92
+  },
+  {
+    "texto": "a",
+    "inicio": 84.92,
+    "fim": 85.08
+  },
+  {
+    "texto": "maioria",
+    "inicio": 85.08,
+    "fim": 85.48
+  },
+  {
+    "texto": "de",
+    "inicio": 85.48,
+    "fim": 85.8
+  },
+  {
+    "texto": "nós",
+    "inicio": 85.8,
+    "fim": 86.0
+  },
+  {
+    "texto": "mulheres",
+    "inicio": 86.0,
+    "fim": 86.32
+  },
+  {
+    "texto": "não",
+    "inicio": 86.32,
+    "fim": 86.78
+  },
+  {
+    "texto": "conhecemos",
+    "inicio": 86.78,
+    "fim": 87.44
+  },
+  {
+    "texto": "o",
+    "inicio": 87.44,
+    "fim": 87.54
+  },
+  {
+    "texto": "nosso",
+    "inicio": 87.54,
+    "fim": 87.68
+  },
+  {
+    "texto": "próprio",
+    "inicio": 87.68,
+    "fim": 88.04
+  },
+  {
+    "texto": "corpo.",
+    "inicio": 88.04,
+    "fim": 88.38
+  },
+  {
+    "texto": "Eu",
+    "inicio": 88.48,
+    "fim": 88.6
+  },
+  {
+    "texto": "não",
+    "inicio": 88.6,
+    "fim": 88.8
+  },
+  {
+    "texto": "sei",
+    "inicio": 88.8,
+    "fim": 89.06
+  },
+  {
+    "texto": "o",
+    "inicio": 89.06,
+    "fim": 89.2
+  },
+  {
+    "texto": "que",
+    "inicio": 89.2,
+    "fim": 89.32
+  },
+  {
+    "texto": "é",
+    "inicio": 89.32,
+    "fim": 89.44
+  },
+  {
+    "texto": "normal.",
+    "inicio": 89.44,
+    "fim": 89.74
+  },
+  {
+    "texto": "E",
+    "inicio": 89.96,
+    "fim": 90.14
+  },
+  {
+    "texto": "é",
+    "inicio": 90.14,
+    "fim": 90.22
+  },
+  {
+    "texto": "exatamente",
+    "inicio": 90.22,
+    "fim": 90.68
+  },
+  {
+    "texto": "aqui",
+    "inicio": 90.68,
+    "fim": 91.28
+  },
+  {
+    "texto": "que",
+    "inicio": 91.28,
+    "fim": 91.62
+  },
+  {
+    "texto": "nós",
+    "inicio": 91.62,
+    "fim": 91.76
+  },
+  {
+    "texto": "perdemos",
+    "inicio": 91.76,
+    "fim": 92.18
+  },
+  {
+    "texto": "tempo.",
+    "inicio": 92.18,
+    "fim": 92.48
+  },
+  {
+    "texto": "Por",
+    "inicio": 92.64,
+    "fim": 92.8
+  },
+  {
+    "texto": "quê?",
+    "inicio": 92.8,
+    "fim": 93.06
+  },
+  {
+    "texto": "Qualquer",
+    "inicio": 93.5,
+    "fim": 93.94
+  },
+  {
+    "texto": "mudança",
+    "inicio": 93.94,
+    "fim": 94.54
+  },
+  {
+    "texto": "que",
+    "inicio": 94.54,
+    "fim": 94.68
+  },
+  {
+    "texto": "persistir,",
+    "inicio": 94.68,
+    "fim": 95.44
+  },
+  {
+    "texto": "você",
+    "inicio": 95.46,
+    "fim": 95.78
+  },
+  {
+    "texto": "precisa",
+    "inicio": 95.78,
+    "fim": 96.16
+  },
+  {
+    "texto": "procurar",
+    "inicio": 96.16,
+    "fim": 96.72
+  },
+  {
+    "texto": "o",
+    "inicio": 96.72,
+    "fim": 96.84
+  },
+  {
+    "texto": "seu",
+    "inicio": 96.84,
+    "fim": 96.96
+  },
+  {
+    "texto": "médico.",
+    "inicio": 96.96,
+    "fim": 97.34
+  },
+  {
+    "texto": "Não",
+    "inicio": 97.52,
+    "fim": 97.68
+  },
+  {
+    "texto": "é",
+    "inicio": 97.68,
+    "fim": 97.84
+  },
+  {
+    "texto": "pra",
+    "inicio": 97.84,
+    "fim": 97.98
+  },
+  {
+    "texto": "você",
+    "inicio": 97.98,
+    "fim": 98.26
+  },
+  {
+    "texto": "se",
+    "inicio": 98.26,
+    "fim": 98.46
+  },
+  {
+    "texto": "desesperar,",
+    "inicio": 98.46,
+    "fim": 99.04
+  },
+  {
+    "texto": "é",
+    "inicio": 99.06,
+    "fim": 99.18
+  },
+  {
+    "texto": "pra",
+    "inicio": 99.18,
+    "fim": 99.36
+  },
+  {
+    "texto": "você",
+    "inicio": 99.36,
+    "fim": 99.66
+  },
+  {
+    "texto": "investigar.",
+    "inicio": 99.66,
+    "fim": 100.8
+  },
+  {
+    "texto": "Então",
+    "inicio": 100.84,
+    "fim": 101.1
+  },
+  {
+    "texto": "já",
+    "inicio": 101.1,
+    "fim": 101.28
+  },
+  {
+    "texto": "salva",
+    "inicio": 101.28,
+    "fim": 101.78
+  },
+  {
+    "texto": "esse",
+    "inicio": 101.78,
+    "fim": 101.88
+  },
+  {
+    "texto": "vídeo",
+    "inicio": 101.88,
+    "fim": 102.2
+  },
+  {
+    "texto": "aqui",
+    "inicio": 102.2,
+    "fim": 102.42
+  },
+  {
+    "texto": "pra",
+    "inicio": 102.42,
+    "fim": 102.7
+  },
+  {
+    "texto": "você",
+    "inicio": 102.7,
+    "fim": 102.94
+  },
+  {
+    "texto": "consultar",
+    "inicio": 102.94,
+    "fim": 103.5
+  },
+  {
+    "texto": "sempre",
+    "inicio": 103.5,
+    "fim": 103.8
+  },
+  {
+    "texto": "que",
+    "inicio": 103.8,
+    "fim": 104.1
+  },
+  {
+    "texto": "precisar.",
+    "inicio": 104.1,
+    "fim": 104.64
+  },
+  {
+    "texto": "E",
+    "inicio": 104.68,
+    "fim": 104.82
+  },
+  {
+    "texto": "o",
+    "inicio": 104.82,
+    "fim": 104.9
+  },
+  {
+    "texto": "link",
+    "inicio": 104.9,
+    "fim": 105.2
+  },
+  {
+    "texto": "tá",
+    "inicio": 105.2,
+    "fim": 105.48
+  },
+  {
+    "texto": "aqui",
+    "inicio": 105.48,
+    "fim": 105.72
+  },
+  {
+    "texto": "na",
+    "inicio": 105.72,
+    "fim": 105.88
+  },
+  {
+    "texto": "bio.",
+    "inicio": 105.88,
+    "fim": 106.08
+  }
+]
