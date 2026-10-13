@@ -46,6 +46,8 @@ PALAVRAS_QUE_NAO_FECHAM_LEGENDA = frozenset(
     com por ao aos num numa pelo pela seu sua seus suas meu minha nosso nossa
     esse essa esses essas este esta estes estas aquele aquela aqueles aquelas
     tao tão cada mais menos muito nem sem
+    porque pois porem porém quando enquanto embora caso onde cujo cuja conforme
+    because while when since although whether if unless than
     """.split()
 )
 
@@ -518,7 +520,13 @@ def escrever_transcricao(blocos: list[tuple[float, float, str]], destino: Path) 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Gera legenda SRT de um video ou audio.")
-    parser.add_argument("entrada", type=Path, help="arquivo de video ou audio")
+    parser.add_argument(
+        "entrada",
+        nargs="?",
+        type=Path,
+        default=None,
+        help="arquivo de video ou audio. Dispensavel junto com --palavras",
+    )
     parser.add_argument("--saida", type=Path, default=None, help="caminho do arquivo .srt")
     parser.add_argument("--modelo", default="large-v3", help="modelo do Whisper (large-v3, medium, small)")
     parser.add_argument("--idioma", default="auto", help="codigo do idioma falado, ou auto para reconhecer")
@@ -527,17 +535,31 @@ def main() -> int:
     parser.add_argument("--palavras", type=Path, default=None, help="monta a legenda a partir de um JSON revisado")
     argumentos = parser.parse_args()
 
-    if not argumentos.entrada.exists():
+    if argumentos.entrada is None and argumentos.palavras is None:
+        print("informe o arquivo de entrada, ou --palavras com uma lista ja revisada", file=sys.stderr)
+        return 2
+
+    if argumentos.entrada is not None and not argumentos.entrada.exists():
         print(f"arquivo nao encontrado: {argumentos.entrada}", file=sys.stderr)
         return 1
 
-    for binario in ("ffmpeg", "ffprobe"):
-        if shutil.which(binario) is None:
-            print(f"{binario} nao esta instalado neste ambiente", file=sys.stderr)
-            return 1
+    # Remontar a legenda a partir de um JSON revisado nao depende do audio, que pode
+    # nem estar mais por perto. Sem o arquivo, so nao da para limitar o fim da ultima
+    # legenda pela duracao total.
+    if argumentos.palavras is None:
+        for binario in ("ffmpeg", "ffprobe"):
+            if shutil.which(binario) is None:
+                print(f"{binario} nao esta instalado neste ambiente", file=sys.stderr)
+                return 1
 
-    saida = argumentos.saida or argumentos.entrada.with_suffix(".srt")
-    duracao_total = duracao_do_arquivo(argumentos.entrada)
+    if argumentos.saida:
+        saida = argumentos.saida
+    elif argumentos.entrada is not None:
+        saida = argumentos.entrada.with_suffix(".srt")
+    else:
+        saida = argumentos.palavras.with_suffix(".srt")
+
+    duracao_total = duracao_do_arquivo(argumentos.entrada) if argumentos.entrada is not None else 0.0
 
     if argumentos.palavras:
         print(f"usando as palavras revisadas de {argumentos.palavras}", file=sys.stderr)

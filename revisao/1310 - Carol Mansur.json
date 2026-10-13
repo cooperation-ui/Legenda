@@ -1,0 +1,547 @@
+[
+  {
+    "texto": "Você",
+    "inicio": 0.0,
+    "fim": 0.1
+  },
+  {
+    "texto": "pode",
+    "inicio": 0.1,
+    "fim": 0.42
+  },
+  {
+    "texto": "treinar,",
+    "inicio": 0.42,
+    "fim": 1.06
+  },
+  {
+    "texto": "fazer",
+    "inicio": 1.06,
+    "fim": 1.42
+  },
+  {
+    "texto": "atividade",
+    "inicio": 1.42,
+    "fim": 2.0
+  },
+  {
+    "texto": "física,",
+    "inicio": 2.0,
+    "fim": 2.44
+  },
+  {
+    "texto": "pode",
+    "inicio": 2.88,
+    "fim": 3.1
+  },
+  {
+    "texto": "fazer",
+    "inicio": 3.1,
+    "fim": 3.36
+  },
+  {
+    "texto": "dieta,",
+    "inicio": 3.36,
+    "fim": 3.9
+  },
+  {
+    "texto": "massagem",
+    "inicio": 4.34,
+    "fim": 5.16
+  },
+  {
+    "texto": "e",
+    "inicio": 5.16,
+    "fim": 5.46
+  },
+  {
+    "texto": "nada",
+    "inicio": 5.46,
+    "fim": 5.78
+  },
+  {
+    "texto": "disso",
+    "inicio": 5.78,
+    "fim": 6.12
+  },
+  {
+    "texto": "funciona.",
+    "inicio": 6.12,
+    "fim": 6.56
+  },
+  {
+    "texto": "Gordura",
+    "inicio": 7.04,
+    "fim": 7.68
+  },
+  {
+    "texto": "localizada",
+    "inicio": 7.68,
+    "fim": 8.62
+  },
+  {
+    "texto": "no",
+    "inicio": 8.62,
+    "fim": 9.24
+  },
+  {
+    "texto": "flanco",
+    "inicio": 9.24,
+    "fim": 9.78
+  },
+  {
+    "texto": "e",
+    "inicio": 9.78,
+    "fim": 9.92
+  },
+  {
+    "texto": "no",
+    "inicio": 9.92,
+    "fim": 9.96
+  },
+  {
+    "texto": "culote.",
+    "inicio": 9.96,
+    "fim": 10.56
+  },
+  {
+    "texto": "Eu",
+    "inicio": 10.6,
+    "fim": 10.8
+  },
+  {
+    "texto": "sei",
+    "inicio": 10.8,
+    "fim": 11.02
+  },
+  {
+    "texto": "que",
+    "inicio": 11.02,
+    "fim": 11.14
+  },
+  {
+    "texto": "você,",
+    "inicio": 11.14,
+    "fim": 11.4
+  },
+  {
+    "texto": "mulher",
+    "inicio": 11.4,
+    "fim": 11.66
+  },
+  {
+    "texto": "que",
+    "inicio": 11.66,
+    "fim": 12.12
+  },
+  {
+    "texto": "tem",
+    "inicio": 12.12,
+    "fim": 12.26
+  },
+  {
+    "texto": "mais",
+    "inicio": 12.26,
+    "fim": 12.56
+  },
+  {
+    "texto": "de",
+    "inicio": 12.56,
+    "fim": 12.7
+  },
+  {
+    "texto": "40",
+    "inicio": 12.7,
+    "fim": 12.94
+  },
+  {
+    "texto": "anos,",
+    "inicio": 12.94,
+    "fim": 13.4
+  },
+  {
+    "texto": "tem",
+    "inicio": 13.4,
+    "fim": 13.68
+  },
+  {
+    "texto": "essa",
+    "inicio": 13.68,
+    "fim": 13.96
+  },
+  {
+    "texto": "queixa",
+    "inicio": 13.96,
+    "fim": 14.42
+  },
+  {
+    "texto": "porque",
+    "inicio": 14.42,
+    "fim": 14.64
+  },
+  {
+    "texto": "essa",
+    "inicio": 14.64,
+    "fim": 14.88
+  },
+  {
+    "texto": "gordurinha",
+    "inicio": 14.88,
+    "fim": 15.72
+  },
+  {
+    "texto": "ela",
+    "inicio": 15.72,
+    "fim": 16.12
+  },
+  {
+    "texto": "é",
+    "inicio": 16.12,
+    "fim": 16.34
+  },
+  {
+    "texto": "teimosa.",
+    "inicio": 16.34,
+    "fim": 16.92
+  },
+  {
+    "texto": "Você",
+    "inicio": 17.2,
+    "fim": 17.4
+  },
+  {
+    "texto": "pode",
+    "inicio": 17.4,
+    "fim": 17.7
+  },
+  {
+    "texto": "treinar,",
+    "inicio": 17.7,
+    "fim": 18.28
+  },
+  {
+    "texto": "fazer",
+    "inicio": 18.28,
+    "fim": 18.7
+  },
+  {
+    "texto": "atividade",
+    "inicio": 18.7,
+    "fim": 19.26
+  },
+  {
+    "texto": "física,",
+    "inicio": 19.26,
+    "fim": 19.72
+  },
+  {
+    "texto": "pode",
+    "inicio": 20.08,
+    "fim": 20.38
+  },
+  {
+    "texto": "fazer",
+    "inicio": 20.38,
+    "fim": 20.62
+  },
+  {
+    "texto": "dieta,",
+    "inicio": 20.62,
+    "fim": 21.16
+  },
+  {
+    "texto": "massagem",
+    "inicio": 21.54,
+    "fim": 22.34
+  },
+  {
+    "texto": "e",
+    "inicio": 22.34,
+    "fim": 22.74
+  },
+  {
+    "texto": "nada",
+    "inicio": 22.74,
+    "fim": 23.06
+  },
+  {
+    "texto": "disso",
+    "inicio": 23.06,
+    "fim": 23.42
+  },
+  {
+    "texto": "funciona.",
+    "inicio": 23.42,
+    "fim": 23.84
+  },
+  {
+    "texto": "Mas",
+    "inicio": 24.18,
+    "fim": 24.38
+  },
+  {
+    "texto": "eu",
+    "inicio": 24.38,
+    "fim": 24.58
+  },
+  {
+    "texto": "tenho",
+    "inicio": 24.58,
+    "fim": 24.9
+  },
+  {
+    "texto": "a",
+    "inicio": 24.9,
+    "fim": 25.06
+  },
+  {
+    "texto": "solução",
+    "inicio": 25.06,
+    "fim": 25.56
+  },
+  {
+    "texto": "para",
+    "inicio": 25.56,
+    "fim": 25.76
+  },
+  {
+    "texto": "você.",
+    "inicio": 25.76,
+    "fim": 26.08
+  },
+  {
+    "texto": "Aqui",
+    "inicio": 26.08,
+    "fim": 26.44
+  },
+  {
+    "texto": "na",
+    "inicio": 26.44,
+    "fim": 26.66
+  },
+  {
+    "texto": "clínica",
+    "inicio": 26.66,
+    "fim": 27.2
+  },
+  {
+    "texto": "nós",
+    "inicio": 27.2,
+    "fim": 27.32
+  },
+  {
+    "texto": "temos",
+    "inicio": 27.32,
+    "fim": 27.58
+  },
+  {
+    "texto": "o",
+    "inicio": 27.58,
+    "fim": 27.74
+  },
+  {
+    "texto": "nosso",
+    "inicio": 27.74,
+    "fim": 27.9
+  },
+  {
+    "texto": "queridinho,",
+    "inicio": 27.9,
+    "fim": 28.76
+  },
+  {
+    "texto": "o",
+    "inicio": 28.78,
+    "fim": 28.92
+  },
+  {
+    "texto": "Onyx",
+    "inicio": 28.92,
+    "fim": 29.32
+  },
+  {
+    "texto": "Pro,",
+    "inicio": 29.32,
+    "fim": 29.62
+  },
+  {
+    "texto": "que",
+    "inicio": 29.78,
+    "fim": 29.98
+  },
+  {
+    "texto": "é",
+    "inicio": 29.98,
+    "fim": 30.04
+  },
+  {
+    "texto": "uma",
+    "inicio": 30.04,
+    "fim": 30.12
+  },
+  {
+    "texto": "tecnologia",
+    "inicio": 30.12,
+    "fim": 30.74
+  },
+  {
+    "texto": "que",
+    "inicio": 30.74,
+    "fim": 31.58
+  },
+  {
+    "texto": "vai",
+    "inicio": 31.58,
+    "fim": 31.76
+  },
+  {
+    "texto": "tratar",
+    "inicio": 31.76,
+    "fim": 32.12
+  },
+  {
+    "texto": "a",
+    "inicio": 32.12,
+    "fim": 32.34
+  },
+  {
+    "texto": "gordura",
+    "inicio": 32.34,
+    "fim": 32.84
+  },
+  {
+    "texto": "localizada,",
+    "inicio": 32.84,
+    "fim": 33.5
+  },
+  {
+    "texto": "flacidez,",
+    "inicio": 33.78,
+    "fim": 34.58
+  },
+  {
+    "texto": "celulite,",
+    "inicio": 34.74,
+    "fim": 35.44
+  },
+  {
+    "texto": "melhorar",
+    "inicio": 35.48,
+    "fim": 35.94
+  },
+  {
+    "texto": "o",
+    "inicio": 35.94,
+    "fim": 35.98
+  },
+  {
+    "texto": "seu",
+    "inicio": 35.98,
+    "fim": 36.18
+  },
+  {
+    "texto": "contorno",
+    "inicio": 36.18,
+    "fim": 36.74
+  },
+  {
+    "texto": "corporal,",
+    "inicio": 36.74,
+    "fim": 37.44
+  },
+  {
+    "texto": "isso",
+    "inicio": 37.46,
+    "fim": 37.68
+  },
+  {
+    "texto": "tudo",
+    "inicio": 37.68,
+    "fim": 38.12
+  },
+  {
+    "texto": "sem",
+    "inicio": 38.12,
+    "fim": 38.46
+  },
+  {
+    "texto": "dor.",
+    "inicio": 38.46,
+    "fim": 38.94
+  },
+  {
+    "texto": "Se",
+    "inicio": 39.16,
+    "fim": 39.32
+  },
+  {
+    "texto": "você",
+    "inicio": 39.32,
+    "fim": 39.5
+  },
+  {
+    "texto": "tem",
+    "inicio": 39.5,
+    "fim": 39.8
+  },
+  {
+    "texto": "essas",
+    "inicio": 39.8,
+    "fim": 40.02
+  },
+  {
+    "texto": "queixas,",
+    "inicio": 40.02,
+    "fim": 40.62
+  },
+  {
+    "texto": "clique",
+    "inicio": 40.62,
+    "fim": 40.88
+  },
+  {
+    "texto": "no",
+    "inicio": 40.88,
+    "fim": 41.16
+  },
+  {
+    "texto": "link",
+    "inicio": 41.16,
+    "fim": 41.38
+  },
+  {
+    "texto": "da",
+    "inicio": 41.38,
+    "fim": 41.56
+  },
+  {
+    "texto": "bio",
+    "inicio": 41.56,
+    "fim": 41.76
+  },
+  {
+    "texto": "e",
+    "inicio": 41.76,
+    "fim": 41.96
+  },
+  {
+    "texto": "agende",
+    "inicio": 41.96,
+    "fim": 42.4
+  },
+  {
+    "texto": "a",
+    "inicio": 42.4,
+    "fim": 42.48
+  },
+  {
+    "texto": "sua",
+    "inicio": 42.48,
+    "fim": 42.54
+  },
+  {
+    "texto": "avaliação.",
+    "inicio": 42.54,
+    "fim": 43.08
+  }
+]

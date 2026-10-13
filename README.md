@@ -97,6 +97,13 @@ Edite o campo `texto` da palavra errada no JSON e remonte:
 python3 scripts/transcrever.py videos/meu-video.mp4 --palavras revisao/meu-video.json
 ```
 
+O arquivo de entrada e dispensavel nessa remontagem. Se o video ja saiu do
+repositorio, o JSON basta:
+
+```bash
+python3 scripts/transcrever.py --palavras revisao/meu-video.json --saida legendas/meu-video.srt
+```
+
 ## Versao traduzida, com os mesmos tempos
 
 A legenda traduzida reaproveita a marcacao de tempo da original, bloco por
