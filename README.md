@@ -64,17 +64,59 @@ Com nomes proprios e termos tecnicos informados antes, o reconhecimento acerta
 mais:
 
 ```bash
-python3 scripts/transcrever.py videos/meu-video.mp4 --termos "Legenda, HeyGen, Hyperframes"
+python3 scripts/transcrever.py videos/meu-video.mp4 --termos "Cratheon, HeyGen, Hyperframes"
 ```
 
 Parametros disponiveis:
 
-| Parametro  | Padrao               | Para que serve                                  |
-|------------|----------------------|-------------------------------------------------|
-| `--saida`  | mesmo nome, com .srt | caminho do arquivo de legenda                   |
-| `--modelo` | `large-v3`           | modelo do Whisper (`large-v3`, `medium`, `small`) |
-| `--idioma` | `pt`                 | idioma falado no audio                          |
-| `--termos` | nenhum               | nomes e termos que aparecem na fala             |
+| Parametro            | Padrao               | Para que serve                                      |
+|----------------------|----------------------|-----------------------------------------------------|
+| `--saida`            | mesmo nome, com .srt | caminho do arquivo de legenda                       |
+| `--modelo`           | `large-v3`           | modelo do Whisper (`large-v3`, `medium`, `small`)   |
+| `--idioma`           | `auto`               | idioma falado, ou `auto` para reconhecer            |
+| `--termos`           | nenhum               | nomes e termos que aparecem na fala                 |
+| `--salvar-palavras`  | nenhum               | grava as palavras com tempo em JSON, para revisao   |
+| `--palavras`         | nenhum               | remonta a legenda a partir de um JSON ja revisado   |
+
+Deixe o `--idioma` em `auto`. Forcar um idioma que nao e o da fala produz um
+texto distorcido, porque o modelo tenta encaixar o som em palavras do idioma
+pedido.
+
+## Revisar uma palavra sem transcrever de novo
+
+A transcricao e a parte lenta. Para trocar uma palavra e remontar a legenda em
+segundos, grave a lista de palavras com tempo na primeira passada:
+
+```bash
+python3 scripts/transcrever.py videos/meu-video.mp4 --salvar-palavras revisao/meu-video.json
+```
+
+Edite o campo `texto` da palavra errada no JSON e remonte:
+
+```bash
+python3 scripts/transcrever.py videos/meu-video.mp4 --palavras revisao/meu-video.json
+```
+
+## Conferir a legenda
+
+```bash
+python3 scripts/validar_srt.py legendas/meu-video.srt
+```
+
+O validador verifica numeracao, marcacao de tempo, sobreposicao, duracao,
+numero de linhas e caracteres por linha. Velocidade de leitura acima de 22
+caracteres por segundo sai como aviso, nao como erro, porque depende do ritmo
+da fala.
+
+## Como as legendas sao quebradas
+
+As palavras sao agrupadas em frases e cada frase e dividida em blocos. Entre
+dois blocos vizinhos, o script testa todas as posicoes de corte possiveis e fica
+com a de melhor nota, que prefere, nesta ordem: cortar no fim de uma frase,
+cortar depois de virgula, comecar o bloco seguinte por palavra de ligacao e
+deixar os dois blocos com tamanho parecido. Terminar um bloco em artigo,
+preposicao ou conjuncao e penalizado, para nao separar palavras que se leem
+juntas.
 
 ## Requisitos
 
@@ -89,7 +131,13 @@ pontuacao, maiusculas, acentuacao e quebra de linha.
 
 O que o script nao controla e o reconhecimento errar uma palavra na hora de
 ouvir, o que acontece mais com nomes proprios, girias e termos tecnicos. Por
-isso existe o parametro `--termos` e por isso o `.txt` de transcricao corrida e
-gravado junto, para conferencia rapida.
+isso existe o parametro `--termos`, por isso o `.txt` de transcricao corrida e
+gravado junto e por isso a lista de palavras pode ser revisada em JSON.
+
+Quando um trecho sai duvidoso, o caminho e redecodificar so aquela janela de
+tempo, com busca mais ampla, e cruzar o resultado com outro modelo. Toda troca
+de palavra feita nessa base fica registrada num arquivo de revisao ao lado da
+legenda, como em `legendas/1310 - Cratheon.revisao.md`, com o segundo exato para
+conferir de ouvido.
 
 Em CPU, o processamento leva de 2 a 4 vezes a duracao do audio.
