@@ -156,6 +156,12 @@ def main() -> int:
         if posicao + 1 < len(blocos) and novo_fim > blocos[posicao + 1][0] - MARGEM:
             novo_fim = max(novo_inicio + 0.3, blocos[posicao + 1][0] - MARGEM)
 
+        # Encostar o fim no silencio pode deixar a legenda curta demais. Nesse caso
+        # ela ganha tempo pela frente, ate onde a legenda anterior permitir.
+        if novo_fim - novo_inicio < MIN_DURACAO:
+            limite = ajustados[-1][1] + MARGEM if ajustados else 0.0
+            novo_inicio = max(limite, novo_fim - MIN_DURACAO)
+
         if abs(novo_inicio - inicio) > 0.005 or abs(novo_fim - fim) > 0.005:
             mudancas += 1
             print(

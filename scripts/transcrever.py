@@ -167,7 +167,9 @@ def montar_prompt(idioma: str, termos: str) -> str:
     return f"Names and technical terms spoken in this audio: {termos}."
 
 
-def transcrever(audio: Path, modelo: str, idioma: str, termos: str | None) -> list[Palavra]:
+def transcrever(
+    audio: Path, modelo: str, idioma: str, termos: str | None, usar_vad: bool = True
+) -> list[Palavra]:
     from faster_whisper import WhisperModel
 
     whisper = WhisperModel(modelo, device="cpu", compute_type="int8", cpu_threads=os.cpu_count() or 4)
@@ -184,7 +186,7 @@ def transcrever(audio: Path, modelo: str, idioma: str, termos: str | None) -> li
         language=idioma,
         beam_size=5,
         word_timestamps=True,
-        vad_filter=True,
+        vad_filter=usar_vad,
         condition_on_previous_text=False,
         initial_prompt=montar_prompt(idioma, termos) if termos else None,
         # O initial_prompt vale so para a primeira janela de 30 segundos. Num audio
@@ -602,6 +604,14 @@ def main() -> int:
     parser.add_argument("--modelo", default="large-v3", help="modelo do Whisper (large-v3, medium, small)")
     parser.add_argument("--idioma", default="auto", help="codigo do idioma falado, ou auto para reconhecer")
     parser.add_argument("--termos", default=None, help="nomes proprios e termos tecnicos, separados por virgula")
+    parser.add_argument(
+        "--sem-vad",
+        action="store_true",
+        help=(
+            "desliga o filtro de voz. O filtro corta a primeira palavra quando ela e dita baixo "
+            "na volta da fala, o que aparece em audio com pausas longas"
+        ),
+    )
     parser.add_argument("--salvar-palavras", type=Path, default=None, help="grava as palavras com tempo em JSON")
     parser.add_argument("--palavras", type=Path, default=None, help="monta a legenda a partir de um JSON revisado")
     argumentos = parser.parse_args()
@@ -643,7 +653,13 @@ def main() -> int:
 
             print(f"transcrevendo com o modelo {argumentos.modelo}", file=sys.stderr)
             palavras = remover_repeticoes_de_borda(
-                transcrever(audio, argumentos.modelo, argumentos.idioma, argumentos.termos)
+                transcrever(
+                    audio,
+                    argumentos.modelo,
+                    argumentos.idioma,
+                    argumentos.termos,
+                    usar_vad=not argumentos.sem_vad,
+                )
             )
 
     if not palavras:
