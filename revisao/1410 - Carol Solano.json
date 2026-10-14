@@ -1,0 +1,817 @@
+[
+  {
+    "texto": "Verdade,",
+    "inicio": 0.0,
+    "fim": 0.5
+  },
+  {
+    "texto": "mentira",
+    "inicio": 0.5,
+    "fim": 1.06
+  },
+  {
+    "texto": "ou",
+    "inicio": 1.06,
+    "fim": 1.38
+  },
+  {
+    "texto": "depende?",
+    "inicio": 1.38,
+    "fim": 1.74
+  },
+  {
+    "texto": "O",
+    "inicio": 2.12,
+    "fim": 2.26
+  },
+  {
+    "texto": "ronco",
+    "inicio": 2.26,
+    "fim": 2.62
+  },
+  {
+    "texto": "é",
+    "inicio": 2.62,
+    "fim": 2.86
+  },
+  {
+    "texto": "sinal",
+    "inicio": 2.86,
+    "fim": 3.22
+  },
+  {
+    "texto": "de",
+    "inicio": 3.22,
+    "fim": 3.52
+  },
+  {
+    "texto": "sono",
+    "inicio": 3.52,
+    "fim": 3.86
+  },
+  {
+    "texto": "profundo?",
+    "inicio": 3.86,
+    "fim": 4.5
+  },
+  {
+    "texto": "Mentira!",
+    "inicio": 5.2,
+    "fim": 5.82
+  },
+  {
+    "texto": "Ronco",
+    "inicio": 5.88,
+    "fim": 6.22
+  },
+  {
+    "texto": "indica",
+    "inicio": 6.22,
+    "fim": 6.66
+  },
+  {
+    "texto": "que",
+    "inicio": 6.66,
+    "fim": 6.76
+  },
+  {
+    "texto": "a",
+    "inicio": 6.76,
+    "fim": 6.8
+  },
+  {
+    "texto": "passagem",
+    "inicio": 6.8,
+    "fim": 7.36
+  },
+  {
+    "texto": "do",
+    "inicio": 7.36,
+    "fim": 7.48
+  },
+  {
+    "texto": "ar",
+    "inicio": 7.48,
+    "fim": 7.64
+  },
+  {
+    "texto": "está",
+    "inicio": 7.64,
+    "fim": 7.88
+  },
+  {
+    "texto": "sendo",
+    "inicio": 7.88,
+    "fim": 8.2
+  },
+  {
+    "texto": "dificultada.",
+    "inicio": 8.2,
+    "fim": 9.06
+  },
+  {
+    "texto": "Quem",
+    "inicio": 9.2,
+    "fim": 9.3
+  },
+  {
+    "texto": "ronca",
+    "inicio": 9.3,
+    "fim": 9.66
+  },
+  {
+    "texto": "tende",
+    "inicio": 9.66,
+    "fim": 10.1
+  },
+  {
+    "texto": "a",
+    "inicio": 10.1,
+    "fim": 10.12
+  },
+  {
+    "texto": "ter",
+    "inicio": 10.12,
+    "fim": 10.26
+  },
+  {
+    "texto": "um",
+    "inicio": 10.26,
+    "fim": 10.36
+  },
+  {
+    "texto": "sono",
+    "inicio": 10.36,
+    "fim": 10.58
+  },
+  {
+    "texto": "mais",
+    "inicio": 10.58,
+    "fim": 10.98
+  },
+  {
+    "texto": "fragmentado",
+    "inicio": 10.98,
+    "fim": 11.8
+  },
+  {
+    "texto": "e",
+    "inicio": 11.8,
+    "fim": 11.94
+  },
+  {
+    "texto": "menos",
+    "inicio": 11.94,
+    "fim": 12.2
+  },
+  {
+    "texto": "reparador.",
+    "inicio": 12.2,
+    "fim": 12.74
+  },
+  {
+    "texto": "Café",
+    "inicio": 12.86,
+    "fim": 13.26
+  },
+  {
+    "texto": "à",
+    "inicio": 13.26,
+    "fim": 13.34
+  },
+  {
+    "texto": "tarde",
+    "inicio": 13.34,
+    "fim": 13.7
+  },
+  {
+    "texto": "atrapalha",
+    "inicio": 13.7,
+    "fim": 14.3
+  },
+  {
+    "texto": "o",
+    "inicio": 14.3,
+    "fim": 14.36
+  },
+  {
+    "texto": "sono?",
+    "inicio": 14.36,
+    "fim": 14.62
+  },
+  {
+    "texto": "Verdade!",
+    "inicio": 14.86,
+    "fim": 15.48
+  },
+  {
+    "texto": "A",
+    "inicio": 15.56,
+    "fim": 15.74
+  },
+  {
+    "texto": "cafeína",
+    "inicio": 15.74,
+    "fim": 16.12
+  },
+  {
+    "texto": "permanece",
+    "inicio": 16.12,
+    "fim": 16.84
+  },
+  {
+    "texto": "ativa",
+    "inicio": 16.84,
+    "fim": 17.34
+  },
+  {
+    "texto": "por",
+    "inicio": 17.34,
+    "fim": 17.5
+  },
+  {
+    "texto": "até",
+    "inicio": 17.5,
+    "fim": 17.7
+  },
+  {
+    "texto": "6",
+    "inicio": 17.7,
+    "fim": 18.08
+  },
+  {
+    "texto": "horas",
+    "inicio": 18.08,
+    "fim": 18.42
+  },
+  {
+    "texto": "no",
+    "inicio": 18.42,
+    "fim": 18.64
+  },
+  {
+    "texto": "organismo",
+    "inicio": 18.64,
+    "fim": 19.06
+  },
+  {
+    "texto": "e",
+    "inicio": 19.06,
+    "fim": 19.22
+  },
+  {
+    "texto": "pode",
+    "inicio": 19.22,
+    "fim": 19.56
+  },
+  {
+    "texto": "comprometer",
+    "inicio": 19.56,
+    "fim": 20.18
+  },
+  {
+    "texto": "a",
+    "inicio": 20.18,
+    "fim": 20.36
+  },
+  {
+    "texto": "qualidade",
+    "inicio": 20.36,
+    "fim": 20.56
+  },
+  {
+    "texto": "do",
+    "inicio": 20.56,
+    "fim": 21.0
+  },
+  {
+    "texto": "sono,",
+    "inicio": 21.0,
+    "fim": 21.28
+  },
+  {
+    "texto": "mesmo",
+    "inicio": 21.34,
+    "fim": 21.6
+  },
+  {
+    "texto": "quando",
+    "inicio": 21.6,
+    "fim": 21.8
+  },
+  {
+    "texto": "você",
+    "inicio": 21.8,
+    "fim": 22.1
+  },
+  {
+    "texto": "consegue",
+    "inicio": 22.1,
+    "fim": 22.54
+  },
+  {
+    "texto": "adormecer.",
+    "inicio": 22.54,
+    "fim": 23.14
+  },
+  {
+    "texto": "Melatonina",
+    "inicio": 23.44,
+    "fim": 24.06
+  },
+  {
+    "texto": "resolve",
+    "inicio": 24.06,
+    "fim": 24.54
+  },
+  {
+    "texto": "insônia?",
+    "inicio": 24.54,
+    "fim": 25.18
+  },
+  {
+    "texto": "Depende.",
+    "inicio": 25.36,
+    "fim": 25.88
+  },
+  {
+    "texto": "Melatonina",
+    "inicio": 25.88,
+    "fim": 26.56
+  },
+  {
+    "texto": "sinaliza",
+    "inicio": 26.56,
+    "fim": 27.24
+  },
+  {
+    "texto": "que",
+    "inicio": 27.24,
+    "fim": 27.32
+  },
+  {
+    "texto": "está",
+    "inicio": 27.32,
+    "fim": 27.5
+  },
+  {
+    "texto": "na",
+    "inicio": 27.5,
+    "fim": 27.7
+  },
+  {
+    "texto": "hora",
+    "inicio": 27.7,
+    "fim": 27.92
+  },
+  {
+    "texto": "de",
+    "inicio": 27.92,
+    "fim": 28.12
+  },
+  {
+    "texto": "dormir,",
+    "inicio": 28.12,
+    "fim": 28.4
+  },
+  {
+    "texto": "mas",
+    "inicio": 28.54,
+    "fim": 28.84
+  },
+  {
+    "texto": "se",
+    "inicio": 28.84,
+    "fim": 28.96
+  },
+  {
+    "texto": "a",
+    "inicio": 28.96,
+    "fim": 29.04
+  },
+  {
+    "texto": "causa",
+    "inicio": 29.04,
+    "fim": 29.32
+  },
+  {
+    "texto": "da",
+    "inicio": 29.32,
+    "fim": 29.46
+  },
+  {
+    "texto": "insônia",
+    "inicio": 29.46,
+    "fim": 29.78
+  },
+  {
+    "texto": "for",
+    "inicio": 29.78,
+    "fim": 30.0
+  },
+  {
+    "texto": "apneia,",
+    "inicio": 30.0,
+    "fim": 30.6
+  },
+  {
+    "texto": "rinite",
+    "inicio": 30.64,
+    "fim": 31.02
+  },
+  {
+    "texto": "ou",
+    "inicio": 31.02,
+    "fim": 31.18
+  },
+  {
+    "texto": "cortisol",
+    "inicio": 31.18,
+    "fim": 31.54
+  },
+  {
+    "texto": "elevado,",
+    "inicio": 31.54,
+    "fim": 32.32
+  },
+  {
+    "texto": "ela",
+    "inicio": 32.38,
+    "fim": 32.6
+  },
+  {
+    "texto": "não",
+    "inicio": 32.6,
+    "fim": 32.82
+  },
+  {
+    "texto": "trata",
+    "inicio": 32.82,
+    "fim": 33.1
+  },
+  {
+    "texto": "o",
+    "inicio": 33.1,
+    "fim": 33.24
+  },
+  {
+    "texto": "problema.",
+    "inicio": 33.24,
+    "fim": 33.5
+  },
+  {
+    "texto": "8",
+    "inicio": 33.68,
+    "fim": 33.8
+  },
+  {
+    "texto": "horas",
+    "inicio": 33.8,
+    "fim": 34.06
+  },
+  {
+    "texto": "de",
+    "inicio": 34.06,
+    "fim": 34.28
+  },
+  {
+    "texto": "sono",
+    "inicio": 34.28,
+    "fim": 34.5
+  },
+  {
+    "texto": "é",
+    "inicio": 34.5,
+    "fim": 34.74
+  },
+  {
+    "texto": "suficiente",
+    "inicio": 34.74,
+    "fim": 35.06
+  },
+  {
+    "texto": "para",
+    "inicio": 35.06,
+    "fim": 35.54
+  },
+  {
+    "texto": "todo",
+    "inicio": 35.54,
+    "fim": 35.72
+  },
+  {
+    "texto": "mundo?",
+    "inicio": 35.72,
+    "fim": 36.0
+  },
+  {
+    "texto": "Depende.",
+    "inicio": 36.2,
+    "fim": 36.64
+  },
+  {
+    "texto": "O",
+    "inicio": 36.7,
+    "fim": 36.8
+  },
+  {
+    "texto": "que",
+    "inicio": 36.8,
+    "fim": 36.88
+  },
+  {
+    "texto": "determina",
+    "inicio": 36.88,
+    "fim": 37.42
+  },
+  {
+    "texto": "se",
+    "inicio": 37.42,
+    "fim": 37.54
+  },
+  {
+    "texto": "o",
+    "inicio": 37.54,
+    "fim": 37.66
+  },
+  {
+    "texto": "sono",
+    "inicio": 37.66,
+    "fim": 37.88
+  },
+  {
+    "texto": "foi",
+    "inicio": 37.88,
+    "fim": 38.08
+  },
+  {
+    "texto": "suficiente",
+    "inicio": 38.08,
+    "fim": 38.5
+  },
+  {
+    "texto": "é",
+    "inicio": 38.5,
+    "fim": 38.96
+  },
+  {
+    "texto": "a",
+    "inicio": 38.96,
+    "fim": 39.1
+  },
+  {
+    "texto": "qualidade,",
+    "inicio": 39.1,
+    "fim": 39.46
+  },
+  {
+    "texto": "não",
+    "inicio": 39.76,
+    "fim": 39.92
+  },
+  {
+    "texto": "apenas",
+    "inicio": 39.92,
+    "fim": 40.32
+  },
+  {
+    "texto": "a",
+    "inicio": 40.32,
+    "fim": 40.56
+  },
+  {
+    "texto": "quantidade.",
+    "inicio": 40.56,
+    "fim": 40.82
+  },
+  {
+    "texto": "Dá",
+    "inicio": 41.26,
+    "fim": 41.36
+  },
+  {
+    "texto": "para",
+    "inicio": 41.36,
+    "fim": 41.5
+  },
+  {
+    "texto": "dormir",
+    "inicio": 41.5,
+    "fim": 41.76
+  },
+  {
+    "texto": "8",
+    "inicio": 41.76,
+    "fim": 41.98
+  },
+  {
+    "texto": "horas",
+    "inicio": 41.98,
+    "fim": 42.34
+  },
+  {
+    "texto": "e",
+    "inicio": 42.34,
+    "fim": 42.46
+  },
+  {
+    "texto": "acordar",
+    "inicio": 42.46,
+    "fim": 42.82
+  },
+  {
+    "texto": "cansado.",
+    "inicio": 42.82,
+    "fim": 43.26
+  },
+  {
+    "texto": "Exercício",
+    "inicio": 43.38,
+    "fim": 43.82
+  },
+  {
+    "texto": "físico",
+    "inicio": 43.82,
+    "fim": 44.18
+  },
+  {
+    "texto": "melhora",
+    "inicio": 44.18,
+    "fim": 44.54
+  },
+  {
+    "texto": "o",
+    "inicio": 44.54,
+    "fim": 44.9
+  },
+  {
+    "texto": "sono?",
+    "inicio": 44.9,
+    "fim": 45.2
+  },
+  {
+    "texto": "Verdade.",
+    "inicio": 45.48,
+    "fim": 45.92
+  },
+  {
+    "texto": "Treino",
+    "inicio": 46.08,
+    "fim": 46.38
+  },
+  {
+    "texto": "regular,",
+    "inicio": 46.38,
+    "fim": 46.72
+  },
+  {
+    "texto": "especialmente",
+    "inicio": 46.88,
+    "fim": 47.18
+  },
+  {
+    "texto": "pela",
+    "inicio": 47.18,
+    "fim": 47.7
+  },
+  {
+    "texto": "manhã,",
+    "inicio": 47.7,
+    "fim": 48.16
+  },
+  {
+    "texto": "tende",
+    "inicio": 48.22,
+    "fim": 48.62
+  },
+  {
+    "texto": "a",
+    "inicio": 48.62,
+    "fim": 48.66
+  },
+  {
+    "texto": "aumentar",
+    "inicio": 48.66,
+    "fim": 48.86
+  },
+  {
+    "texto": "o",
+    "inicio": 48.86,
+    "fim": 49.14
+  },
+  {
+    "texto": "tempo",
+    "inicio": 49.14,
+    "fim": 49.42
+  },
+  {
+    "texto": "de",
+    "inicio": 49.42,
+    "fim": 49.54
+  },
+  {
+    "texto": "sono",
+    "inicio": 49.54,
+    "fim": 49.7
+  },
+  {
+    "texto": "profundo",
+    "inicio": 49.7,
+    "fim": 50.28
+  },
+  {
+    "texto": "e",
+    "inicio": 50.28,
+    "fim": 50.44
+  },
+  {
+    "texto": "facilitar",
+    "inicio": 50.44,
+    "fim": 51.04
+  },
+  {
+    "texto": "o",
+    "inicio": 51.04,
+    "fim": 51.2
+  },
+  {
+    "texto": "processo",
+    "inicio": 51.2,
+    "fim": 51.54
+  },
+  {
+    "texto": "de",
+    "inicio": 51.54,
+    "fim": 51.92
+  },
+  {
+    "texto": "adormecer",
+    "inicio": 51.92,
+    "fim": 52.5
+  },
+  {
+    "texto": "à",
+    "inicio": 52.5,
+    "fim": 52.66
+  },
+  {
+    "texto": "noite.",
+    "inicio": 52.66,
+    "fim": 52.84
+  },
+  {
+    "texto": "Para",
+    "inicio": 53.0,
+    "fim": 53.18
+  },
+  {
+    "texto": "mais",
+    "inicio": 53.18,
+    "fim": 53.38
+  },
+  {
+    "texto": "dicas",
+    "inicio": 53.38,
+    "fim": 53.74
+  },
+  {
+    "texto": "como",
+    "inicio": 53.74,
+    "fim": 53.96
+  },
+  {
+    "texto": "essa,",
+    "inicio": 53.96,
+    "fim": 54.28
+  },
+  {
+    "texto": "me",
+    "inicio": 54.34,
+    "fim": 54.44
+  },
+  {
+    "texto": "segue",
+    "inicio": 54.44,
+    "fim": 54.7
+  },
+  {
+    "texto": "aqui",
+    "inicio": 54.7,
+    "fim": 54.86
+  },
+  {
+    "texto": "no",
+    "inicio": 54.86,
+    "fim": 55.02
+  },
+  {
+    "texto": "Instagram.",
+    "inicio": 55.02,
+    "fim": 55.36
+  },
+  {
+    "texto": "Beijo!",
+    "inicio": 55.88,
+    "fim": 56.54
+  }
+]
