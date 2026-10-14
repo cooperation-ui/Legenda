@@ -54,6 +54,24 @@ video. Quando o audio e o roteiro divergem, redecodifique a janela. Se a palavra
 estiver no audio, ela fica na legenda mesmo fora do roteiro, e a divergencia vai
 registrada na nota de revisao.
 
+## Audio longo, com pausas e sotaque
+
+Tres coisas que so aparecem em arquivo longo, aprendidas na aula de 33 minutos
+do Dr. Igor:
+
+1. O vocabulario de `--termos` vai em `hotwords`, reaplicado em todas as janelas
+   de 30 segundos. O `initial_prompt` sozinho vale so para a primeira.
+2. O filtro de voz come a primeira palavra quando ela e dita baixo na volta da
+   fala. Em audio com pausas longas, rode tambem com `--sem-vad` e compare as
+   duas passadas com `difflib`. Onde elas divergirem, decodifique a janela uma
+   terceira vez, curta e com busca mais ampla, e deixe essa leitura decidir.
+3. Depois de montar, rode `scripts/ajustar_sincronia.py` para encostar os tempos
+   na borda da fala. Ele tambem avisa quando uma legenda cai dentro de um
+   silencio longo, que e sinal de palavra inventada.
+
+Nenhuma legenda pode conter uma pausa de fala no meio, e nenhuma palavra pode se
+estender por cima de um silencio. As duas regras ja estao no gerador.
+
 ## Como e o fluxo
 
 ```bash

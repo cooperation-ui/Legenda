@@ -162,26 +162,26 @@
   {
     "texto": "and",
     "inicio": 17.8,
-    "fim": 17.96
+    "fim": 18.076
   },
   {
     "texto": "so",
-    "inicio": 17.96,
-    "fim": 18.02
+    "inicio": 18.076,
+    "fim": 18.352
   },
   {
-    "texto": "from",
-    "inicio": 18.02,
-    "fim": 18.24
+    "texto": "for",
+    "inicio": 18.352,
+    "fim": 18.628
   },
   {
     "texto": "about",
-    "inicio": 18.24,
-    "fim": 18.64
+    "inicio": 18.628,
+    "fim": 18.904
   },
   {
     "texto": "2015",
-    "inicio": 18.64,
+    "inicio": 18.904,
     "fim": 19.18
   },
   {
@@ -1707,26 +1707,26 @@
   {
     "texto": "room",
     "inicio": 126.04,
-    "fim": 126.34
+    "fim": 126.32
   },
   {
     "texto": "to",
-    "inicio": 126.34,
+    "inicio": 126.32,
     "fim": 127.1
   },
   {
     "texto": "reduce",
     "inicio": 127.1,
-    "fim": 127.7
+    "fim": 127.72
   },
   {
     "texto": "the",
-    "inicio": 127.7,
-    "fim": 127.94
+    "inicio": 127.72,
+    "fim": 127.92
   },
   {
     "texto": "intestine",
-    "inicio": 127.94,
+    "inicio": 127.92,
     "fim": 128.16
   },
   {
@@ -1755,18 +1755,53 @@
     "fim": 129.64
   },
   {
-    "texto": "I",
+    "texto": "repair",
     "inicio": 129.64,
-    "fim": 130.02
+    "fim": 129.94
+  },
+  {
+    "texto": "that",
+    "inicio": 129.94,
+    "fim": 130.22
+  },
+  {
+    "texto": "defect",
+    "inicio": 130.22,
+    "fim": 130.62
+  },
+  {
+    "texto": "in",
+    "inicio": 130.62,
+    "fim": 130.84
+  },
+  {
+    "texto": "the",
+    "inicio": 130.84,
+    "fim": 130.9
+  },
+  {
+    "texto": "posterior",
+    "inicio": 130.9,
+    "fim": 131.18
+  },
+  {
+    "texto": "layer.",
+    "inicio": 131.18,
+    "fim": 131.48
+  },
+  {
+    "texto": "I",
+    "inicio": 131.48,
+    "fim": 131.58
   },
   {
     "texto": "would",
-    "inicio": 130.02,
-    "fim": 131.84
+    "inicio": 131.58,
+    "fim": 133.94
   },
   {
     "texto": "say",
-    "inicio": 131.84,
+    "inicio": 133.94,
     "fim": 135.14
   },
   {
@@ -2402,26 +2437,26 @@
   {
     "texto": "linea",
     "inicio": 183.86,
-    "fim": 184.18
+    "fim": 184.164
   },
   {
-    "texto": "semilaris",
-    "inicio": 184.18,
-    "fim": 184.66
+    "texto": "semilunaris",
+    "inicio": 184.164,
+    "fim": 184.468
   },
   {
     "texto": "to",
-    "inicio": 184.66,
-    "fim": 184.74
+    "inicio": 184.468,
+    "fim": 184.772
   },
   {
     "texto": "linea",
-    "inicio": 184.74,
-    "fim": 185.02
+    "inicio": 184.772,
+    "fim": 185.076
   },
   {
-    "texto": "semilaris,",
-    "inicio": 185.02,
+    "texto": "semilunaris",
+    "inicio": 185.076,
     "fim": 185.38
   },
   {
@@ -3070,27 +3105,27 @@
     "fim": 228.68
   },
   {
-    "texto": "lignis",
+    "texto": "linea",
     "inicio": 228.68,
-    "fim": 228.94
+    "fim": 228.92
   },
   {
-    "texto": "similare",
-    "inicio": 228.94,
-    "fim": 229.24
+    "texto": "semilunaris",
+    "inicio": 228.92,
+    "fim": 229.16
   },
   {
     "texto": "to",
-    "inicio": 229.24,
-    "fim": 229.38
+    "inicio": 229.16,
+    "fim": 229.4
   },
   {
-    "texto": "lignis",
-    "inicio": 229.38,
+    "texto": "linea",
+    "inicio": 229.4,
     "fim": 229.64
   },
   {
-    "texto": "similare,",
+    "texto": "semilunaris",
     "inicio": 229.64,
     "fim": 229.88
   },
@@ -4637,11 +4672,11 @@
   {
     "texto": "retrorectus",
     "inicio": 341.5,
-    "fim": 341.94
+    "fim": 341.96
   },
   {
     "texto": "dissection,",
-    "inicio": 341.94,
+    "inicio": 341.96,
     "fim": 342.42
   },
   {
@@ -4652,41 +4687,56 @@
   {
     "texto": "you",
     "inicio": 342.72,
-    "fim": 342.96
+    "fim": 342.98
   },
   {
     "texto": "commit",
-    "inicio": 342.96,
+    "inicio": 342.98,
     "fim": 343.18
   },
   {
     "texto": "yourself",
     "inicio": 343.18,
-    "fim": 343.5
+    "fim": 343.52
   },
   {
     "texto": "to",
-    "inicio": 343.5,
-    "fim": 344.14
+    "inicio": 343.52,
+    "fim": 344.1
   },
   {
     "texto": "closing",
-    "inicio": 344.14,
+    "inicio": 344.1,
     "fim": 344.42
   },
   {
-    "texto": "You",
+    "texto": "posterior",
     "inicio": 344.42,
-    "fim": 345.04
+    "fim": 344.86
+  },
+  {
+    "texto": "rectus",
+    "inicio": 344.86,
+    "fim": 345.06
+  },
+  {
+    "texto": "sheath,",
+    "inicio": 345.06,
+    "fim": 345.22
+  },
+  {
+    "texto": "you",
+    "inicio": 345.28,
+    "fim": 345.4
   },
   {
     "texto": "have",
-    "inicio": 345.04,
-    "fim": 345.64
+    "inicio": 345.4,
+    "fim": 345.74
   },
   {
     "texto": "to",
-    "inicio": 345.64,
+    "inicio": 345.74,
     "fim": 345.98
   },
   {
@@ -4697,22 +4747,22 @@
   {
     "texto": "the",
     "inicio": 346.32,
-    "fim": 346.56
+    "fim": 346.58
   },
   {
     "texto": "whole",
-    "inicio": 346.56,
+    "inicio": 346.58,
     "fim": 347.1
   },
   {
     "texto": "posterior",
     "inicio": 347.1,
-    "fim": 348.58
+    "fim": 348.62
   },
   {
     "texto": "layer",
-    "inicio": 348.58,
-    "fim": 349.02
+    "inicio": 348.62,
+    "fim": 349.04
   },
   {
     "texto": "and",
@@ -7372,26 +7422,46 @@
   {
     "texto": "put",
     "inicio": 539.4,
-    "fim": 539.88
+    "fim": 539.744
   },
   {
     "texto": "more",
-    "inicio": 539.88,
-    "fim": 540.36
+    "inicio": 539.744,
+    "fim": 540.089
   },
   {
-    "texto": "We",
-    "inicio": 540.36,
-    "fim": 540.92
+    "texto": "tension",
+    "inicio": 540.089,
+    "fim": 540.433
+  },
+  {
+    "texto": "on,",
+    "inicio": 540.433,
+    "fim": 540.778
+  },
+  {
+    "texto": "especially",
+    "inicio": 540.778,
+    "fim": 541.122
+  },
+  {
+    "texto": "when",
+    "inicio": 541.122,
+    "fim": 541.467
+  },
+  {
+    "texto": "we",
+    "inicio": 541.467,
+    "fim": 541.811
   },
   {
     "texto": "are",
-    "inicio": 540.92,
-    "fim": 540.96
+    "inicio": 541.811,
+    "fim": 542.156
   },
   {
     "texto": "doing",
-    "inicio": 540.96,
+    "inicio": 542.156,
     "fim": 542.5
   },
   {
@@ -7695,18 +7765,18 @@
     "fim": 565.98
   },
   {
-    "texto": "linear",
+    "texto": "linea",
     "inicio": 565.98,
-    "fim": 566.18
+    "fim": 566.36
   },
   {
     "texto": "semilunaris",
-    "inicio": 566.18,
-    "fim": 566.76
+    "inicio": 566.36,
+    "fim": 566.74
   },
   {
     "texto": "together",
-    "inicio": 566.76,
+    "inicio": 566.74,
     "fim": 567.12
   },
   {
@@ -7737,36 +7807,46 @@
   {
     "texto": "the",
     "inicio": 569.9,
-    "fim": 570.0
+    "fim": 569.982
   },
   {
     "texto": "posterior",
-    "inicio": 570.0,
-    "fim": 570.28
+    "inicio": 569.982,
+    "fim": 570.064
   },
   {
-    "texto": "forces",
-    "inicio": 570.28,
-    "fim": 570.34
+    "texto": "rectus",
+    "inicio": 570.064,
+    "fim": 570.147
   },
   {
-    "texto": "are",
-    "inicio": 570.34,
-    "fim": 570.34
+    "texto": "sheath",
+    "inicio": 570.147,
+    "fim": 570.229
   },
   {
-    "texto": "together.",
-    "inicio": 570.34,
-    "fim": 570.34
+    "texto": "is",
+    "inicio": 570.229,
+    "fim": 570.311
   },
   {
-    "texto": "The",
-    "inicio": 570.36,
-    "fim": 570.48
+    "texto": "not",
+    "inicio": 570.311,
+    "fim": 570.393
+  },
+  {
+    "texto": "reloaded,",
+    "inicio": 570.393,
+    "fim": 570.476
+  },
+  {
+    "texto": "the",
+    "inicio": 570.476,
+    "fim": 570.558
   },
   {
     "texto": "shape",
-    "inicio": 570.48,
+    "inicio": 570.558,
     "fim": 570.64
   },
   {
@@ -7895,13 +7975,13 @@
     "fim": 582.0
   },
   {
-    "texto": "the",
+    "texto": "linea",
     "inicio": 582.0,
-    "fim": 582.08
+    "fim": 582.31
   },
   {
-    "texto": "inseminaries",
-    "inicio": 582.08,
+    "texto": "semilunaris",
+    "inicio": 582.31,
     "fim": 582.62
   },
   {
@@ -8105,13 +8185,13 @@
     "fim": 601.24
   },
   {
-    "texto": "lenient",
+    "texto": "linea",
     "inicio": 601.24,
-    "fim": 601.5
+    "fim": 601.54
   },
   {
-    "texto": "semilitis",
-    "inicio": 601.5,
+    "texto": "semilunaris",
+    "inicio": 601.54,
     "fim": 601.84
   },
   {
@@ -8725,7 +8805,7 @@
     "fim": 654.74
   },
   {
-    "texto": "placate",
+    "texto": "plicate",
     "inicio": 654.74,
     "fim": 655.32
   },
@@ -8810,13 +8890,13 @@
     "fim": 660.08
   },
   {
-    "texto": "wide",
+    "texto": "wider",
     "inicio": 660.08,
-    "fim": 660.24
+    "fim": 660.37
   },
   {
     "texto": "retrorectus",
-    "inicio": 660.24,
+    "inicio": 660.37,
     "fim": 660.66
   },
   {
@@ -8862,11 +8942,11 @@
   {
     "texto": "your",
     "inicio": 665.3,
-    "fim": 665.54
+    "fim": 665.68
   },
   {
-    "texto": "semilunars",
-    "inicio": 665.54,
+    "texto": "semilunaris",
+    "inicio": 665.68,
     "fim": 666.06
   },
   {
@@ -8990,13 +9070,13 @@
     "fim": 674.56
   },
   {
-    "texto": "it",
+    "texto": "it's",
     "inicio": 674.56,
-    "fim": 675.06
+    "fim": 674.91
   },
   {
-    "texto": "sees",
-    "inicio": 675.06,
+    "texto": "easy",
+    "inicio": 674.91,
     "fim": 675.26
   },
   {
@@ -9807,21 +9887,21 @@
   {
     "texto": "tension",
     "inicio": 743.78,
-    "fim": 744.14
+    "fim": 744.185
   },
   {
-    "texto": "or",
-    "inicio": 744.14,
-    "fim": 744.6
+    "texto": "horizontal",
+    "inicio": 744.185,
+    "fim": 744.59
   },
   {
-    "texto": "Zolomatcha",
-    "inicio": 744.6,
-    "fim": 745.24
+    "texto": "mattress",
+    "inicio": 744.59,
+    "fim": 744.995
   },
   {
-    "texto": "stitch,",
-    "inicio": 745.24,
+    "texto": "stitch",
+    "inicio": 744.995,
     "fim": 745.4
   },
   {
@@ -9857,26 +9937,26 @@
   {
     "texto": "use",
     "inicio": 748.26,
-    "fim": 748.76
+    "fim": 748.78
   },
   {
     "texto": "a",
-    "inicio": 748.76,
-    "fim": 749.0
+    "inicio": 748.78,
+    "fim": 749.085
   },
   {
-    "texto": "two",
-    "inicio": 749.0,
-    "fim": 749.22
+    "texto": "2-0",
+    "inicio": 749.085,
+    "fim": 749.39
   },
   {
-    "texto": "-opprolene",
-    "inicio": 749.22,
-    "fim": 749.7
+    "texto": "Prolene",
+    "inicio": 749.39,
+    "fim": 749.695
   },
   {
     "texto": "stitch",
-    "inicio": 749.7,
+    "inicio": 749.695,
     "fim": 750.0
   },
   {
@@ -9887,56 +9967,81 @@
   {
     "texto": "SH",
     "inicio": 750.72,
-    "fim": 751.24
+    "fim": 751.22
   },
   {
     "texto": "needle.",
-    "inicio": 751.24,
-    "fim": 751.6
+    "inicio": 751.22,
+    "fim": 751.867
   },
   {
     "texto": "Typically,",
-    "inicio": 751.78,
-    "fim": 752.0
+    "inicio": 751.867,
+    "fim": 752.513
   },
   {
-    "texto": "one",
-    "inicio": 752.28,
-    "fim": 753.86
+    "texto": "those",
+    "inicio": 752.513,
+    "fim": 753.16
   },
   {
-    "texto": "stitch",
-    "inicio": 753.86,
-    "fim": 755.06
+    "texto": "stitches",
+    "inicio": 753.16,
+    "fim": 753.5
   },
   {
-    "texto": "comes",
-    "inicio": 755.06,
-    "fim": 755.28
+    "texto": "come",
+    "inicio": 753.5,
+    "fim": 753.82
   },
   {
     "texto": "with",
-    "inicio": 755.28,
-    "fim": 755.5
+    "inicio": 753.82,
+    "fim": 754.135
+  },
+  {
+    "texto": "two.",
+    "inicio": 754.135,
+    "fim": 754.45
+  },
+  {
+    "texto": "One",
+    "inicio": 754.45,
+    "fim": 754.765
+  },
+  {
+    "texto": "stitch",
+    "inicio": 754.765,
+    "fim": 755.08
+  },
+  {
+    "texto": "comes",
+    "inicio": 755.08,
+    "fim": 755.32
+  },
+  {
+    "texto": "with",
+    "inicio": 755.32,
+    "fim": 755.52
   },
   {
     "texto": "two",
-    "inicio": 755.5,
-    "fim": 755.66
+    "inicio": 755.52,
+    "fim": 755.93
   },
   {
     "texto": "needles.",
-    "inicio": 755.66,
-    "fim": 755.96
+    "inicio": 755.93,
+    "fim": 756.34
   },
   {
     "texto": "It's",
-    "inicio": 756.46,
-    "fim": 757.02
+    "inicio": 756.34,
+    "fim": 756.75
   },
   {
     "texto": "about",
-    "inicio": 757.02,
+    "inicio": 756.75,
     "fim": 757.16
   },
   {
@@ -9947,16 +10052,16 @@
   {
     "texto": "centimeters",
     "inicio": 757.58,
-    "fim": 757.98
+    "fim": 758.093
   },
   {
     "texto": "long,",
-    "inicio": 757.98,
-    "fim": 758.4
+    "inicio": 758.093,
+    "fim": 758.607
   },
   {
     "texto": "and",
-    "inicio": 758.58,
+    "inicio": 758.607,
     "fim": 759.12
   },
   {
@@ -10527,21 +10632,21 @@
   {
     "texto": "where",
     "inicio": 797.74,
-    "fim": 798.06
+    "fim": 797.96
   },
   {
     "texto": "the",
-    "inicio": 798.06,
-    "fim": 798.22
+    "inicio": 797.96,
+    "fim": 798.18
   },
   {
-    "texto": "bell",
-    "inicio": 798.22,
-    "fim": 798.44
+    "texto": "bowel",
+    "inicio": 798.18,
+    "fim": 798.4
   },
   {
     "texto": "was",
-    "inicio": 798.44,
+    "inicio": 798.4,
     "fim": 798.62
   },
   {
@@ -12765,23 +12870,13 @@
     "fim": 975.79
   },
   {
-    "texto": "change",
+    "texto": "transversus",
     "inicio": 975.79,
-    "fim": 975.99
+    "fim": 976.3
   },
   {
-    "texto": "versus",
-    "inicio": 975.99,
-    "fim": 976.33
-  },
-  {
-    "texto": "some",
-    "inicio": 976.33,
-    "fim": 976.51
-  },
-  {
-    "texto": "downless",
-    "inicio": 976.51,
+    "texto": "abdominis",
+    "inicio": 976.3,
     "fim": 976.81
   },
   {
@@ -14425,18 +14520,18 @@
     "fim": 1114.77
   },
   {
-    "texto": "abdominal",
+    "texto": "abdominis",
     "inicio": 1114.77,
-    "fim": 1115.05
+    "fim": 1115.083
   },
   {
-    "texto": "mass",
-    "inicio": 1115.05,
-    "fim": 1115.37
+    "texto": "muscle",
+    "inicio": 1115.083,
+    "fim": 1115.397
   },
   {
     "texto": "release",
-    "inicio": 1115.37,
+    "inicio": 1115.397,
     "fim": 1115.71
   },
   {
@@ -16971,108 +17066,128 @@
   },
   {
     "texto": "preperitoneal",
-    "inicio": 1332.89,
-    "fim": 1334.29
+    "inicio": 1332.9,
+    "fim": 1334.28
   },
   {
     "texto": "space",
-    "inicio": 1334.29,
-    "fim": 1334.59
+    "inicio": 1334.28,
+    "fim": 1334.58
   },
   {
     "texto": "for",
-    "inicio": 1334.59,
-    "fim": 1334.95
+    "inicio": 1334.58,
+    "fim": 1334.94
   },
   {
     "texto": "one",
-    "inicio": 1334.95,
-    "fim": 1335.07
+    "inicio": 1334.94,
+    "fim": 1335.08
   },
   {
     "texto": "reason",
-    "inicio": 1335.07,
-    "fim": 1335.33
+    "inicio": 1335.08,
+    "fim": 1335.32
   },
   {
     "texto": "or",
-    "inicio": 1335.33,
-    "fim": 1335.43
+    "inicio": 1335.32,
+    "fim": 1335.44
   },
   {
     "texto": "another",
-    "inicio": 1335.43,
-    "fim": 1335.55
+    "inicio": 1335.44,
+    "fim": 1335.54
   },
   {
     "texto": "because",
-    "inicio": 1335.55,
-    "fim": 1335.81
-  },
-  {
-    "texto": "peritoneum",
-    "inicio": 1335.81,
-    "fim": 1336.27
-  },
-  {
-    "texto": "in",
-    "inicio": 1336.27,
-    "fim": 1336.27
-  },
-  {
-    "texto": "those",
-    "inicio": 1336.27,
-    "fim": 1336.55
-  },
-  {
-    "texto": "cases",
-    "inicio": 1336.55,
-    "fim": 1338.49
-  },
-  {
-    "texto": "what",
-    "inicio": 1338.49,
-    "fim": 1338.95
-  },
-  {
-    "texto": "we'll",
-    "inicio": 1338.95,
-    "fim": 1339.13
-  },
-  {
-    "texto": "do",
-    "inicio": 1339.13,
-    "fim": 1339.33
-  },
-  {
-    "texto": "is",
-    "inicio": 1339.33,
-    "fim": 1339.57
-  },
-  {
-    "texto": "still",
-    "inicio": 1339.57,
-    "fim": 1340.07
-  },
-  {
-    "texto": "we'll",
-    "inicio": 1340.07,
-    "fim": 1340.25
-  },
-  {
-    "texto": "salvage",
-    "inicio": 1340.25,
-    "fim": 1340.73
+    "inicio": 1335.54,
+    "fim": 1335.82
   },
   {
     "texto": "the",
-    "inicio": 1340.73,
-    "fim": 1340.83
+    "inicio": 1335.82,
+    "fim": 1335.92
+  },
+  {
+    "texto": "peritoneum",
+    "inicio": 1335.92,
+    "fim": 1336.28
+  },
+  {
+    "texto": "is",
+    "inicio": 1336.28,
+    "fim": 1336.46
+  },
+  {
+    "texto": "very",
+    "inicio": 1336.46,
+    "fim": 1336.66
+  },
+  {
+    "texto": "fragile.",
+    "inicio": 1336.66,
+    "fim": 1337.17
+  },
+  {
+    "texto": "In",
+    "inicio": 1337.17,
+    "fim": 1337.68
+  },
+  {
+    "texto": "those",
+    "inicio": 1337.68,
+    "fim": 1338.19
+  },
+  {
+    "texto": "cases",
+    "inicio": 1338.19,
+    "fim": 1338.7
+  },
+  {
+    "texto": "what",
+    "inicio": 1338.7,
+    "fim": 1338.94
+  },
+  {
+    "texto": "we'll",
+    "inicio": 1338.94,
+    "fim": 1339.12
+  },
+  {
+    "texto": "do",
+    "inicio": 1339.12,
+    "fim": 1339.32
+  },
+  {
+    "texto": "is",
+    "inicio": 1339.32,
+    "fim": 1339.54
+  },
+  {
+    "texto": "still",
+    "inicio": 1339.54,
+    "fim": 1340.06
+  },
+  {
+    "texto": "we'll",
+    "inicio": 1340.06,
+    "fim": 1340.26
+  },
+  {
+    "texto": "salvage",
+    "inicio": 1340.26,
+    "fim": 1340.72
+  },
+  {
+    "texto": "the",
+    "inicio": 1340.72,
+    "fim": 1340.84
   },
   {
     "texto": "falciform",
-    "inicio": 1340.83,
-    "fim": 1341.45
+    "inicio": 1340.84,
+    "fim": 1341.48
   },
   {
     "texto": "ligament",
@@ -17480,13 +17595,13 @@
     "fim": 1372.59
   },
   {
-    "texto": "falcipar",
+    "texto": "falciform",
     "inicio": 1372.59,
-    "fim": 1373.43
+    "fim": 1373.2
   },
   {
     "texto": "ligament",
-    "inicio": 1373.43,
+    "inicio": 1373.2,
     "fim": 1373.81
   },
   {
@@ -17842,16 +17957,16 @@
   {
     "texto": "the",
     "inicio": 1408.0,
-    "fim": 1408.16
+    "fim": 1408.367
   },
   {
-    "texto": "transverse",
-    "inicio": 1408.16,
-    "fim": 1408.56
+    "texto": "transversus",
+    "inicio": 1408.367,
+    "fim": 1408.733
   },
   {
     "texto": "abdominis",
-    "inicio": 1408.56,
+    "inicio": 1408.733,
     "fim": 1409.1
   },
   {
@@ -17902,16 +18017,16 @@
   {
     "texto": "actual",
     "inicio": 1411.92,
-    "fim": 1412.62
+    "fim": 1412.473
   },
   {
-    "texto": "transverse",
-    "inicio": 1412.62,
-    "fim": 1413.2
+    "texto": "transversus",
+    "inicio": 1412.473,
+    "fim": 1413.027
   },
   {
     "texto": "abdominis",
-    "inicio": 1413.2,
+    "inicio": 1413.027,
     "fim": 1413.58
   },
   {
@@ -18382,16 +18497,16 @@
   {
     "texto": "actually",
     "inicio": 1446.14,
-    "fim": 1446.42
+    "fim": 1446.453
   },
   {
-    "texto": "running",
-    "inicio": 1446.42,
-    "fim": 1446.76
+    "texto": "rounded",
+    "inicio": 1446.453,
+    "fim": 1446.767
   },
   {
     "texto": "off",
-    "inicio": 1446.76,
+    "inicio": 1446.767,
     "fim": 1447.08
   },
   {
@@ -18482,11 +18597,16 @@
   {
     "texto": "those",
     "inicio": 1457.22,
-    "fim": 1457.54
+    "fim": 1457.52
   },
   {
-    "texto": "neurofibers",
-    "inicio": 1457.54,
+    "texto": "nerve",
+    "inicio": 1457.52,
+    "fim": 1457.82
+  },
+  {
+    "texto": "fibers",
+    "inicio": 1457.82,
     "fim": 1458.12
   },
   {
@@ -18585,13 +18705,13 @@
     "fim": 1465.88
   },
   {
-    "texto": "arcate",
+    "texto": "arcuate",
     "inicio": 1465.88,
-    "fim": 1466.34
+    "fim": 1466.23
   },
   {
     "texto": "line",
-    "inicio": 1466.34,
+    "inicio": 1466.23,
     "fim": 1466.58
   },
   {
@@ -20362,16 +20482,16 @@
   {
     "texto": "apart",
     "inicio": 1614.52,
-    "fim": 1614.8
+    "fim": 1614.98
   },
   {
     "texto": "is",
-    "inicio": 1614.8,
-    "fim": 1615.52
+    "inicio": 1614.98,
+    "fim": 1615.44
   },
   {
-    "texto": "during",
-    "inicio": 1615.52,
+    "texto": "doing",
+    "inicio": 1615.44,
     "fim": 1615.9
   },
   {
@@ -21717,21 +21837,36 @@
   {
     "texto": "changes",
     "inicio": 1720.52,
-    "fim": 1721.66
+    "fim": 1720.983
+  },
+  {
+    "texto": "with",
+    "inicio": 1720.983,
+    "fim": 1721.446
+  },
+  {
+    "texto": "abdominal",
+    "inicio": 1721.446,
+    "fim": 1721.909
+  },
+  {
+    "texto": "wall",
+    "inicio": 1721.909,
+    "fim": 1722.371
   },
   {
     "texto": "was",
-    "inicio": 1721.66,
-    "fim": 1722.02
+    "inicio": 1722.371,
+    "fim": 1722.834
   },
   {
     "texto": "from",
-    "inicio": 1722.02,
-    "fim": 1722.14
+    "inicio": 1722.834,
+    "fim": 1723.297
   },
   {
     "texto": "patients",
-    "inicio": 1722.14,
+    "inicio": 1723.297,
     "fim": 1723.76
   },
   {
@@ -22087,21 +22222,21 @@
   {
     "texto": "repair",
     "inicio": 1750.28,
-    "fim": 1750.48
+    "fim": 1750.75
   },
   {
-    "texto": "side",
-    "inicio": 1750.48,
-    "fim": 1750.82
+    "texto": "site",
+    "inicio": 1750.75,
+    "fim": 1751.22
   },
   {
     "texto": "and",
-    "inicio": 1750.82,
-    "fim": 1751.74
+    "inicio": 1751.22,
+    "fim": 1751.69
   },
   {
     "texto": "then",
-    "inicio": 1751.74,
+    "inicio": 1751.69,
     "fim": 1752.16
   },
   {
@@ -22637,21 +22772,21 @@
   {
     "texto": "after",
     "inicio": 1799.73,
-    "fim": 1800.09
+    "fim": 1800.1
   },
   {
     "texto": "CT",
-    "inicio": 1800.09,
-    "fim": 1800.49
+    "inicio": 1800.1,
+    "fim": 1800.47
   },
   {
-    "texto": "scan",
-    "inicio": 1800.49,
-    "fim": 1800.75
+    "texto": "scans,",
+    "inicio": 1800.47,
+    "fim": 1800.84
   },
   {
     "texto": "specifically",
-    "inicio": 1800.75,
+    "inicio": 1800.84,
     "fim": 1801.21
   },
   {
@@ -23027,21 +23162,16 @@
   {
     "texto": "layer",
     "inicio": 1828.87,
-    "fim": 1829.23
+    "fim": 1829.15
   },
   {
     "texto": "is",
-    "inicio": 1829.23,
-    "fim": 1829.45
-  },
-  {
-    "texto": "It's",
-    "inicio": 1829.45,
-    "fim": 1829.47
+    "inicio": 1829.15,
+    "fim": 1829.43
   },
   {
     "texto": "unlikely",
-    "inicio": 1829.47,
+    "inicio": 1829.43,
     "fim": 1829.71
   },
   {
@@ -23512,16 +23642,16 @@
   {
     "texto": "an",
     "inicio": 1861.33,
-    "fim": 1861.69
+    "fim": 1861.797
   },
   {
-    "texto": "interparietal",
-    "inicio": 1861.69,
-    "fim": 1862.35
+    "texto": "intraparietal",
+    "inicio": 1861.797,
+    "fim": 1862.263
   },
   {
     "texto": "hernia",
-    "inicio": 1862.35,
+    "inicio": 1862.263,
     "fim": 1862.73
   },
   {

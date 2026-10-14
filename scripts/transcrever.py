@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -259,6 +260,58 @@ def remover_repeticoes_de_borda(palavras: list[Palavra]) -> list[Palavra]:
     return limpas
 
 
+def medir_silencios(audio: Path, minimo: float = 1.0) -> list[tuple[float, float]]:
+    """Mede com o ffmpeg os trechos sem fala do arquivo."""
+    comando = [
+        "ffmpeg", "-hide_banner", "-nostats", "-i", str(audio),
+        "-af", f"silencedetect=noise=-35dB:d={minimo}",
+        "-f", "null", "-",
+    ]
+    saida = subprocess.run(comando, capture_output=True, text=True).stderr
+
+    silencios: list[tuple[float, float]] = []
+    inicio = None
+    for linha in saida.splitlines():
+        comeco = re.search(r"silence_start: (-?[\d.]+)", linha)
+        if comeco:
+            inicio = max(0.0, float(comeco.group(1)))
+        fim = re.search(r"silence_end: ([\d.]+)", linha)
+        if fim and inicio is not None:
+            silencios.append((inicio, float(fim.group(1))))
+            inicio = None
+
+    return silencios
+
+
+def encostar_no_silencio(palavras: list[Palavra], audio: Path) -> list[Palavra]:
+    """Impede que uma palavra se estenda por cima de um trecho sem fala.
+
+    O reconhecimento as vezes devolve uma palavra com varios segundos de duracao,
+    cobrindo uma pausa inteira. Isso faz duas falas separadas cairem na mesma
+    legenda, porque a pausa entre elas desaparece da conta.
+    """
+    silencios = medir_silencios(audio)
+    if not silencios:
+        return palavras
+
+    ajustadas = 0
+    for palavra in palavras:
+        for comeco, fim in silencios:
+            if palavra.inicio < comeco < palavra.fim:
+                palavra.fim = round(comeco, 3)
+                ajustadas += 1
+                break
+            if comeco < palavra.inicio < fim < palavra.fim:
+                palavra.inicio = round(fim, 3)
+                ajustadas += 1
+                break
+
+    if ajustadas:
+        print(f"{ajustadas} palavra(s) deixaram de cobrir uma pausa", file=sys.stderr)
+
+    return palavras
+
+
 def salvar_palavras(palavras: list[Palavra], destino: Path) -> None:
     dados = [{"texto": p.texto, "inicio": round(p.inicio, 3), "fim": round(p.fim, 3)} for p in palavras]
     destino.parent.mkdir(parents=True, exist_ok=True)
@@ -431,6 +484,18 @@ def dividir_frase(frase: list[Palavra]) -> list[Legenda]:
     return refinar_cortes(legendas)
 
 
+def tem_pausa_interna(palavras: list[Palavra]) -> bool:
+    """Diz se existe uma pausa de fala dentro do bloco.
+
+    Duas falas separadas por uma pausa nunca podem cair na mesma legenda, mesmo
+    que o bloco caiba nos limites de caracteres e de duracao.
+    """
+    return any(
+        proxima.inicio - atual.fim >= PAUSA_QUE_QUEBRA
+        for atual, proxima in zip(palavras, palavras[1:])
+    )
+
+
 def pontuar_corte(primeira: list[Palavra], segunda: list[Palavra]) -> float | None:
     """Avalia um corte entre duas legendas. Quanto menor a nota, melhor o corte.
 
@@ -440,6 +505,8 @@ def pontuar_corte(primeira: list[Palavra], segunda: list[Palavra]) -> float | No
     texto_segunda = juntar_palavras(segunda)
 
     if not cabe_na_legenda(texto_primeira) or not cabe_na_legenda(texto_segunda):
+        return None
+    if tem_pausa_interna(primeira) or tem_pausa_interna(segunda):
         return None
     if primeira[-1].fim - primeira[0].inicio > MAX_DURACAO:
         return None
@@ -645,6 +712,8 @@ def main() -> int:
     if argumentos.palavras:
         print(f"usando as palavras revisadas de {argumentos.palavras}", file=sys.stderr)
         palavras = carregar_palavras(argumentos.palavras)
+        if argumentos.entrada is not None:
+            palavras = encostar_no_silencio(palavras, argumentos.entrada)
     else:
         with tempfile.TemporaryDirectory() as pasta:
             audio = Path(pasta) / "audio.wav"
@@ -661,6 +730,7 @@ def main() -> int:
                     usar_vad=not argumentos.sem_vad,
                 )
             )
+        palavras = encostar_no_silencio(palavras, argumentos.entrada)
 
     if not palavras:
         print("nenhuma fala foi reconhecida no audio", file=sys.stderr)
