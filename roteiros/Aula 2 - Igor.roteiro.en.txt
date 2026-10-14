@@ -1,0 +1,402 @@
+   HERNIA LOUNGE · RECORDING SCRIPT
+
+
+
+   Igor Belyansky on Posterior Rectus Sheath
+   Reloading
+   Two parts · 22 short clips · Part 1: 9 clips, about 8 min · Part 2: 13 clips, about 9 min
+
+
+
+
+How this works
+Each question becomes one separate video. Record them one at a time and stop between clips. Pedro will edit
+each clip and overlay the question in a text box on screen, so you do not need to read the question aloud. Start
+each answer directly, as if someone had just asked you across the table.
+
+Your words, your way. The guide lines under each question are the points you already made in the AWR
+Surgeons Community thread. They are there so you do not have to remember what you said, not to be read.
+Answer in your own words and keep it tight: there are many questions, and short direct answers cut better than
+complete ones.
+
+If you stumble: do not stop the recording. Just freeze, stay still and silent for about three seconds, then start the
+answer again from the top. We edit the rest out.
+
+Two parts. Part 1 is the concept (why an intact repair can still bulge). Part 2 is the practice (technique, selection,
+risks). Part 1 ends with a one-line teaser for Part 2; it is marked in the script. You can record both parts in one
+sitting.
+
+
+Setup checklist
+• Location: your backyard. Sit or stand with the garden behind you, some depth between you and the
+  background.
+• Light: daylight from the front or slightly to one side, never behind you. Early morning or late afternoon is best.
+  Avoid direct midday sun and moving shadows.
+• Sound: a lapel or shotgun microphone, not the built-in mic. Watch for wind, lawn equipment and birds close by;
+  a windscreen on the mic helps outdoors.
+• Framing: horizontal (landscape), camera at eye level, head and shoulders with a little room above the head.
+  Keep the top third of the frame clear, the question box goes there.
+• Consistency: same clothes, same spot, same light for the whole session so the clips cut together. Look straight
+  into the lens.
+• Pace: two seconds of silence before you start and after you finish each answer, so Pedro has room to cut.
+• Naming: if you can, name each file with the clip number (P1-03, P2-07). Otherwise record in order and Pedro
+  will match them.
+
+
+■ Question as asked in the thread   ■ Adapted from your own statements   ■ New question, answer freely
+   PART 1
+
+
+
+   The concept — why an intact repair can
+   still bulge
+   9 clips · about 8 minutes
+
+
+
+THE PROBLEM
+
+
+
+
+  CLIP P1-01                                                                 target ~60 s
+
+  What is the problem you are trying to address, and why is it not the same as recurrence?
+
+Guide, from what you said in the thread:
+
+• Patients with an intact repair, no recurrence, who still bulge or look like they have a diastasis
+• Cause: posterior layer bridged with peritoneum, posterior forces never reloaded
+• This is how eTEP was described in 2015 and how you operated for years; your understanding has changed
+
+
+
+  CLIP P1-02                                                                 target ~40 s
+
+  Why does this matter so much in diastasis patients?
+
+Guide, from what you said in the thread:
+
+• They expect contour, not only a repair; an intact repair that still bulges fails that expectation
+• The point is not how anyone should operate, it is aligning what we promise with what the patient will see
+
+MECHANISM AND DATA
+
+
+
+
+  CLIP P1-03                                                                 target ~50 s
+
+  What actually happens to the rectus when the posterior layer is bridged?
+
+Guide, from what you said in the thread:
+
+• Forces from posterior lamella of internal oblique and transversus stop reaching the midline
+• Rectus goes from oval to flat; semilunar line flattens and lateralizes
+• Happens even with a perfect anterior closure and mesh in place
+
+
+
+  CLIP P1-04                                                                 target ~50 s
+
+  What does your CT data show, reloaded versus bridged?
+
+Guide, from what you said in the thread:
+
+• Reloading does not restore native shape, the rectus still widens, but much less
+• Reloading centralizes the two recti; they behave more like one unit
+• Bridged: much more widening and lateralization, remarkably similar to post-TAR CT
+  CLIP P1-05                                                               target ~35 s
+
+  Does reloading improve function, or only what we see on CT?
+
+Guide, from what you said in the thread:
+
+• You believe both, but the data show morphology only; no functional claim yet
+• The field first has to agree on how to measure abdominal wall function
+
+
+
+  CLIP P1-06                                                               target ~45 s
+
+  Could this bulging be mesh weight, muscle quality, or something else?
+
+Guide, from what you said in the thread:
+
+• Many causes exist (muscle quality, denervation, rehab, visceral fat), each a different mechanism
+• You are talking about a technically correct operation with no nerve injury
+• Mesh weight is not it: medium weight macroporous polypropylene for years, heavier mesh would not fix this
+
+THE TAR DISTINCTION
+
+
+
+
+  CLIP P1-07                                                               target ~70 s
+
+  Is closing the PRS after a TAR the same thing you are describing?
+
+Guide, from what you said in the thread:
+
+• No. After TAR the transversus forces are already released; closing the PRS then is only a visceral barrier, no
+  function
+• You are describing reloading WITHOUT TAR, with the sheath still connected to internal oblique and transversus
+• Same sheath, completely different biomechanics; that is why unreloaded PRS and TAR look alike on CT
+
+
+
+  CLIP P1-08                                                               target ~55 s
+
+  So are you against TAR?
+
+Guide, from what you said in the thread:
+
+• No, you still do many. In a TAR you knowingly trade some native function for a reconstructed wall and quality of
+  life
+• Loss of domain is the perfect example of a trade worth making; a small defect is not
+• You are not advocating a TAR just to close the PRS, that would defeat the purpose
+
+TENSION
+  CLIP P1-09                                                             target ~55 s
+
+  Do you still believe in a tension-free repair?
+
+Guide, from what you said in the thread:
+
+• You are not sure what tension-free even means; every reconstruction has forces on it
+• Tension is not the enemy; for function, appropriate tension may be essential
+• How much is right? Nobody can say scientifically yet; for now it is an art based on experience
+
+END OF PART 1. After this answer, pause, then add one line straight to camera, something like: “How I actually
+put that tension back into the posterior layer, and what can go wrong, that is part two.”
+   PART 2
+
+
+
+   The practice — technique, selection and
+   risks
+   13 clips · about 9 minutes
+
+
+
+TECHNIQUE
+
+
+
+
+  CLIP P2-01                                                               target ~45 s
+
+  Early on you bridged with peritoneum or the sac. What did that teach you?
+
+Guide, from what you said in the thread:
+
+• Excellent barrier, but it does not reload the forces; several hundred early cases
+• CT changes were clear and much worse than with reloading
+• Bridged patients should be told before surgery they may still bulge
+
+
+
+  CLIP P2-02                                                               target ~55 s
+
+  Since you started reloading the posterior sheath, has the bulging gone away?
+
+Guide, from what you said in the thread:
+
+• Decreased dramatically as the technique evolved
+• In some patients you now plicate the posterior layer, not just approximate it, with tension distributed along the
+  whole line
+• You see the recti roll medially and the contour change on the table, especially laterally
+
+
+
+  CLIP P2-03                                                               target ~40 s
+
+  How do you decide who gets posterior plication rather than simple approximation?
+
+No guide, new question:
+
+Not in the thread. Answer from your practice, briefly.
+
+
+
+  CLIP P2-04                                                               target ~35 s
+
+  What sutures do you use, and why permanent?
+
+Guide, from what you said in the thread:
+
+• Anterior midline plication with permanent suture; absorbable loses the correction as it goes
+• Posterior closure reinforced with permanent 2-0 Prolene; mesh center fixed to the PRS with permanent sutures
+  CLIP P2-05                                                                 target ~35 s
+
+  Does the platform matter: robotic, laparoscopic, open?
+
+Guide, from what you said in the thread:
+
+• Robotic platform matters to you: you could not reproduce the same high tension, precisely distributed closure
+  laparoscopically
+• Open: the same principles are reproducible
+
+PATIENT SELECTION
+
+
+
+
+  CLIP P2-06                                                                 target ~55 s
+
+  Is there a defect size beyond which you cannot reload the PRS, and who should not go to
+  eTEP?
+
+Guide, from what you said in the thread:
+
+• A width cutoff gets too far into the weeds; many factors decide the operation
+• Rule of thumb: retrorectus for longer incisional defects narrower than the retrorectus space at its widest
+• Broader message: don't be too eager with eTEP for small and medium hernias
+
+
+
+  CLIP P2-07                                                                 target ~35 s
+
+  Should we be moving toward TAPP or PeTEP so the sheath is never divided?
+
+Guide, from what you said in the thread:
+
+• Reasonable for the right cases; you still do many preperitoneal repairs for exactly this reason
+• Preperitoneal or IPOM preserves the posterior forces with no retrorectus dissection
+
+RISKS AND REPRODUCIBILITY
+
+
+
+
+  CLIP P2-08                                                                 target ~50 s
+
+  What is the main risk of reattaching the PRS?
+
+Guide, from what you said in the thread:
+
+• Largely technical: nerve injury in the upper abdomen, where nerves run medially (García-Ureña)
+• You cheat the dissection medially up there; no significant denervation seen
+• Separate the risk of reattachment itself from the risk of how it is done
+
+
+
+  CLIP P2-09                                                                 target ~30 s
+
+  Have you seen the reloaded sheath disrupt?
+
+Guide, from what you said in the thread:
+
+• Extremely rare; recent disruptions were through the peritoneal component, not the reloaded fascia
+• Not seen in years, which does not mean it cannot happen
+  CLIP P2-10                                                               target ~35 s
+
+  How do you follow these patients, and do you get a postoperative CT?
+
+No guide, new question:
+
+Not in the thread. Describe your follow-up and when you scan.
+
+
+
+  CLIP P2-11                                                               target ~45 s
+
+  Can a less experienced surgeon reproduce PRS closure under tension safely?
+
+Guide, from what you said in the thread:
+
+• You share the concern; that is why you hesitate to promote aggressive plication broadly
+• Distributing tension along the whole line, not just pulling edges together, is everything
+• Done aggressively without that understanding: more posterior failures and interparietal hernias
+
+CLOSING
+
+
+
+
+  CLIP P2-12                                                               target ~35 s
+
+  What study would settle this?
+
+No guide, new question:
+
+Not in the thread. One or two sentences on what you would want measured.
+
+
+
+  CLIP P2-13                                                               target ~45 s
+
+  What is your overall message to surgeons using the retrorectus space?
+
+Guide, from what you said in the thread:
+
+• Pull back and reconsider some of the principles we were taught
+• Concern: overuse of the retrorectus space without appreciating what not reloading does to morphology and
+  function
+• You do not have all the answers, but there is something here that deserves more study
+
+END OF PART 2.
+FOR THE EDITOR
+
+Clip list and on-screen question text
+One row per clip. Third column is the exact text for the question box. Part 1 ends with a spoken teaser for Part 2
+(clip P1-09).
+
+Clip       Block               Question box text                                                                   ~s
+
+P1-01      The problem         What is the problem you are trying to address, and why is it not the same as        60
+                               recurrence?
+
+P1-02      The problem         Why does this matter so much in diastasis patients?                                 40
+
+P1-03      Mechanism and       What actually happens to the rectus when the posterior layer is bridged?            50
+           data
+
+P1-04      Mechanism and       What does your CT data show, reloaded versus bridged?                               50
+           data
+
+P1-05      Mechanism and       Does reloading improve function, or only what we see on CT?                         35
+           data
+
+P1-06      Mechanism and       Could this bulging be mesh weight, muscle quality, or something else?               45
+           data
+
+P1-07      The TAR             Is closing the PRS after a TAR the same thing you are describing?                   70
+           distinction
+
+P1-08      The TAR             So are you against TAR?                                                             55
+           distinction
+
+P1-09      Tension             Do you still believe in a tension-free repair?                                      55
+
+P2-01      Technique           Early on you bridged with peritoneum or the sac. What did that teach you?           45
+
+P2-02      Technique           Since you started reloading the posterior sheath, has the bulging gone away?        55
+
+P2-03      Technique           How do you decide who gets posterior plication rather than simple approximation?    40
+
+P2-04      Technique           What sutures do you use, and why permanent?                                         35
+
+P2-05      Technique           Does the platform matter: robotic, laparoscopic, open?                              35
+
+P2-06      Patient selection   Is there a defect size beyond which you cannot reload the PRS, and who should not   55
+                               go to eTEP?
+
+P2-07      Patient selection   Should we be moving toward TAPP or PeTEP so the sheath is never divided?            35
+
+P2-08      Risks and           What is the main risk of reattaching the PRS?                                       50
+           reproducibility
+
+P2-09      Risks and           Have you seen the reloaded sheath disrupt?                                          30
+           reproducibility
+
+P2-10      Risks and           How do you follow these patients, and do you get a postoperative CT?                35
+           reproducibility
+
+P2-11      Risks and           Can a less experienced surgeon reproduce PRS closure under tension safely?          45
+           reproducibility
+
+P2-12      Closing             What study would settle this?                                                       35
+
+P2-13      Closing             What is your overall message to surgeons using the retrorectus space?               45
+

@@ -187,6 +187,10 @@ def transcrever(audio: Path, modelo: str, idioma: str, termos: str | None) -> li
         vad_filter=True,
         condition_on_previous_text=False,
         initial_prompt=montar_prompt(idioma, termos) if termos else None,
+        # O initial_prompt vale so para a primeira janela de 30 segundos. Num audio
+        # longo o vocabulario precisa ir tambem em hotwords, que e reaplicado em
+        # todas as janelas.
+        hotwords=termos or None,
     )
 
     palavras: list[Palavra] = []
