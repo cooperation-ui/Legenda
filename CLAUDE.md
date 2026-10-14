@@ -3,6 +3,25 @@
 Projeto de legendagem: entra video ou audio, sai SRT com pontuacao corrigida e
 sem nenhuma palavra alterada em relacao ao que foi falado.
 
+## Como a linha e quebrada
+
+Quatro palavras por linha e o alvo, em qualquer idioma. A linha so passa de
+quatro quando cortar na quarta separaria palavras que se leem juntas, e nunca
+passa de seis. Um bloco tem no maximo duas linhas, oito palavras e 42 caracteres
+por linha.
+
+A unica excecao as oito palavras e um bloco que ficaria menos de 0,8 segundos na
+tela: ali a juncao com o vizinho vale mais do que a linha enxuta, porque um bloco
+que ninguem consegue ler e pior.
+
+`scripts/validar_srt.py` avisa sobre linha de cinco ou seis palavras e acusa erro
+acima de seis.
+
+Essa regra vale das legendas feitas a partir de 14 de outubro de 2026 em diante.
+As legendas anteriores ficaram com a quebra antiga, de linhas mais cheias. Se
+alguma delas for remontada a partir do JSON de revisao, ela sai no formato novo,
+o que e esperado.
+
 ## Regra para arquivos da Cratheon
 
 Arquivo cujo nome contem "Cratheon", em qualquer caixa: entregar sempre duas

@@ -1,0 +1,532 @@
+[
+  {
+    "texto": "Sou",
+    "inicio": 0.0,
+    "fim": 0.1
+  },
+  {
+    "texto": "Nayara",
+    "inicio": 0.1,
+    "fim": 0.46
+  },
+  {
+    "texto": "Taluani,",
+    "inicio": 0.46,
+    "fim": 1.0
+  },
+  {
+    "texto": "engenheira",
+    "inicio": 1.18,
+    "fim": 1.66
+  },
+  {
+    "texto": "civil",
+    "inicio": 1.66,
+    "fim": 1.94
+  },
+  {
+    "texto": "e",
+    "inicio": 1.94,
+    "fim": 2.26
+  },
+  {
+    "texto": "engenheira",
+    "inicio": 2.26,
+    "fim": 2.76
+  },
+  {
+    "texto": "de",
+    "inicio": 2.76,
+    "fim": 2.9
+  },
+  {
+    "texto": "produção",
+    "inicio": 2.9,
+    "fim": 3.1
+  },
+  {
+    "texto": "industrial,",
+    "inicio": 3.1,
+    "fim": 3.72
+  },
+  {
+    "texto": "e",
+    "inicio": 3.98,
+    "fim": 4.12
+  },
+  {
+    "texto": "eu",
+    "inicio": 4.12,
+    "fim": 4.22
+  },
+  {
+    "texto": "sempre",
+    "inicio": 4.22,
+    "fim": 4.46
+  },
+  {
+    "texto": "acreditei",
+    "inicio": 4.46,
+    "fim": 5.12
+  },
+  {
+    "texto": "que",
+    "inicio": 5.12,
+    "fim": 5.26
+  },
+  {
+    "texto": "a",
+    "inicio": 5.26,
+    "fim": 5.32
+  },
+  {
+    "texto": "engenharia",
+    "inicio": 5.32,
+    "fim": 5.84
+  },
+  {
+    "texto": "vai",
+    "inicio": 5.84,
+    "fim": 6.02
+  },
+  {
+    "texto": "muito",
+    "inicio": 6.02,
+    "fim": 6.28
+  },
+  {
+    "texto": "além",
+    "inicio": 6.28,
+    "fim": 6.58
+  },
+  {
+    "texto": "de",
+    "inicio": 6.58,
+    "fim": 6.84
+  },
+  {
+    "texto": "projetos",
+    "inicio": 6.84,
+    "fim": 7.48
+  },
+  {
+    "texto": "e",
+    "inicio": 7.48,
+    "fim": 7.56
+  },
+  {
+    "texto": "obras.",
+    "inicio": 7.56,
+    "fim": 7.88
+  },
+  {
+    "texto": "Eu",
+    "inicio": 8.04,
+    "fim": 8.22
+  },
+  {
+    "texto": "escolhi",
+    "inicio": 8.22,
+    "fim": 8.76
+  },
+  {
+    "texto": "construir",
+    "inicio": 8.76,
+    "fim": 9.02
+  },
+  {
+    "texto": "segurança",
+    "inicio": 9.02,
+    "fim": 10.0
+  },
+  {
+    "texto": "para",
+    "inicio": 10.0,
+    "fim": 10.36
+  },
+  {
+    "texto": "o",
+    "inicio": 10.36,
+    "fim": 10.44
+  },
+  {
+    "texto": "patrimônio",
+    "inicio": 10.44,
+    "fim": 11.1
+  },
+  {
+    "texto": "dos",
+    "inicio": 11.1,
+    "fim": 11.2
+  },
+  {
+    "texto": "meus",
+    "inicio": 11.2,
+    "fim": 11.4
+  },
+  {
+    "texto": "clientes.",
+    "inicio": 11.4,
+    "fim": 12.04
+  },
+  {
+    "texto": "Toda",
+    "inicio": 12.1,
+    "fim": 12.42
+  },
+  {
+    "texto": "obra",
+    "inicio": 12.42,
+    "fim": 12.62
+  },
+  {
+    "texto": "leva",
+    "inicio": 12.62,
+    "fim": 13.26
+  },
+  {
+    "texto": "a",
+    "inicio": 13.26,
+    "fim": 13.44
+  },
+  {
+    "texto": "expectativa,",
+    "inicio": 13.44,
+    "fim": 14.5
+  },
+  {
+    "texto": "investimento",
+    "inicio": 14.54,
+    "fim": 15.48
+  },
+  {
+    "texto": "e",
+    "inicio": 15.48,
+    "fim": 15.74
+  },
+  {
+    "texto": "o",
+    "inicio": 15.74,
+    "fim": 15.82
+  },
+  {
+    "texto": "seu",
+    "inicio": 15.82,
+    "fim": 16.04
+  },
+  {
+    "texto": "esforço,",
+    "inicio": 16.04,
+    "fim": 16.7
+  },
+  {
+    "texto": "por",
+    "inicio": 16.72,
+    "fim": 16.86
+  },
+  {
+    "texto": "isso",
+    "inicio": 16.86,
+    "fim": 17.12
+  },
+  {
+    "texto": "eu",
+    "inicio": 17.12,
+    "fim": 17.28
+  },
+  {
+    "texto": "criei",
+    "inicio": 17.28,
+    "fim": 17.64
+  },
+  {
+    "texto": "a",
+    "inicio": 17.64,
+    "fim": 17.74
+  },
+  {
+    "texto": "NT",
+    "inicio": 17.74,
+    "fim": 17.96
+  },
+  {
+    "texto": "Engenharia",
+    "inicio": 17.96,
+    "fim": 18.64
+  },
+  {
+    "texto": "e",
+    "inicio": 18.64,
+    "fim": 18.76
+  },
+  {
+    "texto": "Gestão.",
+    "inicio": 18.76,
+    "fim": 19.14
+  },
+  {
+    "texto": "A",
+    "inicio": 19.2,
+    "fim": 19.3
+  },
+  {
+    "texto": "NT",
+    "inicio": 19.3,
+    "fim": 19.6
+  },
+  {
+    "texto": "atua",
+    "inicio": 19.6,
+    "fim": 20.24
+  },
+  {
+    "texto": "desde",
+    "inicio": 20.24,
+    "fim": 20.52
+  },
+  {
+    "texto": "o",
+    "inicio": 20.52,
+    "fim": 20.74
+  },
+  {
+    "texto": "planejamento",
+    "inicio": 20.74,
+    "fim": 21.58
+  },
+  {
+    "texto": "até",
+    "inicio": 21.58,
+    "fim": 21.94
+  },
+  {
+    "texto": "a",
+    "inicio": 21.94,
+    "fim": 22.06
+  },
+  {
+    "texto": "regularização",
+    "inicio": 22.06,
+    "fim": 22.68
+  },
+  {
+    "texto": "junto",
+    "inicio": 22.68,
+    "fim": 23.02
+  },
+  {
+    "texto": "à",
+    "inicio": 23.02,
+    "fim": 23.24
+  },
+  {
+    "texto": "Receita",
+    "inicio": 23.24,
+    "fim": 23.6
+  },
+  {
+    "texto": "Federal.",
+    "inicio": 23.6,
+    "fim": 23.92
+  },
+  {
+    "texto": "São",
+    "inicio": 24.14,
+    "fim": 24.34
+  },
+  {
+    "texto": "nove",
+    "inicio": 24.34,
+    "fim": 24.68
+  },
+  {
+    "texto": "etapas",
+    "inicio": 24.68,
+    "fim": 25.26
+  },
+  {
+    "texto": "de",
+    "inicio": 25.26,
+    "fim": 25.42
+  },
+  {
+    "texto": "acompanhamento,",
+    "inicio": 25.42,
+    "fim": 26.26
+  },
+  {
+    "texto": "onde",
+    "inicio": 26.26,
+    "fim": 26.6
+  },
+  {
+    "texto": "eliminamos",
+    "inicio": 26.6,
+    "fim": 27.38
+  },
+  {
+    "texto": "riscos",
+    "inicio": 27.38,
+    "fim": 27.98
+  },
+  {
+    "texto": "e",
+    "inicio": 27.98,
+    "fim": 28.14
+  },
+  {
+    "texto": "garantimos",
+    "inicio": 28.14,
+    "fim": 28.84
+  },
+  {
+    "texto": "a",
+    "inicio": 28.84,
+    "fim": 29.02
+  },
+  {
+    "texto": "segurança",
+    "inicio": 29.02,
+    "fim": 29.36
+  },
+  {
+    "texto": "para",
+    "inicio": 29.64,
+    "fim": 29.74
+  },
+  {
+    "texto": "você,",
+    "inicio": 29.74,
+    "fim": 30.02
+  },
+  {
+    "texto": "proprietário.",
+    "inicio": 30.1,
+    "fim": 30.8
+  },
+  {
+    "texto": "Se",
+    "inicio": 30.84,
+    "fim": 30.94
+  },
+  {
+    "texto": "você",
+    "inicio": 30.94,
+    "fim": 31.14
+  },
+  {
+    "texto": "vai",
+    "inicio": 31.14,
+    "fim": 31.44
+  },
+  {
+    "texto": "construir",
+    "inicio": 31.44,
+    "fim": 32.04
+  },
+  {
+    "texto": "ou",
+    "inicio": 32.04,
+    "fim": 32.32
+  },
+  {
+    "texto": "regularizar",
+    "inicio": 32.32,
+    "fim": 33.08
+  },
+  {
+    "texto": "o",
+    "inicio": 33.08,
+    "fim": 33.14
+  },
+  {
+    "texto": "seu",
+    "inicio": 33.14,
+    "fim": 33.34
+  },
+  {
+    "texto": "imóvel",
+    "inicio": 33.34,
+    "fim": 33.78
+  },
+  {
+    "texto": "e",
+    "inicio": 33.78,
+    "fim": 33.94
+  },
+  {
+    "texto": "quer",
+    "inicio": 33.94,
+    "fim": 34.22
+  },
+  {
+    "texto": "segurança",
+    "inicio": 34.22,
+    "fim": 34.74
+  },
+  {
+    "texto": "jurídica",
+    "inicio": 34.74,
+    "fim": 35.54
+  },
+  {
+    "texto": "e",
+    "inicio": 35.54,
+    "fim": 35.64
+  },
+  {
+    "texto": "estratégia,",
+    "inicio": 35.64,
+    "fim": 36.52
+  },
+  {
+    "texto": "entre",
+    "inicio": 36.52,
+    "fim": 36.74
+  },
+  {
+    "texto": "em",
+    "inicio": 36.74,
+    "fim": 36.92
+  },
+  {
+    "texto": "contato",
+    "inicio": 36.92,
+    "fim": 37.28
+  },
+  {
+    "texto": "conosco.",
+    "inicio": 37.28,
+    "fim": 37.76
+  },
+  {
+    "texto": "Atendemos",
+    "inicio": 37.78,
+    "fim": 38.24
+  },
+  {
+    "texto": "online",
+    "inicio": 38.24,
+    "fim": 38.6
+  },
+  {
+    "texto": "em",
+    "inicio": 38.6,
+    "fim": 38.88
+  },
+  {
+    "texto": "todo",
+    "inicio": 38.88,
+    "fim": 39.08
+  },
+  {
+    "texto": "o",
+    "inicio": 39.08,
+    "fim": 39.14
+  },
+  {
+    "texto": "Brasil.",
+    "inicio": 39.14,
+    "fim": 39.4
+  }
+]

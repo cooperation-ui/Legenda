@@ -13,6 +13,8 @@ from pathlib import Path
 
 MAX_CARACTERES_LINHA = 42
 MAX_LINHAS = 2
+PALAVRAS_POR_LINHA = 4  # alvo: acima disso sai aviso
+TOLERANCIA_DE_PALAVRAS = 6  # acima disso e erro de formato
 MAX_DURACAO = 6.0
 MIN_DURACAO = 0.7
 MAX_CARACTERES_POR_SEGUNDO = 22.0  # acima disso, so um aviso: depende do ritmo da fala
@@ -58,6 +60,7 @@ def main() -> int:
     blocos = ler_blocos(caminho)
     problemas: list[str] = []
     avisos: list[str] = []
+    avisos_de_palavras: list[str] = []
 
     for posicao, (numero, inicio, fim, linhas) in enumerate(blocos):
         if numero != posicao + 1:
@@ -78,6 +81,12 @@ def main() -> int:
             if len(linha) > MAX_CARACTERES_LINHA:
                 problemas.append(f"legenda {numero}: linha de {len(linha)} caracteres, acima de {MAX_CARACTERES_LINHA}")
 
+            quantidade = len(linha.split())
+            if quantidade > TOLERANCIA_DE_PALAVRAS:
+                problemas.append(f"legenda {numero}: linha de {quantidade} palavras, acima de {TOLERANCIA_DE_PALAVRAS}")
+            elif quantidade > PALAVRAS_POR_LINHA:
+                avisos_de_palavras.append(f"legenda {numero}: linha de {quantidade} palavras: {linha!r}")
+
         caracteres = sum(len(linha) for linha in linhas)
         velocidade = caracteres / duracao if duracao else 0
         if velocidade > MAX_CARACTERES_POR_SEGUNDO:
@@ -87,6 +96,12 @@ def main() -> int:
             problemas.append(f"legenda {numero}: sobrepoe a legenda {numero + 1}")
 
     print(f"{len(blocos)} legendas conferidas em {caminho}")
+
+    if avisos_de_palavras:
+        print(f"\n{len(avisos_de_palavras)} linha(s) acima de {PALAVRAS_POR_LINHA} palavras:")
+        for aviso in avisos_de_palavras:
+            print(f"  {aviso}")
+        print("\nSao os casos em que cortar na quarta palavra separaria o que se le junto.")
 
     if avisos:
         print(f"\n{len(avisos)} aviso(s) de velocidade de leitura:")

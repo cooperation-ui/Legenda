@@ -27,6 +27,10 @@ from pathlib import Path
 
 MAX_CARACTERES_LINHA = 42
 MAX_LINHAS = 2
+# Quatro palavras por linha e o alvo. A linha so passa disso quando cortar na quarta
+# separaria palavras que se leem juntas, e nunca passa da tolerancia.
+PALAVRAS_POR_LINHA = 4
+TOLERANCIA_DE_PALAVRAS = 6
 MAX_CARACTERES_LEGENDA = MAX_CARACTERES_LINHA * MAX_LINHAS
 MAX_DURACAO = 6.0
 MIN_DURACAO = 1.0
@@ -58,6 +62,8 @@ PALAVRAS_QUE_NAO_FECHAM_LEGENDA = frozenset(
     tao tão cada mais menos muito nem sem
     porque pois porem porém quando enquanto embora caso onde cujo cuja conforme
     because while when since although whether if unless than
+    eu tu ele ela nos nós eles elas voce você voces vocês me te lhe nem
+    i you he she we they it
     """.split()
 )
 
@@ -67,6 +73,9 @@ class Palavra:
     texto: str
     inicio: float
     fim: float
+    # Marca a primeira palavra de cada segmento devolvido pelo reconhecimento. E ali
+    # que aparecem os ecos, quando o fim de um segmento reaparece no inicio do outro.
+    inicia_segmento: bool = False
 
 
 def juntar_palavras(palavras: list["Palavra"]) -> str:
@@ -182,10 +191,19 @@ def transcrever(audio: Path, modelo: str, idioma: str, termos: str | None) -> li
 
     palavras: list[Palavra] = []
     for segmento in segmentos:
+        primeira_do_segmento = True
         for palavra in segmento.words or ():
             texto = palavra.word.strip()
             if texto:
-                palavras.append(Palavra(texto=texto, inicio=palavra.start, fim=palavra.end))
+                palavras.append(
+                    Palavra(
+                        texto=texto,
+                        inicio=palavra.start,
+                        fim=palavra.end,
+                        inicia_segmento=primeira_do_segmento,
+                    )
+                )
+                primeira_do_segmento = False
         print(f"  [{segmento.start:7.2f} - {segmento.end:7.2f}] {segmento.text.strip()}", file=sys.stderr)
 
     return palavras
@@ -215,7 +233,10 @@ def remover_repeticoes_de_borda(palavras: list[Palavra]) -> list[Palavra]:
                 continue
 
             duracao_da_copia = sum(p.fim - p.inicio for p in segunda)
-            if duracao_da_copia <= 0.05:
+            # Um eco pode vir com duracao propria. O que o entrega e comecar exatamente
+            # na emenda de um segmento, sem nenhuma pausa depois da primeira vez.
+            emenda_sem_pausa = segunda[0].inicia_segmento and segunda[0].inicio - primeira[-1].fim <= 0.02
+            if duracao_da_copia <= 0.05 or emenda_sem_pausa:
                 limpas.extend(primeira)
                 indice = fim_segunda
                 repetiu = True
@@ -251,10 +272,11 @@ def e_palavra_de_ligacao(texto: str) -> bool:
 
 
 def quebrar_em_duas_linhas(texto: str) -> list[str] | None:
-    """Divide o texto em duas linhas de ate 42 caracteres, ou devolve None se nao couber.
+    """Divide o texto em duas linhas, ou devolve None se nao couber em duas.
 
-    Entre as divisoes possiveis, prefere cortar depois de ponto final, depois de
-    virgula e, por ultimo, a que deixa as duas linhas mais parecidas em tamanho.
+    Cada linha tem no maximo 42 caracteres e, de preferencia, 4 palavras. Entre as
+    divisoes possiveis, prefere cortar depois de ponto final, depois de virgula,
+    nao deixar palavra de ligacao no fim da linha e nao passar de 4 palavras.
     """
     palavras = texto.split()
     if len(palavras) < 2:
@@ -267,8 +289,11 @@ def quebrar_em_duas_linhas(texto: str) -> list[str] | None:
         linha_dois = " ".join(palavras[corte:])
         if len(linha_um) > MAX_CARACTERES_LINHA or len(linha_dois) > MAX_CARACTERES_LINHA:
             continue
+        if corte > TOLERANCIA_DE_PALAVRAS or len(palavras) - corte > TOLERANCIA_DE_PALAVRAS:
+            continue
 
-        pontuacao = abs(len(linha_um) - len(linha_dois))
+        excesso = max(0, corte - PALAVRAS_POR_LINHA) + max(0, len(palavras) - corte - PALAVRAS_POR_LINHA)
+        pontuacao = abs(len(linha_um) - len(linha_dois)) + excesso * 25
         if linha_um.endswith(FIM_DE_FRASE):
             pontuacao -= 30
         elif linha_um.endswith(PAUSA_INTERNA):
@@ -291,16 +316,27 @@ def quebrar_em_duas_linhas(texto: str) -> list[str] | None:
     return [" ".join(palavras[:melhor_corte]), " ".join(palavras[melhor_corte:])]
 
 
-def cabe_na_legenda(texto: str) -> bool:
-    if len(texto) <= MAX_CARACTERES_LINHA:
+def cabe_em_uma_linha(texto: str) -> bool:
+    return len(texto) <= MAX_CARACTERES_LINHA and len(texto.split()) <= PALAVRAS_POR_LINHA
+
+
+def cabe_na_legenda(texto: str, maximo_de_palavras: int = 2 * PALAVRAS_POR_LINHA) -> bool:
+    """Diz se o texto cabe numa legenda de duas linhas.
+
+    O limite de palavras existe para o bloco nao ser preenchido ate o limite de
+    caracteres e acabar com cinco ou seis palavras por linha. A juncao de um bloco
+    que ficaria pouco tempo na tela usa um limite maior, porque ali o bloco curto
+    seria pior do que a linha mais cheia.
+    """
+    if cabe_em_uma_linha(texto):
         return True
-    if len(texto) > MAX_CARACTERES_LEGENDA:
+    if len(texto) > MAX_CARACTERES_LEGENDA or len(texto.split()) > maximo_de_palavras:
         return False
     return quebrar_em_duas_linhas(texto) is not None
 
 
 def dividir_em_linhas(texto: str) -> list[str]:
-    if len(texto) <= MAX_CARACTERES_LINHA:
+    if cabe_em_uma_linha(texto):
         return [texto]
 
     linhas = quebrar_em_duas_linhas(texto)
@@ -468,6 +504,7 @@ def juntar_legendas_curtas(legendas: list[Legenda]) -> list[Legenda]:
             projetado = juntar_palavras(anterior.palavras + legenda.palavras)
             alguma_e_curta = min(len(anterior.texto), len(legenda.texto)) <= TAMANHO_DE_LEGENDA_CURTA
             cabe = cabe_na_legenda(projetado)
+            cabe_com_folga = cabe_na_legenda(projetado, maximo_de_palavras=2 * TOLERANCIA_DE_PALAVRAS)
             no_tempo = legenda.fim - anterior.inicio <= MAX_DURACAO_PARA_JUNTAR
             sem_pausa = legenda.inicio - anterior.fim < PAUSA_QUE_QUEBRA
 
@@ -479,7 +516,9 @@ def juntar_legendas_curtas(legendas: list[Legenda]) -> list[Legenda]:
             juntar_por_conforto = alguma_e_curta and no_tempo
             juntar_por_necessidade = pouco_tempo_na_tela and cabe_no_limite_maximo
 
-            if cabe and sem_pausa and (juntar_por_conforto or juntar_por_necessidade):
+            if sem_pausa and (
+                (cabe and juntar_por_conforto) or (cabe_com_folga and juntar_por_necessidade)
+            ):
                 anterior.palavras.extend(legenda.palavras)
                 continue
 
