@@ -1,0 +1,567 @@
+[
+  {
+    "texto": "Outubro",
+    "inicio": 0.0,
+    "fim": 0.7
+  },
+  {
+    "texto": "é",
+    "inicio": 0.7,
+    "fim": 0.88
+  },
+  {
+    "texto": "um",
+    "inicio": 0.88,
+    "fim": 1.04
+  },
+  {
+    "texto": "mês",
+    "inicio": 1.04,
+    "fim": 1.3
+  },
+  {
+    "texto": "muito",
+    "inicio": 1.3,
+    "fim": 1.72
+  },
+  {
+    "texto": "especial,",
+    "inicio": 1.72,
+    "fim": 2.38
+  },
+  {
+    "texto": "onde",
+    "inicio": 2.54,
+    "fim": 3.0
+  },
+  {
+    "texto": "eu",
+    "inicio": 3.0,
+    "fim": 3.12
+  },
+  {
+    "texto": "chamo",
+    "inicio": 3.12,
+    "fim": 3.66
+  },
+  {
+    "texto": "o",
+    "inicio": 3.66,
+    "fim": 3.76
+  },
+  {
+    "texto": "mês",
+    "inicio": 3.76,
+    "fim": 4.06
+  },
+  {
+    "texto": "das",
+    "inicio": 4.06,
+    "fim": 4.36
+  },
+  {
+    "texto": "mulheres.",
+    "inicio": 4.36,
+    "fim": 4.72
+  },
+  {
+    "texto": "Não",
+    "inicio": 5.04,
+    "fim": 5.3
+  },
+  {
+    "texto": "é",
+    "inicio": 5.3,
+    "fim": 5.48
+  },
+  {
+    "texto": "somente",
+    "inicio": 5.48,
+    "fim": 5.94
+  },
+  {
+    "texto": "março,",
+    "inicio": 5.94,
+    "fim": 6.48
+  },
+  {
+    "texto": "outubro",
+    "inicio": 6.5,
+    "fim": 7.22
+  },
+  {
+    "texto": "também.",
+    "inicio": 7.22,
+    "fim": 7.56
+  },
+  {
+    "texto": "E",
+    "inicio": 7.88,
+    "fim": 7.98
+  },
+  {
+    "texto": "eu",
+    "inicio": 7.98,
+    "fim": 8.0
+  },
+  {
+    "texto": "vim",
+    "inicio": 8.0,
+    "fim": 8.14
+  },
+  {
+    "texto": "falar",
+    "inicio": 8.14,
+    "fim": 8.3
+  },
+  {
+    "texto": "um",
+    "inicio": 8.3,
+    "fim": 8.46
+  },
+  {
+    "texto": "pouquinho",
+    "inicio": 8.46,
+    "fim": 8.76
+  },
+  {
+    "texto": "pra",
+    "inicio": 8.76,
+    "fim": 9.02
+  },
+  {
+    "texto": "vocês",
+    "inicio": 9.02,
+    "fim": 9.4
+  },
+  {
+    "texto": "sobre",
+    "inicio": 9.4,
+    "fim": 9.84
+  },
+  {
+    "texto": "a",
+    "inicio": 9.84,
+    "fim": 10.0
+  },
+  {
+    "texto": "importância",
+    "inicio": 10.0,
+    "fim": 10.92
+  },
+  {
+    "texto": "da",
+    "inicio": 10.92,
+    "fim": 11.26
+  },
+  {
+    "texto": "autoestima",
+    "inicio": 11.26,
+    "fim": 12.14
+  },
+  {
+    "texto": "na",
+    "inicio": 12.14,
+    "fim": 12.32
+  },
+  {
+    "texto": "saúde",
+    "inicio": 12.32,
+    "fim": 12.72
+  },
+  {
+    "texto": "da",
+    "inicio": 12.72,
+    "fim": 12.98
+  },
+  {
+    "texto": "mulher.",
+    "inicio": 12.98,
+    "fim": 13.26
+  },
+  {
+    "texto": "Você",
+    "inicio": 13.48,
+    "fim": 13.7
+  },
+  {
+    "texto": "já",
+    "inicio": 13.7,
+    "fim": 13.88
+  },
+  {
+    "texto": "pensou",
+    "inicio": 13.88,
+    "fim": 14.4
+  },
+  {
+    "texto": "em",
+    "inicio": 14.4,
+    "fim": 14.58
+  },
+  {
+    "texto": "se",
+    "inicio": 14.58,
+    "fim": 14.7
+  },
+  {
+    "texto": "olhar",
+    "inicio": 14.7,
+    "fim": 14.92
+  },
+  {
+    "texto": "no",
+    "inicio": 14.92,
+    "fim": 15.14
+  },
+  {
+    "texto": "espelho,",
+    "inicio": 15.14,
+    "fim": 15.76
+  },
+  {
+    "texto": "se",
+    "inicio": 15.78,
+    "fim": 15.9
+  },
+  {
+    "texto": "sentir",
+    "inicio": 15.9,
+    "fim": 16.26
+  },
+  {
+    "texto": "mais",
+    "inicio": 16.26,
+    "fim": 16.74
+  },
+  {
+    "texto": "bonita,",
+    "inicio": 16.74,
+    "fim": 17.68
+  },
+  {
+    "texto": "se",
+    "inicio": 17.78,
+    "fim": 17.98
+  },
+  {
+    "texto": "sentir",
+    "inicio": 17.98,
+    "fim": 18.36
+  },
+  {
+    "texto": "mais",
+    "inicio": 18.36,
+    "fim": 18.74
+  },
+  {
+    "texto": "jovem,",
+    "inicio": 18.74,
+    "fim": 19.46
+  },
+  {
+    "texto": "ter",
+    "inicio": 19.54,
+    "fim": 19.72
+  },
+  {
+    "texto": "autoestima",
+    "inicio": 19.72,
+    "fim": 20.34
+  },
+  {
+    "texto": "lá",
+    "inicio": 20.34,
+    "fim": 20.52
+  },
+  {
+    "texto": "em",
+    "inicio": 20.52,
+    "fim": 20.66
+  },
+  {
+    "texto": "cima",
+    "inicio": 20.66,
+    "fim": 20.94
+  },
+  {
+    "texto": "e",
+    "inicio": 20.94,
+    "fim": 21.02
+  },
+  {
+    "texto": "mais",
+    "inicio": 21.02,
+    "fim": 21.2
+  },
+  {
+    "texto": "segurança?",
+    "inicio": 21.2,
+    "fim": 21.72
+  },
+  {
+    "texto": "Exatamente",
+    "inicio": 22.2,
+    "fim": 22.7
+  },
+  {
+    "texto": "isso",
+    "inicio": 22.7,
+    "fim": 23.04
+  },
+  {
+    "texto": "que",
+    "inicio": 23.04,
+    "fim": 23.2
+  },
+  {
+    "texto": "nós",
+    "inicio": 23.2,
+    "fim": 23.34
+  },
+  {
+    "texto": "tratamos",
+    "inicio": 23.34,
+    "fim": 23.74
+  },
+  {
+    "texto": "aqui.",
+    "inicio": 23.74,
+    "fim": 24.02
+  },
+  {
+    "texto": "Além",
+    "inicio": 24.24,
+    "fim": 24.48
+  },
+  {
+    "texto": "da",
+    "inicio": 24.48,
+    "fim": 24.7
+  },
+  {
+    "texto": "saúde",
+    "inicio": 24.7,
+    "fim": 25.06
+  },
+  {
+    "texto": "da",
+    "inicio": 25.06,
+    "fim": 25.36
+  },
+  {
+    "texto": "mulher,",
+    "inicio": 25.36,
+    "fim": 25.66
+  },
+  {
+    "texto": "você",
+    "inicio": 25.9,
+    "fim": 26.14
+  },
+  {
+    "texto": "melhorar",
+    "inicio": 26.14,
+    "fim": 26.6
+  },
+  {
+    "texto": "a",
+    "inicio": 26.6,
+    "fim": 26.66
+  },
+  {
+    "texto": "sua",
+    "inicio": 26.66,
+    "fim": 26.82
+  },
+  {
+    "texto": "qualidade",
+    "inicio": 26.82,
+    "fim": 27.12
+  },
+  {
+    "texto": "de",
+    "inicio": 27.12,
+    "fim": 27.56
+  },
+  {
+    "texto": "vida,",
+    "inicio": 27.56,
+    "fim": 27.92
+  },
+  {
+    "texto": "os",
+    "inicio": 28.08,
+    "fim": 28.2
+  },
+  {
+    "texto": "seus",
+    "inicio": 28.2,
+    "fim": 28.44
+  },
+  {
+    "texto": "hormônios,",
+    "inicio": 28.44,
+    "fim": 29.28
+  },
+  {
+    "texto": "a",
+    "inicio": 29.28,
+    "fim": 29.52
+  },
+  {
+    "texto": "sua",
+    "inicio": 29.52,
+    "fim": 29.72
+  },
+  {
+    "texto": "disposição,",
+    "inicio": 29.72,
+    "fim": 30.74
+  },
+  {
+    "texto": "nós",
+    "inicio": 30.74,
+    "fim": 31.22
+  },
+  {
+    "texto": "também",
+    "inicio": 31.22,
+    "fim": 31.54
+  },
+  {
+    "texto": "trabalhamos",
+    "inicio": 31.54,
+    "fim": 32.16
+  },
+  {
+    "texto": "com",
+    "inicio": 32.16,
+    "fim": 32.36
+  },
+  {
+    "texto": "a",
+    "inicio": 32.36,
+    "fim": 32.48
+  },
+  {
+    "texto": "parte",
+    "inicio": 32.48,
+    "fim": 32.84
+  },
+  {
+    "texto": "estética.",
+    "inicio": 32.84,
+    "fim": 33.52
+  },
+  {
+    "texto": "Então",
+    "inicio": 33.52,
+    "fim": 34.0
+  },
+  {
+    "texto": "se",
+    "inicio": 34.0,
+    "fim": 34.26
+  },
+  {
+    "texto": "você",
+    "inicio": 34.26,
+    "fim": 34.46
+  },
+  {
+    "texto": "quer",
+    "inicio": 34.46,
+    "fim": 34.82
+  },
+  {
+    "texto": "se",
+    "inicio": 34.82,
+    "fim": 35.0
+  },
+  {
+    "texto": "sentir",
+    "inicio": 35.0,
+    "fim": 35.38
+  },
+  {
+    "texto": "mais",
+    "inicio": 35.38,
+    "fim": 36.0
+  },
+  {
+    "texto": "bonita,",
+    "inicio": 36.0,
+    "fim": 37.04
+  },
+  {
+    "texto": "nos",
+    "inicio": 37.04,
+    "fim": 37.3
+  },
+  {
+    "texto": "siga",
+    "inicio": 37.3,
+    "fim": 37.72
+  },
+  {
+    "texto": "aqui,",
+    "inicio": 37.72,
+    "fim": 38.04
+  },
+  {
+    "texto": "nesse",
+    "inicio": 38.12,
+    "fim": 38.48
+  },
+  {
+    "texto": "mês",
+    "inicio": 38.48,
+    "fim": 38.8
+  },
+  {
+    "texto": "de",
+    "inicio": 38.8,
+    "fim": 39.0
+  },
+  {
+    "texto": "outubro,",
+    "inicio": 39.0,
+    "fim": 39.56
+  },
+  {
+    "texto": "nós",
+    "inicio": 39.56,
+    "fim": 39.7
+  },
+  {
+    "texto": "preparamos",
+    "inicio": 39.7,
+    "fim": 40.36
+  },
+  {
+    "texto": "conteúdos",
+    "inicio": 40.36,
+    "fim": 41.12
+  },
+  {
+    "texto": "especiais",
+    "inicio": 41.12,
+    "fim": 41.86
+  },
+  {
+    "texto": "pra",
+    "inicio": 41.86,
+    "fim": 42.04
+  },
+  {
+    "texto": "você,",
+    "inicio": 42.04,
+    "fim": 42.3
+  },
+  {
+    "texto": "mulher.",
+    "inicio": 42.3,
+    "fim": 42.48
+  }
+]
