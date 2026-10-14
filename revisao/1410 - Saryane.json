@@ -1,0 +1,547 @@
+[
+  {
+    "texto": "Depois",
+    "inicio": 0.72,
+    "fim": 1.24
+  },
+  {
+    "texto": "de",
+    "inicio": 1.24,
+    "fim": 1.44
+  },
+  {
+    "texto": "anos",
+    "inicio": 1.44,
+    "fim": 1.68
+  },
+  {
+    "texto": "atendendo,",
+    "inicio": 1.68,
+    "fim": 2.44
+  },
+  {
+    "texto": "uma",
+    "inicio": 2.48,
+    "fim": 2.68
+  },
+  {
+    "texto": "frase",
+    "inicio": 2.68,
+    "fim": 3.04
+  },
+  {
+    "texto": "continua",
+    "inicio": 3.04,
+    "fim": 3.34
+  },
+  {
+    "texto": "pesando",
+    "inicio": 3.34,
+    "fim": 4.08
+  },
+  {
+    "texto": "toda",
+    "inicio": 4.08,
+    "fim": 4.36
+  },
+  {
+    "texto": "vez",
+    "inicio": 4.36,
+    "fim": 4.58
+  },
+  {
+    "texto": "que",
+    "inicio": 4.58,
+    "fim": 4.76
+  },
+  {
+    "texto": "eu",
+    "inicio": 4.76,
+    "fim": 4.8
+  },
+  {
+    "texto": "escuto",
+    "inicio": 4.8,
+    "fim": 5.08
+  },
+  {
+    "texto": "no",
+    "inicio": 5.08,
+    "fim": 5.26
+  },
+  {
+    "texto": "consultório.",
+    "inicio": 5.26,
+    "fim": 5.9
+  },
+  {
+    "texto": "Eu",
+    "inicio": 5.96,
+    "fim": 6.08
+  },
+  {
+    "texto": "devia",
+    "inicio": 6.08,
+    "fim": 6.46
+  },
+  {
+    "texto": "ter",
+    "inicio": 6.46,
+    "fim": 6.56
+  },
+  {
+    "texto": "vindo",
+    "inicio": 6.56,
+    "fim": 6.84
+  },
+  {
+    "texto": "antes.",
+    "inicio": 6.84,
+    "fim": 7.18
+  },
+  {
+    "texto": "Essa",
+    "inicio": 7.3,
+    "fim": 7.44
+  },
+  {
+    "texto": "frase",
+    "inicio": 7.44,
+    "fim": 7.84
+  },
+  {
+    "texto": "aparece",
+    "inicio": 7.84,
+    "fim": 8.06
+  },
+  {
+    "texto": "quase",
+    "inicio": 8.06,
+    "fim": 8.48
+  },
+  {
+    "texto": "toda",
+    "inicio": 8.48,
+    "fim": 8.8
+  },
+  {
+    "texto": "semana.",
+    "inicio": 8.8,
+    "fim": 9.24
+  },
+  {
+    "texto": "E",
+    "inicio": 9.46,
+    "fim": 9.54
+  },
+  {
+    "texto": "quem",
+    "inicio": 9.54,
+    "fim": 9.74
+  },
+  {
+    "texto": "diz,",
+    "inicio": 9.74,
+    "fim": 10.04
+  },
+  {
+    "texto": "esperou",
+    "inicio": 10.28,
+    "fim": 10.96
+  },
+  {
+    "texto": "meses,",
+    "inicio": 10.96,
+    "fim": 11.24
+  },
+  {
+    "texto": "às",
+    "inicio": 11.58,
+    "fim": 11.8
+  },
+  {
+    "texto": "vezes",
+    "inicio": 11.8,
+    "fim": 12.02
+  },
+  {
+    "texto": "anos,",
+    "inicio": 12.02,
+    "fim": 12.5
+  },
+  {
+    "texto": "aguentando",
+    "inicio": 12.68,
+    "fim": 13.18
+  },
+  {
+    "texto": "em",
+    "inicio": 13.18,
+    "fim": 13.28
+  },
+  {
+    "texto": "silêncio.",
+    "inicio": 13.28,
+    "fim": 13.7
+  },
+  {
+    "texto": "Isso",
+    "inicio": 13.82,
+    "fim": 14.04
+  },
+  {
+    "texto": "porque",
+    "inicio": 14.04,
+    "fim": 14.3
+  },
+  {
+    "texto": "achava",
+    "inicio": 14.3,
+    "fim": 14.68
+  },
+  {
+    "texto": "que",
+    "inicio": 14.68,
+    "fim": 14.78
+  },
+  {
+    "texto": "precisava",
+    "inicio": 14.78,
+    "fim": 15.46
+  },
+  {
+    "texto": "esperar",
+    "inicio": 15.46,
+    "fim": 15.62
+  },
+  {
+    "texto": "piorar",
+    "inicio": 15.62,
+    "fim": 16.38
+  },
+  {
+    "texto": "para",
+    "inicio": 16.38,
+    "fim": 16.54
+  },
+  {
+    "texto": "poder",
+    "inicio": 16.54,
+    "fim": 16.9
+  },
+  {
+    "texto": "buscar",
+    "inicio": 16.9,
+    "fim": 17.18
+  },
+  {
+    "texto": "ajuda.",
+    "inicio": 17.18,
+    "fim": 17.48
+  },
+  {
+    "texto": "Quando",
+    "inicio": 17.58,
+    "fim": 17.72
+  },
+  {
+    "texto": "eu",
+    "inicio": 17.72,
+    "fim": 17.86
+  },
+  {
+    "texto": "escuto",
+    "inicio": 17.86,
+    "fim": 18.12
+  },
+  {
+    "texto": "isso,",
+    "inicio": 18.12,
+    "fim": 18.42
+  },
+  {
+    "texto": "o",
+    "inicio": 18.6,
+    "fim": 18.68
+  },
+  {
+    "texto": "que",
+    "inicio": 18.68,
+    "fim": 18.84
+  },
+  {
+    "texto": "mais",
+    "inicio": 18.84,
+    "fim": 19.06
+  },
+  {
+    "texto": "me",
+    "inicio": 19.06,
+    "fim": 19.22
+  },
+  {
+    "texto": "marca",
+    "inicio": 19.22,
+    "fim": 19.56
+  },
+  {
+    "texto": "é",
+    "inicio": 19.56,
+    "fim": 19.76
+  },
+  {
+    "texto": "perceber",
+    "inicio": 19.76,
+    "fim": 20.08
+  },
+  {
+    "texto": "quanto",
+    "inicio": 20.08,
+    "fim": 20.44
+  },
+  {
+    "texto": "sofrimento",
+    "inicio": 20.44,
+    "fim": 21.04
+  },
+  {
+    "texto": "poderia",
+    "inicio": 21.04,
+    "fim": 21.4
+  },
+  {
+    "texto": "ter",
+    "inicio": 21.4,
+    "fim": 21.7
+  },
+  {
+    "texto": "sido",
+    "inicio": 21.7,
+    "fim": 21.96
+  },
+  {
+    "texto": "evitado",
+    "inicio": 21.96,
+    "fim": 22.52
+  },
+  {
+    "texto": "se",
+    "inicio": 22.52,
+    "fim": 22.7
+  },
+  {
+    "texto": "a",
+    "inicio": 22.7,
+    "fim": 22.78
+  },
+  {
+    "texto": "pessoa",
+    "inicio": 22.78,
+    "fim": 23.1
+  },
+  {
+    "texto": "não",
+    "inicio": 23.1,
+    "fim": 23.26
+  },
+  {
+    "texto": "tivesse",
+    "inicio": 23.26,
+    "fim": 23.62
+  },
+  {
+    "texto": "se",
+    "inicio": 23.62,
+    "fim": 23.82
+  },
+  {
+    "texto": "dado",
+    "inicio": 23.82,
+    "fim": 24.04
+  },
+  {
+    "texto": "permissão",
+    "inicio": 24.04,
+    "fim": 24.7
+  },
+  {
+    "texto": "antes.",
+    "inicio": 24.7,
+    "fim": 25.04
+  },
+  {
+    "texto": "Se",
+    "inicio": 25.26,
+    "fim": 25.36
+  },
+  {
+    "texto": "eu",
+    "inicio": 25.36,
+    "fim": 25.42
+  },
+  {
+    "texto": "pudesse",
+    "inicio": 25.42,
+    "fim": 25.72
+  },
+  {
+    "texto": "trocar",
+    "inicio": 25.72,
+    "fim": 26.22
+  },
+  {
+    "texto": "essa",
+    "inicio": 26.22,
+    "fim": 26.56
+  },
+  {
+    "texto": "frase",
+    "inicio": 26.56,
+    "fim": 26.88
+  },
+  {
+    "texto": "por",
+    "inicio": 27.0,
+    "fim": 27.12
+  },
+  {
+    "texto": "uma,",
+    "inicio": 27.12,
+    "fim": 27.46
+  },
+  {
+    "texto": "eu",
+    "inicio": 27.48,
+    "fim": 27.68
+  },
+  {
+    "texto": "gostaria",
+    "inicio": 27.68,
+    "fim": 28.06
+  },
+  {
+    "texto": "que",
+    "inicio": 28.06,
+    "fim": 28.18
+  },
+  {
+    "texto": "as",
+    "inicio": 28.18,
+    "fim": 28.24
+  },
+  {
+    "texto": "pessoas",
+    "inicio": 28.24,
+    "fim": 28.52
+  },
+  {
+    "texto": "chegassem",
+    "inicio": 28.52,
+    "fim": 29.12
+  },
+  {
+    "texto": "dizendo,",
+    "inicio": 29.12,
+    "fim": 29.4
+  },
+  {
+    "texto": "eu",
+    "inicio": 29.68,
+    "fim": 29.82
+  },
+  {
+    "texto": "vim",
+    "inicio": 29.82,
+    "fim": 30.16
+  },
+  {
+    "texto": "antes",
+    "inicio": 30.16,
+    "fim": 30.58
+  },
+  {
+    "texto": "de",
+    "inicio": 30.58,
+    "fim": 30.84
+  },
+  {
+    "texto": "precisar.",
+    "inicio": 30.84,
+    "fim": 31.44
+  },
+  {
+    "texto": "Comenta",
+    "inicio": 31.5,
+    "fim": 31.9
+  },
+  {
+    "texto": "aqui",
+    "inicio": 31.9,
+    "fim": 32.0
+  },
+  {
+    "texto": "embaixo",
+    "inicio": 32.0,
+    "fim": 32.26
+  },
+  {
+    "texto": "o",
+    "inicio": 32.26,
+    "fim": 32.4
+  },
+  {
+    "texto": "que",
+    "inicio": 32.4,
+    "fim": 32.48
+  },
+  {
+    "texto": "te",
+    "inicio": 32.48,
+    "fim": 32.6
+  },
+  {
+    "texto": "impediu",
+    "inicio": 32.6,
+    "fim": 33.06
+  },
+  {
+    "texto": "de",
+    "inicio": 33.06,
+    "fim": 33.16
+  },
+  {
+    "texto": "buscar",
+    "inicio": 33.16,
+    "fim": 33.38
+  },
+  {
+    "texto": "ajuda",
+    "inicio": 33.38,
+    "fim": 33.7
+  },
+  {
+    "texto": "antes,",
+    "inicio": 33.7,
+    "fim": 34.1
+  },
+  {
+    "texto": "que",
+    "inicio": 34.1,
+    "fim": 34.26
+  },
+  {
+    "texto": "eu",
+    "inicio": 34.26,
+    "fim": 34.36
+  },
+  {
+    "texto": "quero",
+    "inicio": 34.36,
+    "fim": 34.54
+  },
+  {
+    "texto": "ler.",
+    "inicio": 34.54,
+    "fim": 34.74
+  }
+]
