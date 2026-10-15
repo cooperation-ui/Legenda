@@ -101,3 +101,31 @@ python3 scripts/aplicar_traducao.py \
   exato para o usuario conferir de ouvido.
 - Nao cortar palavra para melhorar a velocidade de leitura da transcricao.
   Encurtar frase e permitido so na traducao.
+
+## Edicao de video: video-use + Hyperframes
+
+Quando o usuario mandar video para editar, a ordem e: decupar (cortar respiros e
+erros) com o video-use, legendar, e so depois animar com o Hyperframes.
+
+Preparacao, uma vez por sessao: `bash scripts/preparar_edicao.sh` e exporte o
+`HYPERFRAMES_BROWSER_PATH` que ele imprime. Os repositorios ficam em
+`ferramentas/` (fora do git). Leia `ferramentas/video-use/SKILL.md` antes de
+editar; as Hard Rules dele valem, menos as duas trocadas abaixo.
+
+1. Transcreva com o nosso `scripts/transcrever.py` (fluxo acima), nao com o
+   ElevenLabs. Depois converta para o video-use:
+   `python3 scripts/ponte_video_use.py transcricao "revisao/<nome>.json" --edit-dir "videos/edit" --id <id>`
+   e rode `ferramentas/video-use/helpers/pack_transcripts.py --edit-dir videos/edit`.
+2. Proponha o corte em portugues e espere o ok antes de renderizar. Monte
+   `videos/edit/edl.json`, com `"subtitles": "master.srt"`.
+3. A legenda sai da nossa regra (quatro palavras por linha), nunca do
+   `--build-subtitles` do video-use:
+   `python3 scripts/ponte_video_use.py legenda videos/edit/edl.json --saida videos/edit/master.srt`
+   e depois `scripts/validar_srt.py`.
+4. Animacoes: um projeto Hyperframes por slot em `videos/edit/animations/slot_<n>/`
+   (`npx --yes hyperframes init . --example blank --non-interactive --skip-skills`).
+   O CDN jsdelivr e bloqueado aqui: instale `gsap` com npm no slot e aponte o
+   `<script>` para `node_modules/gsap/dist/gsap.min.js`. Para animar por cima do
+   video, renderize com `--format webm` (fundo transparente) e ponha em `overlays`.
+5. `python3 ferramentas/video-use/helpers/render.py videos/edit/edl.json -o videos/edit/final.mp4`
+   (`--draft` para conferir os cortes antes). Confira quadros nos cortes antes de entregar.
