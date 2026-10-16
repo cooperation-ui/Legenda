@@ -3,6 +3,7 @@
 
 Uso:
     python3 scripts/validar_srt.py legendas/meu-video.srt
+    python3 scripts/validar_srt.py legendas/meu-video.srt --palavras-por-linha 5
 """
 
 from __future__ import annotations
@@ -52,11 +53,17 @@ def ler_blocos(caminho: Path) -> list[tuple[int, float, float, list[str]]]:
 
 
 def main() -> int:
-    if len(sys.argv) != 2:
+    global PALAVRAS_POR_LINHA, TOLERANCIA_DE_PALAVRAS
+    argumentos = sys.argv[1:]
+    if len(argumentos) == 3 and argumentos[1] == "--palavras-por-linha" and argumentos[2].isdigit():
+        PALAVRAS_POR_LINHA = int(argumentos[2])
+        TOLERANCIA_DE_PALAVRAS = max(TOLERANCIA_DE_PALAVRAS, PALAVRAS_POR_LINHA)
+        argumentos = argumentos[:1]
+    if len(argumentos) != 1:
         print("informe o caminho do arquivo .srt", file=sys.stderr)
         return 2
 
-    caminho = Path(sys.argv[1])
+    caminho = Path(argumentos[0])
     blocos = ler_blocos(caminho)
     problemas: list[str] = []
     avisos: list[str] = []
@@ -101,7 +108,7 @@ def main() -> int:
         print(f"\n{len(avisos_de_palavras)} linha(s) acima de {PALAVRAS_POR_LINHA} palavras:")
         for aviso in avisos_de_palavras:
             print(f"  {aviso}")
-        print("\nSao os casos em que cortar na quarta palavra separaria o que se le junto.")
+        print(f"\nSao os casos em que cortar na palavra {PALAVRAS_POR_LINHA} separaria o que se le junto.")
 
     if avisos:
         print(f"\n{len(avisos)} aviso(s) de velocidade de leitura:")

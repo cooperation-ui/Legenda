@@ -379,7 +379,7 @@ def cabe_em_uma_linha(texto: str) -> bool:
     return len(texto) <= MAX_CARACTERES_LINHA and len(texto.split()) <= PALAVRAS_POR_LINHA
 
 
-def cabe_na_legenda(texto: str, maximo_de_palavras: int = 2 * PALAVRAS_POR_LINHA) -> bool:
+def cabe_na_legenda(texto: str, maximo_de_palavras: int | None = None) -> bool:
     """Diz se o texto cabe numa legenda de duas linhas.
 
     O limite de palavras existe para o bloco nao ser preenchido ate o limite de
@@ -387,6 +387,8 @@ def cabe_na_legenda(texto: str, maximo_de_palavras: int = 2 * PALAVRAS_POR_LINHA
     que ficaria pouco tempo na tela usa um limite maior, porque ali o bloco curto
     seria pior do que a linha mais cheia.
     """
+    if maximo_de_palavras is None:
+        maximo_de_palavras = 2 * PALAVRAS_POR_LINHA
     if cabe_em_uma_linha(texto):
         return True
     if len(texto) > MAX_CARACTERES_LEGENDA or len(texto.split()) > maximo_de_palavras:
@@ -659,6 +661,7 @@ def escrever_transcricao(blocos: list[tuple[float, float, str]], destino: Path) 
 
 
 def main() -> int:
+    global PALAVRAS_POR_LINHA, TOLERANCIA_DE_PALAVRAS
     parser = argparse.ArgumentParser(description="Gera legenda SRT de um video ou audio.")
     parser.add_argument(
         "entrada",
@@ -679,9 +682,21 @@ def main() -> int:
             "na volta da fala, o que aparece em audio com pausas longas"
         ),
     )
+    parser.add_argument(
+        "--palavras-por-linha",
+        type=int,
+        default=PALAVRAS_POR_LINHA,
+        help=f"alvo de palavras por linha (padrao {PALAVRAS_POR_LINHA}), quando o pedido for outro",
+    )
     parser.add_argument("--salvar-palavras", type=Path, default=None, help="grava as palavras com tempo em JSON")
     parser.add_argument("--palavras", type=Path, default=None, help="monta a legenda a partir de um JSON revisado")
     argumentos = parser.parse_args()
+
+    if argumentos.palavras_por_linha < 1:
+        print("--palavras-por-linha precisa ser pelo menos 1", file=sys.stderr)
+        return 2
+    PALAVRAS_POR_LINHA = argumentos.palavras_por_linha
+    TOLERANCIA_DE_PALAVRAS = max(TOLERANCIA_DE_PALAVRAS, PALAVRAS_POR_LINHA)
 
     if argumentos.entrada is None and argumentos.palavras is None:
         print("informe o arquivo de entrada, ou --palavras com uma lista ja revisada", file=sys.stderr)
